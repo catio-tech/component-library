@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "incremental": true,
+    "target": "ESNext",
+    "module": "NodeNext",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "outDir": "./dist",
+    "rootDir": ".",
+    "composite": false,
+    "downlevelIteration": true,
+    "isolatedModules": true,
+    "strict": true,
+    "moduleResolution": "NodeNext",
+    "baseUrl": ".",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true
+  },
+  "include": ["**/*.ts", "**/*.json"],
+  "exclude": [
+    "node_modules/*",
+    "scripts/*",
+    "dist/*",
+    "**/*.test.ts",
+    "*.tsbuildinfo"
+  ]
+}

@@ -1,0 +1,15 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+# Build assets and add generated files to commit
+rm -rf dist
+
+yarn test-ci
+
+yarn build
+
+yarn lint-fix
+
+yarn format-fix
+
+git add .

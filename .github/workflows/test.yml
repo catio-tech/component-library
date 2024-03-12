@@ -1,0 +1,23 @@
+name: CI
+on: push
+
+jobs:
+  test:
+    name: Lint, Test, & Build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+          cache: 'yarn'
+      - name: Install modules
+        run: yarn
+      - name: Lint
+        run: yarn lint
+      - name: Format
+        run: yarn format
+      - name: Test
+        run: yarn test-ci
+      - name: Build
+        run: yarn build

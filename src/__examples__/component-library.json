@@ -1,0 +1,1092 @@
+{
+  "Amazon Elasticsearch Service": {
+    "name": "Amazon Elasticsearch Service",
+    "type": "Log Analysis",
+    "classification": "Analytics Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/analytics_services.svg",
+    "description": "Amazon Elasticsearch Service is a fully managed service that makes it easy to deploy, manage, and scale Elasticsearch clusters in the AWS Cloud. It provides the flexibility to securely search, analyze, and visualize data in real-time.",
+    "properties": {},
+    "tags": []
+  },
+  "Amazon EMR": {
+    "name": "Amazon EMR",
+    "type": "Big Data Processing",
+    "classification": "Analytics Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/analytics_services.svg",
+    "description": "Amazon EMR is a cloud-native big data platform, allowing processing of vast amounts of data quickly and cost-effectively across resizable clusters of Amazon EC2 instances.",
+    "properties": {},
+    "tags": []
+  },
+  "Amazon QuickSight": {
+    "name": "Amazon QuickSight",
+    "type": "Business Intelligence",
+    "classification": "Analytics Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/analytics_services.svg",
+    "description": "Amazon QuickSight is a scalable, serverless, embeddable, machine learning-powered business intelligence (BI) service built for the cloud.",
+    "properties": {},
+    "tags": []
+  },
+  "AWS CloudTrail": {
+    "name": "AWS CloudTrail",
+    "type": "Log Analysis",
+    "classification": "Analytics Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/analytics_services.svg",
+    "description": "AWS CloudTrail is a service that enables governance, compliance, operational auditing, and risk auditing of your AWS account. It records and retains account activity related to actions across your AWS infrastructure, providing a complete audit trail of user activities and API usage.",
+    "properties": {},
+    "tags": []
+  },
+  "AWS Glue Data Catalog": {
+    "name": "AWS Glue Data Catalog",
+    "type": "Data Governance",
+    "classification": "Analytics Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/analytics_services.svg",
+    "description": "AWS Glue Data Catalog is a central repository to store structural and operational metadata for all your data assets, making it a fully managed, scalable, and serverless data catalog.",
+    "properties": {},
+    "tags": []
+  },
+  "AWS Lake Formation": {
+    "name": "AWS Lake Formation",
+    "type": "Data Lakes",
+    "classification": "Analytics Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/analytics_services.svg",
+    "description": "AWS Lake Formation is a service that makes it easy to set up a secure data lake in days. It simplifies and automates the process of building, securing, and managing data lakes.",
+    "properties": {},
+    "tags": []
+  },
+  "Amazon API Gateway": {
+    "name": "Amazon API Gateway",
+    "type": "API Gateways",
+    "classification": "Application Integration",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/application_integration.svg",
+    "description": "Amazon API Gateway is a fully managed service that makes it easy for developers to create, publish, maintain, monitor, and secure APIs at any scale. It handles all the tasks involved in accepting and processing up to hundreds of thousands of concurrent API calls, including traffic management, authorization and access control, monitoring, and API version management.",
+    "properties": {},
+    "tags": []
+  },
+  "Amazon Kinesis": {
+    "name": "Amazon Kinesis",
+    "type": "Event Stream Processing",
+    "classification": "Application Integration",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/application_integration.svg",
+    "description": "Amazon Kinesis makes it easy to collect, process, and analyze real-time, streaming data so you can get timely insights and react quickly to new information. With Kinesis, you can ingest real-time data such as video, audio, application logs, website clickstreams, and IoT telemetry data for machine learning, analytics, and other applications.",
+    "properties": {},
+    "tags": []
+  },
+  "Amazon MQ": {
+    "name": "Amazon MQ",
+    "type": "Enterprise Service Bus",
+    "classification": "Application Integration",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/application_integration.svg",
+    "description": "Amazon MQ is a managed message broker service for Apache ActiveMQ and RabbitMQ that makes it easy to set up and operate message brokers in the cloud. It provides a reliable and scalable message broker service without the need to manage the underlying infrastructure.",
+    "properties": {},
+    "tags": []
+  },
+  "Amazon SQS": {
+    "name": "Amazon SQS",
+    "type": "Message Queues",
+    "classification": "Application Integration",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/application_integration.svg",
+    "description": "Amazon SQS is a fully managed message queuing service that enables you to decouple and scale microservices, distributed systems, and serverless applications. It provides a reliable, highly scalable, hosted queue for storing messages as they travel between computers.",
+    "properties": {},
+    "tags": []
+  },
+  "AWS DataSync": {
+    "name": "AWS DataSync",
+    "type": "Data Integration Tools",
+    "classification": "Application Integration",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/application_integration.svg",
+    "description": "AWS DataSync is a data transfer service that makes it easy to move data between on-premises storage and Amazon S3 or Amazon Elastic File System (EFS). It can be used for migrating active datasets, archiving data, or replicating data for disaster recovery.",
+    "properties": {},
+    "tags": []
+  },
+  "AWS Glue": {
+    "name": "AWS Glue",
+    "type": "Data Integration Tools",
+    "classification": "Application Integration",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/application_integration.svg",
+    "description": "AWS Glue is a fully managed extract, transform, and load (ETL) service that makes it easy for customers to prepare and load their data for analytics. You can create and run an ETL job with a few clicks in the AWS Management Console, and AWS Glue automatically discovers your data and stores the associated metadata in the AWS Glue Data Catalog.",
+    "properties": {},
+    "tags": []
+  },
+  "AWS Step Functions": {
+    "name": "AWS Step Functions",
+    "type": "Workflow Orchestration",
+    "classification": "Application Integration",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/application_integration.svg",
+    "description": "AWS Step Functions is a serverless function orchestrator that makes it easy to sequence AWS Lambda functions and multiple AWS services into business-critical applications. It provides a visual interface to orchestrate microservices, serverless applications, and workflows, ensuring they are executed in order and as expected.",
+    "properties": {},
+    "tags": []
+  },
+  "Amazon Managed Blockchain": {
+    "name": "Amazon Managed Blockchain",
+    "type": "Blockchain as a Service",
+    "classification": "Blockchain",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/blockchain.svg",
+    "description": "Amazon Managed Blockchain is a fully managed service that makes it easy to create and manage scalable blockchain networks using popular open-source frameworks such as Hyperledger Fabric and Ethereum. It eliminates the overhead required to create the network and automatically scales to meet the demands of thousands of applications running millions of transactions.",
+    "properties": {},
+    "tags": [
+      "Smart Contracts",
+      "Decentralized Applications",
+      "Consensus Services",
+      "Blockchain Networks"
+    ]
+  },
+  "Amazon EC2 Dedicated Hosts": {
+    "name": "Amazon EC2 Dedicated Hosts",
+    "type": "Dedicated Hosts",
+    "classification": "Compute Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/compute_services.svg",
+    "description": "Amazon EC2 Dedicated Hosts are physical servers with EC2 instance capacity fully dedicated to your use. They allow you to use your existing server-bound software licenses and can help you meet compliance requirements. Using Dedicated Hosts helps you address compliance requirements and reduce costs by allowing you to use your existing server-bound software licenses.",
+    "properties": {},
+    "tags": []
+  },
+  "Amazon EC2 G4 instances": {
+    "name": "Amazon EC2 G4 instances",
+    "type": "GPU/Accelerated Computing",
+    "classification": "Compute Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/compute_services.svg",
+    "description": "Amazon EC2 G4 Instances are designed to provide a cost-effective platform for deploying machine learning inference applications and graphics-intensive applications. They offer a powerful combination of CPU and GPU resources for purposes like gaming, graphics rendering, and video processing.",
+    "properties": {},
+    "tags": []
+  },
+  "Amazon EC2 P3": {
+    "name": "Amazon EC2 P3",
+    "type": "GPU/Accelerated Computing",
+    "classification": "Compute Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/compute_services.svg",
+    "description": "Amazon EC2 P3 Instances are designed for compute-intensive applications that require high-performance GPU computing. They are ideal for machine learning, high-performance computing (HPC), scientific simulations, and 3D visualization tasks.",
+    "properties": {},
+    "tags": []
+  },
+  "Amazon ECS": {
+    "name": "Amazon ECS",
+    "type": "Containers",
+    "classification": "Compute Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/compute_services.svg",
+    "description": "Amazon ECS is a highly scalable, high-performance container management service that supports Docker containers and allows you to easily run applications on a managed cluster of Amazon EC2 instances. ECS eliminates the need for you to install, operate, and scale your own cluster management infrastructure. It integrates with other AWS services to provide a secure and efficient way to run and scale containerized applications.",
+    "properties": {},
+    "tags": []
+  },
+  "Amazon EKS": {
+    "name": "Amazon EKS",
+    "type": "Containers",
+    "classification": "Compute Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/compute_services.svg",
+    "description": "Amazon EKS is a managed service that makes it easy to run Kubernetes on AWS without needing to install and operate your own Kubernetes control plane. It provides a highly available and secure Kubernetes environment, automating tasks such as patching, node provisioning, and updates.",
+    "properties": {},
+    "tags": []
+  },
+  "AWS Batch": {
+    "name": "AWS Batch",
+    "type": "Batch Processing",
+    "classification": "Compute Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/compute_services.svg",
+    "description": "AWS Batch enables developers, scientists, and engineers to easily and efficiently run hundreds of thousands of batch computing jobs on AWS. It dynamically provisions the optimal quantity and type of compute resources based on the volume and specific requirements of the batch jobs submitted.",
+    "properties": {},
+    "tags": []
+  },
+  "AWS Lambda": {
+    "name": "AWS Lambda",
+    "type": "Serverless Functions",
+    "classification": "Compute Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/compute_services.svg",
+    "description": "AWS Lambda is a serverless compute service that lets you run code without provisioning or managing servers, creating workload-aware cluster scaling logic, maintaining event integrations, or managing runtimes. With Lambda, you can run code for virtually any type of application or backend service with zero administration. You pay only for the compute time you consume - there is no charge when your code is not running.",
+    "properties": {},
+    "tags": []
+  },
+  "EC2": {
+    "name": "EC2",
+    "type": "Virtual Machines",
+    "classification": "Compute Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/compute_services.svg",
+    "description": "Amazon EC2 is a web service that provides secure, resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers. EC2's simple web service interface allows you to obtain and configure capacity with minimal friction. It provides you with complete control of your computing resources and lets you run on Amazon’s proven computing environment.",
+    "properties": {},
+    "tags": []
+  },
+  "EC2 Reserved Instances": {
+    "name": "EC2 Reserved Instances",
+    "type": "Virtual Machines",
+    "classification": "Compute Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/compute_services.svg",
+    "description": "EC2 Reserved Instances provide you with a significant discount (up to 75%) compared to On-Demand instance pricing. In addition, they give you the option to reserve instances for a one-year or three-year term. This makes them ideal for applications with steady-state or predictable usage, offering both cost savings and capacity reservation. They can be purchased in three payment options – All upfront, Partial upfront, or No upfront.",
+    "properties": {},
+    "tags": []
+  },
+  "EC2 Spot Instances": {
+    "name": "EC2 Spot Instances",
+    "type": "Virtual Machines",
+    "classification": "Compute Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/compute_services.svg",
+    "description": "EC2 Spot Instances allow you to request spare Amazon EC2 computing capacity for up to 90% off the On-Demand price. Spot Instances are ideal for workloads that are flexible in when and how they run. They enable you to optimize your costs on the AWS cloud and scale your application's throughput up to 10X for the same budget. Since Spot Instances are often available at a discount, they're cost-effective for running large-scale, fault-tolerant workloads.",
+    "properties": {},
+    "tags": []
+  },
+  "Amazon ECR": {
+    "name": "Amazon ECR",
+    "type": "Container Registries",
+    "classification": "Containers and Orchestration",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/containers.svg",
+    "description": "Amazon ECR is a fully managed Docker container registry that makes it easy for developers to store, manage, and deploy Docker container images. It is integrated with Amazon ECS, simplifying your development to production workflow.",
+    "properties": {},
+    "tags": []
+  },
+  "Amazon ECS": {
+    "name": "Amazon ECS",
+    "type": "Container Runtimes",
+    "classification": "Containers and Orchestration",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/containers.svg",
+    "description": "Amazon ECS is a highly scalable, high-performance container orchestration service that supports Docker containers and allows you to easily run and scale containerized applications on AWS. ECS eliminates the need to install and operate your own container orchestration software, manage and scale a cluster of virtual machines, or schedule containers on those virtual machines.",
+    "properties": {},
+    "tags": []
+  },
+  "Amazon ECS": {
+    "name": "Amazon ECS",
+    "type": "Orchestration Engines",
+    "classification": "Containers and Orchestration",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/containers.svg",
+    "description": "Amazon ECS is a highly scalable, high-performance container orchestration service that supports Docker containers and allows you to easily run and scale containerized applications on AWS. ECS eliminates the need to install and operate your own container orchestration software, manage and scale a cluster of virtual machines, or schedule containers on those virtual machines.",
+    "properties": {},
+    "tags": []
+  },
+  "Amazon EKS": {
+    "name": "Amazon EKS",
+    "type": "Container Runtimes",
+    "classification": "Containers and Orchestration",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/containers.svg",
+    "description": "Amazon EKS is a managed Kubernetes service that makes it easy to run Kubernetes on AWS and on-premises. EKS is fully compatible with Kubernetes applications and tools, ensuring you can easily migrate any standard Kubernetes application to EKS without any code modification",
+    "properties": {},
+    "tags": []
+  },
+  "Amazon EKS": {
+    "name": "Amazon EKS",
+    "type": "Orchestration Engines",
+    "classification": "Containers and Orchestration",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/containers.svg",
+    "description": "Amazon EKS is a managed Kubernetes service that makes it easy to run Kubernetes on AWS and on-premises. EKS is fully compatible with Kubernetes applications and tools, ensuring you can easily migrate any standard Kubernetes application to EKS without any code modification",
+    "properties": {},
+    "tags": []
+  },
+  "AWS App Mesh": {
+    "name": "AWS App Mesh",
+    "type": "Container Networking",
+    "classification": "Containers and Orchestration",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/containers.svg",
+    "description": "AWS App Mesh is a service mesh that provides application-level networking for your microservices. It standardizes how your services communicate, giving you end-to-end visibility and ensuring high-availability for your applications.",
+    "properties": {},
+    "tags": []
+  },
+  "AWS App Mesh": {
+    "name": "AWS App Mesh",
+    "type": "Service Mesh",
+    "classification": "Containers and Orchestration",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/containers.svg",
+    "description": "AWS App Mesh is a service mesh that provides application-level networking for your microservices. It standardizes how your services communicate, giving you end-to-end visibility and ensuring high-availability for your applications.",
+    "properties": {},
+    "tags": []
+  },
+  "AWS App Runner": {
+    "name": "AWS App Runner",
+    "type": "Microservices Management",
+    "classification": "Containers and Orchestration",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/containers.svg",
+    "description": "AWS App Runner is a fully managed service that makes it easy for developers to quickly deploy containerized web applications and APIs, at scale and with no prior infrastructure experience required. It automatically builds and deploys the web application and load balances traffic with encryption.",
+    "properties": {},
+    "tags": []
+  },
+  "Amazon Aurora": {
+    "name": "Amazon Aurora",
+    "type": "Relational Database",
+    "classification": "Database Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/database_services.svg",
+    "description": "Amazon Aurora is a MySQL and PostgreSQL-compatible relational database built for the cloud. It combines the performance and availability of high-end commercial databases with the simplicity and cost-effectiveness of open-source databases.",
+    "properties": {},
+    "tags": []
+  },
+  "Amazon DynamoDB": {
+    "name": "Amazon DynamoDB",
+    "type": "NoSQL Database",
+    "classification": "Database Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/database_services.svg",
+    "description": "Amazon DynamoDB is a fast and flexible NoSQL database service for any scale. It's a fully managed, multi-region, durable database with built-in security, backup and restore, and in-memory caching for internet-scale applications.",
+    "properties": {},
+    "tags": []
+  },
+  "Amazon ElastiCache": {
+    "name": "Amazon ElastiCache",
+    "type": "In-Memory Database",
+    "classification": "Database Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/database_services.svg",
+    "description": "Amazon ElastiCache offers fully managed Redis and Memcached for the most demanding applications requiring sub-millisecond response times. It’s used for data caching to improve the performance of web applications by retrieving data from fast, managed, in-memory caches.",
+    "properties": {},
+    "tags": []
+  },
+  "Amazon QLDB": {
+    "name": "Amazon QLDB",
+    "type": "Ledger Database",
+    "classification": "Database Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/database_services.svg",
+    "description": "Amazon QLDB is a fully managed ledger database that provides a transparent, immutable, and cryptographically verifiable transaction log ‎owned by a central trusted authority.",
+    "properties": {},
+    "tags": []
+  },
+  "Amazon RDS": {
+    "name": "Amazon RDS",
+    "type": "Relational Database",
+    "classification": "Database Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/database_services.svg",
+    "description": "Amazon RDS makes it easy to set up, operate, and scale a relational database in the cloud. It provides cost-efficient and resizable capacity, automating time-consuming administration tasks such as hardware provisioning, database setup, patching, and backups.",
+    "properties": {},
+    "tags": []
+  },
+  "Amazon Redshift": {
+    "name": "Amazon Redshift",
+    "type": "Data Warehouse",
+    "classification": "Database Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/database_services.svg",
+    "description": "Amazon Redshift is a fast, scalable data warehouse that makes it simple and cost-effective to analyze all your data across your data warehouse and data lake. It allows running complex queries and obtaining insights for data-driven decision-making.",
+    "properties": {},
+    "tags": []
+  },
+  "Amazon Timestream": {
+    "name": "Amazon Timestream",
+    "type": "Time-Series Database",
+    "classification": "Database Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/database_services.svg",
+    "description": "Amazon Timestream is a fast, scalable, and serverless time series database service for IoT and operational applications. It makes it easy to store and analyze trillions of events per day at 1/10th the cost of relational databases.",
+    "properties": {},
+    "tags": []
+  },
+  "Amazon API Gateway": {
+    "name": "Amazon API Gateway",
+    "type": "API Management",
+    "classification": "Developer Tools",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/developer_tools.svg",
+    "description": "Amazon API Gateway is a fully managed service that makes it easy for developers to create, publish, maintain, monitor, and secure APIs at any scale. It handles all the tasks involved in accepting and processing up to hundreds of thousands of concurrent API calls, including traffic management, authorization and access control, monitoring, and API version management.",
+    "properties": {},
+    "tags": []
+  },
+  "AWS Cloud9": {
+    "name": "AWS Cloud9",
+    "type": "Integrated Development Environments",
+    "classification": "Developer Tools",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/developer_tools.svg",
+    "description": "AWS Cloud9 is a cloud-based integrated development environment (IDE) that lets you write, run, and debug your code with just a browser. It includes a code editor, debugger, and terminal. Cloud9 comes pre-packaged with essential tools for popular programming languages and the AWS Command Line Interface (CLI) pre-installed, so you don’t need to install files or configure your development machine to start new projects.",
+    "properties": {},
+    "tags": []
+  },
+  "AWS CloudFormation": {
+    "name": "AWS CloudFormation",
+    "type": "Infrastructure as Code",
+    "classification": "Developer Tools",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/developer_tools.svg",
+    "description": "AWS CloudFormation provides a common language for you to describe and provision all the infrastructure resources in your cloud environment. CloudFormation allows you to use a simple text file to model and provision, in an automated and secure manner, all the resources needed for your applications across all regions and accounts.",
+    "properties": {},
+    "tags": []
+  },
+  "AWS CodeBuild": {
+    "name": "AWS CodeBuild",
+    "type": "Build and Deployment Tools",
+    "classification": "Developer Tools",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/developer_tools.svg",
+    "description": "AWS CodeBuild is a fully managed continuous integration service that compiles source code, runs tests, and produces software packages that are ready to deploy. It scales continuously and processes multiple builds concurrently, eliminating the need to manage and scale your own build servers.",
+    "properties": {},
+    "tags": []
+  },
+  "AWS CodeCommit": {
+    "name": "AWS CodeCommit",
+    "type": "Code Repositories",
+    "classification": "Developer Tools",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/developer_tools.svg",
+    "description": "AWS CodeCommit is a fully-managed source control service that hosts secure Git-based repositories. It makes it easy for teams to collaborate on code with secure and highly scalable repositories. CodeCommit eliminates the need to operate your own source control system or worry about scaling its infrastructure.",
+    "properties": {},
+    "tags": []
+  },
+  "AWS CodeDeploy": {
+    "name": "AWS CodeDeploy",
+    "type": "Build and Deployment Tools",
+    "classification": "Developer Tools",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/developer_tools.svg",
+    "description": "AWS CodeDeploy is a service that automates code deployments to any instance, including Amazon EC2 instances and on-premises servers. It makes it easier for you to rapidly release new features, helps avoid downtime during application deployment, and handles the complexity of updating your applications.",
+    "properties": {},
+    "tags": []
+  },
+  "AWS CodePipeline": {
+    "name": "AWS CodePipeline",
+    "type": "Build and Deployment Tools",
+    "classification": "Developer Tools",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/developer_tools.svg",
+    "description": "AWS CodePipeline is a continuous integration and continuous delivery service that helps you automate your release pipelines for fast and reliable application and infrastructure updates. CodePipeline automates the build, test, and deploy phases of your release process every time there is a code change, based on the release model you define.",
+    "properties": {},
+    "tags": []
+  },
+  "AWS X-Ray": {
+    "name": "AWS X-Ray",
+    "type": "Application Performance Monitoring",
+    "classification": "Developer Tools",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/developer_tools.svg",
+    "description": "AWS X-Ray helps developers analyze and debug production, distributed applications, such as those built using a microservices architecture. With X-Ray, you can understand how your application and its underlying services are performing to identify and troubleshoot the root cause of performance issues and errors.",
+    "properties": {},
+    "tags": []
+  },
+  "AWS IoT Analytics": {
+    "name": "AWS IoT Analytics",
+    "type": "IoT Analytics",
+    "classification": "IoT",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/iot.svg",
+    "description": "AWS IoT Analytics is a fully managed service that makes it easy to run sophisticated analytics on massive volumes of IoT data without having to worry about the cost and complexity typically required to build an IoT analytics platform.",
+    "properties": {},
+    "tags": []
+  },
+  "AWS IoT Core": {
+    "name": "AWS IoT Core",
+    "type": "IoT Device Management",
+    "classification": "IoT",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/iot.svg",
+    "description": "AWS IoT Core is a managed cloud service that lets connected devices easily and securely interact with cloud applications and other devices. AWS IoT Core can support billions of devices and trillions of messages, and can process and route those messages to AWS endpoints and to other devices reliably and securely.",
+    "properties": {},
+    "tags": []
+  },
+  "AWS IoT Device Defender": {
+    "name": "AWS IoT Device Defender",
+    "type": "IoT Security",
+    "classification": "IoT",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/iot.svg",
+    "description": "AWS IoT Device Defender is a fully managed service that helps you secure your fleet of IoT devices. It continuously audits your IoT configurations to ensure they aren’t deviating from security best practices and detects abnormal behavior to mitigate security risks.",
+    "properties": {},
+    "tags": []
+  },
+  "AWS IoT Greengrass": {
+    "name": "AWS IoT Greengrass",
+    "type": "Edge Computing",
+    "classification": "IoT",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/iot.svg",
+    "description": "AWS IoT Greengrass seamlessly extends AWS to edge devices so they can act locally on the data they generate, while still using the cloud for management, analytics, and durable storage. It allows you to run AWS Lambda functions, Docker containers, or your own code on connected devices in a secure and scalable way.",
+    "properties": {},
+    "tags": []
+  },
+  "AWS IoT Greengrass": {
+    "name": "AWS IoT Greengrass",
+    "type": "IoT Data Collection",
+    "classification": "IoT",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/iot.svg",
+    "description": "AWS IoT Greengrass seamlessly extends AWS to edge devices so they can act locally on the data they generate, while still using the cloud for management, analytics, and durable storage. It allows you to run AWS Lambda functions, Docker containers, or your own code on connected devices in a secure and scalable way.",
+    "properties": {},
+    "tags": []
+  },
+  "AWS IoT Things Graph": {
+    "name": "AWS IoT Things Graph",
+    "type": "IoT Platforms",
+    "classification": "IoT",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/iot.svg",
+    "description": "AWS IoT Things Graph is a service that makes it easy to visually connect different devices and web services to build IoT applications. It provides a visual drag-and-drop interface for connecting and coordinating interactions between devices and web services, so you can build IoT applications quickly.",
+    "properties": {},
+    "tags": []
+  },
+  "Amazon Comprehend": {
+    "name": "Amazon Comprehend",
+    "type": "Natural Language Processing",
+    "classification": "Machine Learning and AI Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/ai_services.svg",
+    "description": "Amazon Comprehend is a natural language processing (NLP) service that uses machine learning to find insights and relationships in text. It can identify the language of the text, extract key phrases, places, people, brands, or events, understand sentiment, and more.",
+    "properties": {},
+    "tags": []
+  },
+  "Amazon Forecast": {
+    "name": "Amazon Forecast",
+    "type": "Predictive Analytics",
+    "classification": "Machine Learning and AI Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/ai_services.svg",
+    "description": "Amazon Forecast is a fully managed service that uses machine learning to deliver highly accurate forecasts. It is based on the same technology used at Amazon.com, and it requires no machine learning experience to get started. It can forecast business conditions, such as product demand, inventory levels, or energy needs.",
+    "properties": {},
+    "tags": []
+  },
+  "Amazon Rekognition": {
+    "name": "Amazon Rekognition",
+    "type": "Computer Vision",
+    "classification": "Machine Learning and AI Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/ai_services.svg",
+    "description": "Amazon Rekognition is a service that makes it easy to add image and video analysis to your applications. It can identify objects, people, text, scenes, and activities in images and videos, as well as detect any inappropriate content.",
+    "properties": {},
+    "tags": []
+  },
+  "Amazon SageMaker Autopilot": {
+    "name": "Amazon SageMaker Autopilot",
+    "type": "Automated Machine Learning",
+    "classification": "Machine Learning and AI Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/ai_services.svg",
+    "description": "Amazon SageMaker Autopilot is an automated machine learning (AutoML) service that automatically creates the best machine learning models for your data while allowing you to maintain full control and visibility. It simplifies the process of building, training, and deploying machine learning models based on your data.",
+    "properties": {},
+    "tags": []
+  },
+  "Amazon SageMaker Ground Truth": {
+    "name": "Amazon SageMaker Ground Truth",
+    "type": "Data Labeling",
+    "classification": "Machine Learning and AI Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/ai_services.svg",
+    "description": "Amazon SageMaker Ground Truth is a fully managed data labeling service that makes it easy to build highly accurate training datasets for machine learning. It offers easy-to-use interfaces for labeling different types of data, such as images, text, and videos, and integrates seamlessly with Amazon SageMaker to help improve the quality of machine learning models.",
+    "properties": {},
+    "tags": []
+  },
+  "Amazon SageMaker RL": {
+    "name": "Amazon SageMaker RL",
+    "type": "Reinforcement Learning",
+    "classification": "Machine Learning and AI Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/ai_services.svg",
+    "description": "Amazon SageMaker RL (Reinforcement Learning) is a managed service that simplifies the process of building, training, and deploying reinforcement learning models. It integrates with simulation environments and offers flexible interfaces for managing the RL training lifecycle.",
+    "properties": {},
+    "tags": []
+  },
+  "Amazon Transcribe": {
+    "name": "Amazon Transcribe",
+    "type": "Speech Recognition",
+    "classification": "Machine Learning and AI Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/ai_services.svg",
+    "description": "Amazon Transcribe is an automatic speech recognition (ASR) service that makes it easy for developers to add speech-to-text capability to their applications. It can be used to transcribe customer service calls, automate subtitling, and convert spoken content into text.",
+    "properties": {},
+    "tags": []
+  },
+  "AWS Audit Manager": {
+    "name": "AWS Audit Manager",
+    "type": "Compliance Management",
+    "classification": "Management and Monitoring",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/monitoring.svg",
+    "description": "AWS Audit Manager helps you continuously audit your AWS usage to simplify how you assess risk and compliance with regulations and industry standards. It automates evidence collection to make it easier to manage audits of your AWS environment, enabling you to scale your audit capability as your AWS environment grows.",
+    "properties": {},
+    "tags": []
+  },
+  "AWS Compute Optimizer": {
+    "name": "AWS Compute Optimizer",
+    "type": "Resource Optimization",
+    "classification": "Management and Monitoring",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/monitoring.svg",
+    "description": "AWS Compute Optimizer offers recommendations for optimal AWS resources for your workloads to reduce costs and improve performance by using machine learning to analyze historical utilization metrics.",
+    "properties": {},
+    "tags": []
+  },
+  "AWS Config": {
+    "name": "AWS Config",
+    "type": "Infrastructure Monitoring",
+    "classification": "Management and Monitoring",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/monitoring.svg",
+    "description": "AWS Config is a service that enables you to assess, audit, and evaluate the configurations of your AWS resources. It continuously monitors and records your AWS resource configurations and allows you to automate the evaluation of recorded configurations against desired configurations.",
+    "properties": {},
+    "tags": []
+  },
+  "AWS OpsWorks": {
+    "name": "AWS OpsWorks",
+    "type": "Configuration Management",
+    "classification": "Management and Monitoring",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/monitoring.svg",
+    "description": "AWS OpsWorks is a configuration management service that provides managed instances of Chef and Puppet. OpsWorks lets you use Chef and Puppet to automate how servers are configured, deployed, and managed across your Amazon EC2 instances or on-premises compute environments.",
+    "properties": {},
+    "tags": []
+  },
+  "AWS Service Catalog": {
+    "name": "AWS Service Catalog",
+    "type": "Service Catalog",
+    "classification": "Management and Monitoring",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/monitoring.svg",
+    "description": "AWS Service Catalog allows organizations to create and manage catalogs of IT services that are approved for use on AWS. This helps organizations to achieve consistent governance and meet compliance requirements, while enabling users to quickly deploy only the approved IT services they need.",
+    "properties": {},
+    "tags": []
+  },
+  "AWS Application Discovery Service": {
+    "name": "AWS Application Discovery Service",
+    "type": "Application Migration Tools",
+    "classification": "Migration and Transfer Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/migration.svg",
+    "description": "AWS Application Discovery Service helps enterprise customers plan migration projects by gathering information about their on-premises data centers. It collects and presents configuration, usage, and behavior data from your servers to help you better understand your workloads.",
+    "properties": {},
+    "tags": []
+  },
+  "AWS Database Migration Service": {
+    "name": "AWS Database Migration Service",
+    "type": "Data Migration Services",
+    "classification": "Migration and Transfer Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/migration.svg",
+    "description": "AWS Database Migration Service helps you migrate databases to AWS quickly and securely. The source database remains fully operational during the migration, minimizing downtime to applications. It supports both homogeneous migrations such as Oracle to Oracle, and heterogeneous migrations between different database platforms, like Oracle to Amazon Aurora.",
+    "properties": {},
+    "tags": ["Database Migration Services"]
+  },
+  "AWS Snow Family": {
+    "name": "AWS Snow Family",
+    "type": "Transfer Appliances",
+    "classification": "Migration and Transfer Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/migration.svg",
+    "description": "The AWS Snow Family helps customers transport large amounts of data into and out of the AWS cloud using physical storage devices. It's designed to be secure, rugged, and tamper-resistant and includes AWS Snowcone, Snowball, and Snowmobile, catering to different scales of data transfer needs.",
+    "properties": {},
+    "tags": []
+  },
+  "AWS Snowball": {
+    "name": "AWS Snowball",
+    "type": "Offline Data Transfer Services",
+    "classification": "Migration and Transfer Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/migration.svg",
+    "description": "AWS Snowball is a data transport solution that uses secure, rugged devices to transfer large amounts of data into and out of the AWS cloud. It addresses challenges like high network costs, long transfer times, and security concerns.",
+    "properties": {},
+    "tags": []
+  },
+  "AWS Transfer Family": {
+    "name": "AWS Transfer Family",
+    "type": "Online Data Transfer Services",
+    "classification": "Migration and Transfer Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/migration.svg",
+    "description": "AWS Transfer Family provides fully managed support for file transfers directly into and out of Amazon S3 or Amazon EFS. With support for Secure File Transfer Protocol (SFTP), File Transfer Protocol over SSL (FTPS), and File Transfer Protocol (FTP), the AWS Transfer Family helps migrate file transfer workflows to AWS.",
+    "properties": {},
+    "tags": []
+  },
+  "Amazon CloudFront": {
+    "name": "Amazon CloudFront",
+    "type": "Content Delivery Network",
+    "classification": "Networking Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/networking_services.svg",
+    "description": "Amazon CloudFront is a fast content delivery network (CDN) service that securely delivers data, videos, applications, and APIs to customers globally with low latency and high transfer speeds.",
+    "properties": {},
+    "tags": []
+  },
+  "Amazon CloudWatch": {
+    "name": "Amazon CloudWatch",
+    "type": "Network Monitoring and Analytics",
+    "classification": "Networking Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/networking_services.svg",
+    "description": "Amazon CloudWatch is a monitoring and observability service built for DevOps engineers, developers, site reliability engineers (SREs), and IT managers. It provides data and actionable insights to monitor applications, respond to system-wide performance changes, optimize resource utilization, and get a unified view of operational health.",
+    "properties": {},
+    "tags": []
+  },
+  "Amazon Route 53": {
+    "name": "Amazon Route 53",
+    "type": "DNS Management",
+    "classification": "Networking Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/networking_services.svg",
+    "description": "Amazon Route 53 is a highly available and scalable cloud Domain Name System (DNS) web service, designed to give developers and businesses an extremely reliable and cost-effective way to route end users to Internet applications.",
+    "properties": {},
+    "tags": []
+  },
+  "Amazon VPC": {
+    "name": "Amazon VPC",
+    "type": "Virtual Private Cloud",
+    "classification": "Networking Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/networking_services.svg",
+    "description": "Amazon VPC lets you provision a logically isolated section of the AWS Cloud where you can launch AWS resources in a virtual network that you define. It gives complete control over your virtual networking environment, including resource placement, connectivity, and security.",
+    "properties": {},
+    "tags": []
+  },
+  "AWS Direct Connect": {
+    "name": "AWS Direct Connect",
+    "type": "Direct Connect",
+    "classification": "Networking Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/networking_services.svg",
+    "description": "AWS Direct Connect is a cloud service solution that makes it easy to establish a dedicated network connection from your premises to AWS. It can reduce network costs, increase bandwidth throughput, and provide a more consistent network experience than internet-based connections.",
+    "properties": {},
+    "tags": []
+  },
+  "AWS Network Firewall": {
+    "name": "AWS Network Firewall",
+    "type": "Firewall Services",
+    "classification": "Networking Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/networking_services.svg",
+    "description": "AWS Network Firewall is a managed service that makes it easy to deploy essential network protections for all of your Amazon VPCs. It provides flexible rules for network traffic filtering, intrusion detection and prevention, and web filtering",
+    "properties": {},
+    "tags": []
+  },
+  "AWS VPC Flow Logs": {
+    "name": "AWS VPC Flow Logs",
+    "type": "Network Monitoring and Analytics",
+    "classification": "Networking Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/networking_services.svg",
+    "description": "AWS VPC Flow Logs capture information about the IP traffic going to and from network interfaces in your VPC. This feature allows you to monitor and troubleshoot connectivity issues, understand network traffic patterns, and keep a secure environment.",
+    "properties": {},
+    "tags": []
+  },
+  "AWS VPN": {
+    "name": "AWS VPN",
+    "type": "VPN Services",
+    "classification": "Networking Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/networking_services.svg",
+    "description": "AWS VPN enables you to securely connect your on-premises network or branch office site to your Amazon Virtual Private Cloud (VPC). It provides two types of VPN connections, Site-to-Site VPN and Client VPN.",
+    "properties": {},
+    "tags": []
+  },
+  "Elastic Load Balancing (ELB)": {
+    "name": "Elastic Load Balancing (ELB)",
+    "type": "Load Balancer",
+    "classification": "Networking Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/networking_services.svg",
+    "description": "Elastic Load Balancing automatically distributes incoming application traffic across multiple targets, such as Amazon EC2 instances, containers, and IP addresses. It can handle varying load of your application traffic in a single Availability Zone or across multiple Availability Zones.",
+    "properties": {},
+    "tags": []
+  },
+  "Amazon Braket": {
+    "name": "Amazon Braket",
+    "type": "Quantum-as-a-Service",
+    "classification": "Quantum Computing",
+    "iconUrl": null,
+    "description": "Amazon Braket is a fully managed quantum computing service that helps researchers and developers get started with the field of quantum computing. It provides a development environment to explore and design quantum algorithms, test them on simulated quantum computers, and run them on different types of quantum computing hardware.",
+    "properties": {},
+    "tags": ["Quantum Algorithms", "Quantum Simulators", "Quantum-as-a-Service"]
+  },
+  "AWS Key Management Service": {
+    "name": "AWS Key Management Service",
+    "type": "Quantum Cryptography",
+    "classification": "Quantum Computing",
+    "iconUrl": null,
+    "description": "AWS Key Management Service is a managed service that makes it easy for you to create and control the cryptographic keys used to secure your data. The service is integrated with other AWS services and external applications to help you protect the data you store in these services.",
+    "properties": {},
+    "tags": []
+  },
+  "Amazon Cognito": {
+    "name": "Amazon Cognito",
+    "type": "Authentication Services",
+    "classification": "Security and Identity Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/security_services.svg",
+    "description": "Amazon Cognito provides authentication, authorization, and user management for your web and mobile apps. It allows users to sign in directly with a user name and password or through a third party such as Facebook, Amazon, Google, or Apple.",
+    "properties": {},
+    "tags": []
+  },
+  "Amazon Detective": {
+    "name": "Amazon Detective",
+    "type": "Security Information and Event Management",
+    "classification": "Security and Identity Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/security_services.svg",
+    "description": "Amazon Detective makes it easy to analyze, investigate, and quickly identify the root cause of potential security issues or suspicious activities.",
+    "properties": {},
+    "tags": []
+  },
+  "AWS Directory Service": {
+    "name": "AWS Directory Service",
+    "type": "Directory Services",
+    "classification": "Security and Identity Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/security_services.svg",
+    "description": "AWS Directory Service provides multiple ways to use Amazon Cloud Directory and Microsoft Active Directory with other AWS services. It offers directory services that are fully managed and can be used to establish a standalone directory in the AWS Cloud.",
+    "properties": {},
+    "tags": []
+  },
+  "AWS GuardDuty": {
+    "name": "AWS GuardDuty",
+    "type": "Intrusion Detection and Prevention",
+    "classification": "Security and Identity Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/security_services.svg",
+    "description": "AWS GuardDuty is a threat detection service that continuously monitors for malicious or unauthorized behavior to help you protect your AWS accounts and workloads.",
+    "properties": {},
+    "tags": []
+  },
+  "AWS IAM": {
+    "name": "AWS IAM",
+    "type": "Identity and Access Management",
+    "classification": "Security and Identity Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/security_services.svg",
+    "description": "AWS IAM enables you to manage access to AWS services and resources securely. It allows you to create and manage AWS users and groups and use permissions to allow and deny their access to AWS resources.",
+    "properties": {},
+    "tags": []
+  },
+  "AWS IAM Roles and Policies": {
+    "name": "AWS IAM Roles and Policies",
+    "type": "Authorization Services",
+    "classification": "Security and Identity Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/security_services.svg",
+    "description": "AWS IAM Roles and Policies provide a secure way to delegate access to users or services. Roles are used to define a set of permissions for making AWS service requests. Policies attached to roles define the actions that can be performed on resources.",
+    "properties": {},
+    "tags": []
+  },
+  "AWS Key Management Service (KMS)": {
+    "name": "AWS Key Management Service (KMS)",
+    "type": "Encryption Services",
+    "classification": "Security and Identity Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/security_services.svg",
+    "description": "AWS Key Management Service (KMS) is a managed service that makes it easy for you to create and control the cryptographic keys used to secure your data. KMS is integrated with other AWS services making it easy to encrypt data you store in these services.",
+    "properties": {},
+    "tags": []
+  },
+  "AWS Security Hub": {
+    "name": "AWS Security Hub",
+    "type": "Security Information and Event Management",
+    "classification": "Security and Identity Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/security_services.svg",
+    "description": "AWS Security Hub gives you a comprehensive view of your high-priority security alerts and compliance status across AWS accounts.",
+    "properties": {},
+    "tags": []
+  },
+  "AWS Shield": {
+    "name": "AWS Shield",
+    "type": "Firewall",
+    "classification": "Security and Identity Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/security_services.svg",
+    "description": "AWS Shield is a managed Distributed Denial of Service (DDoS) protection service that safeguards applications running on AWS. It provides always-on detection and automatic inline mitigations to minimize application downtime and latency.",
+    "properties": {},
+    "tags": []
+  },
+  "AWS WAF": {
+    "name": "AWS WAF",
+    "type": "Firewall",
+    "classification": "Security and Identity Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/security_services.svg",
+    "description": "AWS WAF is a web application firewall that helps protect your web applications or APIs against common web exploits and bots that may affect availability, compromise security, or consume excessive resources.",
+    "properties": {},
+    "tags": []
+  },
+  "Amazon EBS": {
+    "name": "Amazon EBS",
+    "type": "Block Storage",
+    "classification": "Storage Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/storage_service.svg",
+    "description": "Amazon EBS is a high-performance block storage service designed for use with Amazon EC2 for both throughput and transaction-intensive workloads at any scale. It offers a range of options for storage performance and cost, and is well-suited for applications such as databases, ERP systems, and big data analytics.",
+    "properties": {},
+    "tags": []
+  },
+  "Amazon EFS": {
+    "name": "Amazon EFS",
+    "type": "File Storage",
+    "classification": "Storage Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/storage_service.svg",
+    "description": "Amazon EFS provides a simple, scalable, fully managed elastic NFS file system for use with AWS Cloud services and on-premises resources. It is built to scale on demand to petabytes without disrupting applications, growing and shrinking automatically as you add and remove files.",
+    "properties": {},
+    "tags": []
+  },
+  "Amazon FSx": {
+    "name": "Amazon FSx",
+    "type": "File Storage",
+    "classification": "Storage Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/storage_service.svg",
+    "description": "Amazon FSx provides fully managed third-party file systems with the native compatibility and feature sets for workloads such as Windows-based storage, high-performance computing, machine learning, and electronic design automation.",
+    "properties": {},
+    "tags": []
+  },
+  "Amazon S3": {
+    "name": "Amazon S3",
+    "type": "Object Storage",
+    "classification": "Storage Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/storage_service.svg",
+    "description": "Amazon S3 is an object storage service that offers industry-leading scalability, data availability, security, and performance. It is designed for a wide range of storage solutions, including backup and recovery, data archives, data lakes, and cloud-native applications.",
+    "properties": {},
+    "tags": []
+  },
+  "Amazon S3 Glacier": {
+    "name": "Amazon S3 Glacier",
+    "type": "Object Storage",
+    "classification": "Storage Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/storage_service.svg",
+    "description": "Amazon S3 Glacier is a secure, durable, and extremely low-cost cloud storage service for data archiving and long-term backup. It is optimized for infrequently accessed data where retrieval time of several hours is suitable.",
+    "properties": {},
+    "tags": []
+  },
+  "Amazon S3 Glacier Deep Archive": {
+    "name": "Amazon S3 Glacier Deep Archive",
+    "type": "Cold/Archive Storage",
+    "classification": "Storage Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/storage_service.svg",
+    "description": "Amazon S3 Glacier Deep Archive is the lowest-cost storage service from AWS, designed for long-term preservation of data that is accessed infrequently. It's suitable for archiving data that may be needed once a year or less, offering the security and durability of Amazon S3 for long-term data retention.",
+    "properties": {},
+    "tags": []
+  },
+  "AWS Snow Family": {
+    "name": "AWS Snow Family",
+    "type": "Edge Storage",
+    "classification": "Storage Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/storage_service.svg",
+    "description": "The AWS Snow Family helps you physically transport terabytes to exabytes of data into and out of AWS. This service is used for data migration, content distribution, and edge computing. It includes AWS Snowcone, Snowball, and Snowmobile, catering to different scales of data transfer needs.",
+    "properties": {},
+    "tags": []
+  },
+  "AWS Storage Gateway": {
+    "name": "AWS Storage Gateway",
+    "type": "Hybrid Storage",
+    "classification": "Storage Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/storage_service.svg",
+    "description": "AWS Storage Gateway is a hybrid cloud storage service that gives you on-premises access to virtually unlimited cloud storage. It can be used for backup and archiving, disaster recovery, cloud data processing, storage tiering, and migration. It provides seamless integration between your local environment and AWS's storage infrastructure.",
+    "properties": {},
+    "tags": []
+  },
+  "Node": {
+    "name": "Node",
+    "type": "Unknown",
+    "classification": "Unknown",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/node.svg",
+    "description": "A component that Catio was unable to classify.",
+    "properties": {},
+    "tags": []
+  },
+  "Console": {
+    "name": "Console",
+    "type": "Interface",
+    "classification": "Interface",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/console.svg",
+    "description": "A user interface component.",
+    "properties": {},
+    "tags": []
+  },
+  "Desktop": {
+    "name": "Desktop",
+    "type": "Interface",
+    "classification": "Interface",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/desktop.svg",
+    "description": "A user interface component.",
+    "properties": {},
+    "tags": []
+  },
+  "Mobile": {
+    "name": "Mobile",
+    "type": "Interface",
+    "classification": "Interface",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/mobile.svg",
+    "description": "A user interface component.",
+    "properties": {},
+    "tags": []
+  },
+  "Person": {
+    "name": "Person",
+    "type": "Human",
+    "classification": "Huuman",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/person.svg",
+    "description": "A person interacting with or being notified by the system. Not a cat.",
+    "properties": {},
+    "tags": []
+  },
+  "System": {
+    "name": "System",
+    "type": "System",
+    "classification": "System",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/system.svg",
+    "description": "Another software system, either internal or external.",
+    "properties": {},
+    "tags": []
+  },
+  "Analytics Services": {
+    "name": "Analytics Services",
+    "type": "Analytics Services",
+    "classification": "Analytics Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/analytics_class.svg",
+    "description": "AWS Analytics Services provide tools for processing and analyzing large datasets to help businesses gain insights and make data-driven decisions. Services include Amazon EMR for big data processing, Amazon Redshift for data warehousing, and Amazon Kinesis for real-time data streaming.",
+    "properties": {},
+    "tags": []
+  },
+  "Machine Learning and AI Services": {
+    "name": "Machine Learning and AI Services",
+    "type": "Machine Learning and AI Services",
+    "classification": "Machine Learning and AI Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/ai_class.svg",
+    "description": "AWS offers a range of services to build, train, and deploy machine learning models and artificial intelligence applications. This includes Amazon SageMaker for model building, Amazon Rekognition for image and video analysis, and AWS DeepLens for deep learning-enabled video cameras.",
+    "properties": {},
+    "tags": []
+  },
+  "Application Integration": {
+    "name": "Application Integration",
+    "type": "Application Integration",
+    "classification": "Application Integration",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/application_integration_class.svg",
+    "description": "These services enable different applications, systems, and data to work together within the cloud or across on-premises environments. Examples include AWS Step Functions for workflow automation and Amazon SNS for pub/sub messaging.",
+    "properties": {},
+    "tags": []
+  },
+  "Blockchain": {
+    "name": "Blockchain",
+    "type": "Blockchain",
+    "classification": "Blockchain",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/blockchain_class.svg",
+    "description": "AWS provides services to create and manage scalable blockchain networks and ledgers for applications where multiple parties need to execute transactions without a central authority. Amazon Managed Blockchain supports popular blockchain frameworks.",
+    "properties": {},
+    "tags": [
+      "Smart Contracts",
+      "Decentralized Applications",
+      "Consensus Services",
+      "Blockchain Networks"
+    ]
+  },
+  "Compute Services": {
+    "name": "Compute Services",
+    "type": "Compute Services",
+    "classification": "Compute Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/compute_services_class.svg",
+    "description": "AWS Compute Services offer a range of computing power options to run applications, including Amazon EC2 for scalable virtual servers, AWS Lambda for serverless computing, and AWS Elastic Beanstalk for deploying applications.",
+    "properties": {},
+    "tags": []
+  },
+  "Containers and Orchestration": {
+    "name": "Containers and Orchestration",
+    "type": "Containers and Orchestration",
+    "classification": "Containers and Orchestration",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/containers_class.svg",
+    "description": "These services help manage and deploy containers at scale, including Amazon ECS for container management, Amazon EKS for Kubernetes orchestration, and AWS Fargate for serverless container execution.",
+    "properties": {},
+    "tags": []
+  },
+  "Database Services": {
+    "name": "Database Services",
+    "type": "Database Services",
+    "classification": "Database Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/database_services_class.svg",
+    "description": "AWS provides fully managed relational and NoSQL database services. Examples include Amazon RDS for relational databases, Amazon DynamoDB for NoSQL databases, and Amazon Aurora for high-performance database needs.",
+    "properties": {},
+    "tags": []
+  },
+  "Developer Tools": {
+    "name": "Developer Tools",
+    "type": "Developer Tools",
+    "classification": "Developer Tools",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/developer_tools_class.svg",
+    "description": "AWS offers a set of tools for developers to code, build, and deploy applications. This includes AWS CodeBuild, AWS CodeDeploy, and AWS CodePipeline for continuous integration and delivery.'",
+    "properties": {},
+    "tags": []
+  },
+  "IoT": {
+    "name": "IoT",
+    "type": "IoT",
+    "classification": "IoT",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/iot_class.svg",
+    "description": "AWS IoT services allow the connection and management of IoT devices to the cloud, enabling secure data collection, processing, and analysis. Services include AWS IoT Core and AWS IoT Analytics.",
+    "properties": {},
+    "tags": []
+  },
+  "Management and Monitoring": {
+    "name": "Management and Monitoring",
+    "type": "Management and Monitoring",
+    "classification": "Management and Monitoring",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/monitoring_class.svg",
+    "description": "These services provide tools to monitor and manage AWS resources, application performance, and operational health. Examples include Amazon CloudWatch for monitoring and AWS CloudFormation for infrastructure as code.'",
+    "properties": {},
+    "tags": []
+  },
+  "Migration and Transfer Services": {
+    "name": "Migration and Transfer Services",
+    "type": "Migration and Transfer Services",
+    "classification": "Migration and Transfer Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/migration_class.svg",
+    "description": "AWS offers services for migrating applications, data, and workloads to the cloud. This includes AWS Migration Hub for tracking migrations and AWS DataSync for data transfer.",
+    "properties": {},
+    "tags": []
+  },
+  "Networking Services": {
+    "name": "Networking Services",
+    "type": "Networking Services",
+    "classification": "Networking Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/networking_services_class.svg",
+    "description": "AWS provides a range of networking services to connect cloud resources, secure network architecture, and deliver content. This includes Amazon VPC for isolated network environments, Amazon Route 53 for DNS services, and AWS Direct Connect for dedicated network connections.",
+    "properties": {},
+    "tags": []
+  },
+  "Quantum Computing": {
+    "name": "Quantum Computing",
+    "type": "Quantum Computing",
+    "classification": "Quantum Computing",
+    "iconUrl": null,
+    "description": "AWS offers services to explore and experiment with quantum computing through Amazon Braket, which provides a development environment to build quantum algorithms.",
+    "properties": {},
+    "tags": ["Quantum Algorithms", "Quantum Simulators", "Quantum-as-a-Service"]
+  },
+  "Security and Identity Services": {
+    "name": "Security and Identity Services",
+    "type": "Security and Identity Services",
+    "classification": "Security and Identity Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/security_class.svg",
+    "description": "These services help secure AWS applications and resources, manage user authentication and authorization. Examples include AWS Identity and Access Management (IAM) and Amazon Cognito.",
+    "properties": {},
+    "tags": []
+  },
+  "Storage Services": {
+    "name": "Storage Services",
+    "type": "Storage Services",
+    "classification": "Storage Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/storage_services_class.svg",
+    "description": "AWS offers scalable storage solutions for data backup, archival, and recovery. This includes Amazon S3 for object storage, Amazon EBS for block storage, and Amazon Glacier for long-term archival storage.",
+    "properties": {},
+    "tags": []
+  }
+}

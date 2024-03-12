@@ -1,0 +1,114 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "latest": 12,
+    "sourceType": "module",
+  },
+  "root": true,
+  "extends": [
+    "eslint:recommended",
+    "prettier",
+    "plugin:@typescript-eslint/recommended",
+  ],
+  "plugins": ["@typescript-eslint", "unused-imports", "@stylistic/js"],
+  "env": {
+    "node": true,
+  },
+  "rules": {
+    "unused-imports/no-unused-imports-ts": "error",
+    "no-console": "error",
+    "camelcase": "error",
+    "capitalized-comments": [
+      "warn",
+      "always",
+      {
+        "ignorePattern": "pragma|ignored",
+        "ignoreInlineComments": false,
+      },
+    ],
+    "default-case": "error",
+    "eqeqeq": "error",
+    "spaced-comment": ["error", "always"],
+    "multiline-comment-style": ["error", "starred-block"],
+    "new-cap": ["error", { "newIsCap": true, "capIsNew": false }],
+    "no-alert": "error",
+    "no-catch-shadow": "error",
+    "no-debugger": "error",
+    "no-else-return": "error",
+    "no-eval": "error",
+    "no-extra-bind": "error",
+    "no-extra-boolean-cast": "error",
+    "no-implied-eval": "error",
+    "no-new-wrappers": "error",
+    "no-path-concat": "error",
+    "no-shadow": "error",
+    "no-unreachable": "error",
+    "no-unused-expressions": "error",
+    "@typescript-eslint/no-unused-vars": [
+      "error",
+      {
+        "argsIgnorePattern": "^_",
+        "varsIgnorePattern": "^_",
+        "caughtErrorsIgnorePattern": "^_",
+      },
+    ],
+    "no-use-before-define": "error",
+    "no-useless-call": "error",
+    "no-useless-return": "error",
+    "no-var": "error",
+    "prefer-const": "error",
+    "prefer-arrow-callback": "error",
+    "prefer-spread": "error",
+    "prefer-template": "error",
+    "require-await": "error",
+    "use-isnan": "error",
+    "vars-on-top": "error",
+    "yoda": "error",
+    "import/named": "off",
+    "import/no-named-as-default": "off",
+    "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/ban-types": [
+      "error",
+      {
+        "types": {
+          "{}": {
+            "fixWith": "Record<string, never>",
+          },
+        },
+        "extendDefaults": true,
+      },
+    ],
+  },
+  "overrides": [
+    // JS files
+    {
+      "files": ["**/*.js?(x)", "**/?(*.)+(spec|test).[jt]s?(x)"],
+      "rules": {
+        "@typescript-eslint/no-var-requires": "off",
+        "no-console": "off",
+      },
+    },
+    // Script files
+    {
+      "files": ["**/scripts/*"],
+      "rules": {
+        "@typescript-eslint/no-var-requires": "off",
+      },
+    },
+    // Template files
+    {
+      "files": ["**/?(*_)+(template)/**"],
+      "rules": {
+        "camelcase": "off",
+        "import/no-unresolved": "off",
+      },
+    },
+    // Uncontrolled JSON files
+    {
+      "files": ["packages/console-shared/src/constants/aws/index.ts"],
+      "rules": {
+        "camelcase": "off",
+      },
+    },
+  ],
+}
