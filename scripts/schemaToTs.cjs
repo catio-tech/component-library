@@ -10,7 +10,7 @@ const generateTypesForSchema = async () => {
       path.join(__dirname, '..', 'src', 'component-library.schema.json'),
       {
         enableConstEnums: true,
-      },
+      }
     );
 
     await writeFile(path.join(__dirname, '..', 'src', 'types.ts'), typeDef);
@@ -18,7 +18,7 @@ const generateTypesForSchema = async () => {
     console.log(`✅ Generated types from component library JSON schema.`);
   } catch (e) {
     console.error(
-      `❌ Failed to generate types types from component library JSON schema.`,
+      `❌ Failed to generate types types from component library JSON schema.`
     );
 
     throw e;
