@@ -7,13 +7,13 @@ const { compileFromFile } = require('json-schema-to-typescript');
 const generateTypesForSchema = async () => {
   try {
     const typeDef = await compileFromFile(
-      path.join('..', 'src', 'component-library.schema.json'),
+      path.join(__dirname, '..', 'src', 'component-library.schema.json'),
       {
         enableConstEnums: true,
       },
     );
 
-    await writeFile(path.join('..', 'src', 'types.ts'), typeDef);
+    await writeFile(path.join(__dirname, '..', 'src', 'types.ts'), typeDef);
 
     console.log(`✅ Generated types from component library JSON schema.`);
   } catch (e) {
