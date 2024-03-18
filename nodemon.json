@@ -1,0 +1,6 @@
+{
+  "watch": ["src"],
+  "ignore": ["src/types.ts"],
+  "ext": "ts,js,mjs,cjs,json",
+  "exec": "yarn build && yarn format-fix --log-level warn"
+}
