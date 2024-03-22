@@ -18,3 +18,7 @@ tsconfig.tsbuildinfo
 # Node dependencies
 node_modules/*
 dist/*
+
+# misc
+.DS_Store
+*.pem
