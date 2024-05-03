@@ -3185,5 +3185,95 @@
     "description": "A distributed, in-memory data processing platform that enables real-time analytics and decision-making at the edge. It supports advanced data streaming and event processing capabilities.",
     "properties": {},
     "tags": []
+  },
+  "Microsoft SQL Server": {
+    "name": "Microsoft SQL Server",
+    "type": "Relational Database",
+    "classification": "Database Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/database_services.svg",
+    "description": "A relational database management system developed by Microsoft that supports data storage, manipulation, and retrieval. It is widely used for enterprise applications and offers features such as data warehousing, business intelligence, and advanced analytics.",
+    "properties": {},
+    "tags": []
+  },
+  "Oracle Database": {
+    "name": "Oracle Database",
+    "type": "Relational Database",
+    "classification": "Database Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/database_services.svg",
+    "description": "A powerful and flexible relational database management system developed by Oracle Corporation. It offers a wide range of features including data warehousing, advanced analytics, and application development.",
+    "properties": {},
+    "tags": []
+  },
+  "IBM Db2": {
+    "name": "IBM Db2",
+    "type": "Relational Database",
+    "classification": "Database Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/database_services.svg",
+    "description": "A relational database management system developed by IBM that offers high performance, scalability, and reliability. It is designed for enterprise applications and supports a variety of data types and workloads.",
+    "properties": {},
+    "tags": []
+  },
+  "MySQL": {
+    "name": "MySQL",
+    "type": "Relational Database",
+    "classification": "Database Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/database_services.svg",
+    "description": "An open-source relational database management system that is widely used for web applications and other lightweight applications. It is known for its ease of use and scalability.",
+    "properties": {},
+    "tags": []
+  },
+  "PostgreSQL": {
+    "name": "PostgreSQL",
+    "type": "Relational Database",
+    "classification": "Database Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/database_services.svg",
+    "description": "An open-source object-relational database management system that offers advanced features such as data warehousing and geospatial data support. It is highly customizable and can handle complex data structures.",
+    "properties": {},
+    "tags": []
+  },
+  "MariaDB": {
+    "name": "MariaDB",
+    "type": "Relational Database",
+    "classification": "Database Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/database_services.svg",
+    "description": "A community-developed fork of MySQL that offers improved performance and scalability. It is used in a wide range of applications, from small personal databases to large enterprise systems.",
+    "properties": {},
+    "tags": []
+  },
+  "MongoDB": {
+    "name": "MongoDB",
+    "type": "Relational Database",
+    "classification": "Database Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/database_services.svg",
+    "description": "A NoSQL document database that offers high performance, scalability, and flexibility. It is popular for its ability to handle unstructured data and is used in a variety of applications, from mobile to IoT.",
+    "properties": {},
+    "tags": []
+  },
+  "Teradata Database": {
+    "name": "Teradata Database",
+    "type": "Relational Database",
+    "classification": "Database Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/database_services.svg",
+    "description": "A massively parallel relational database management system designed for large-scale data warehousing and analytics. It offers high performance and scalability for handling large volumes of data.",
+    "properties": {},
+    "tags": []
+  },
+  "Couchbase Server": {
+    "name": "Couchbase Server",
+    "type": "Relational Database",
+    "classification": "Database Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/database_services.svg",
+    "description": "A NoSQL document database that offers high availability, scalability, and performance. It is often used for mission-critical applications that require real-time data processing.",
+    "properties": {},
+    "tags": []
+  },
+  "SAP HANA": {
+    "name": "SAP HANA",
+    "type": "Relational Database",
+    "classification": "Database Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/database_services.svg",
+    "description": "A relational database management system developed by SAP that offers real-time data processing and analytics. It is designed for enterprise applications and offers high performance and scalability for handling large datasets.",
+    "properties": {},
+    "tags": []
   }
 }
