@@ -55,9 +55,9 @@
   },
   "Amazon API Gateway": {
     "name": "Amazon API Gateway",
-    "type": "API Gateways",
-    "classification": "Application Integration",
-    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/application_integration.svg",
+    "type": "API Management",
+    "classification": "Developer Tools",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/developer_tools.svg",
     "description": "Amazon API Gateway is a fully managed service that makes it easy for developers to create, publish, maintain, monitor, and secure APIs at any scale. It handles all the tasks involved in accepting and processing up to hundreds of thousands of concurrent API calls, including traffic management, authorization and access control, monitoring, and API version management.",
     "properties": {},
     "tags": []
@@ -159,19 +159,19 @@
   },
   "Amazon ECS": {
     "name": "Amazon ECS",
-    "type": "Containers",
-    "classification": "Compute Services",
-    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/compute_services.svg",
-    "description": "Amazon ECS is a highly scalable, high-performance container management service that supports Docker containers and allows you to easily run applications on a managed cluster of Amazon EC2 instances. ECS eliminates the need for you to install, operate, and scale your own cluster management infrastructure. It integrates with other AWS services to provide a secure and efficient way to run and scale containerized applications.",
+    "type": "Orchestration Engines",
+    "classification": "Containers and Orchestration",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/containers.svg",
+    "description": "Amazon ECS is a highly scalable, high-performance container orchestration service that supports Docker containers and allows you to easily run and scale containerized applications on AWS. ECS eliminates the need to install and operate your own container orchestration software, manage and scale a cluster of virtual machines, or schedule containers on those virtual machines.",
     "properties": {},
     "tags": []
   },
   "Amazon EKS": {
     "name": "Amazon EKS",
-    "type": "Containers",
-    "classification": "Compute Services",
-    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/compute_services.svg",
-    "description": "Amazon EKS is a managed service that makes it easy to run Kubernetes on AWS without needing to install and operate your own Kubernetes control plane. It provides a highly available and secure Kubernetes environment, automating tasks such as patching, node provisioning, and updates.",
+    "type": "Orchestration Engines",
+    "classification": "Containers and Orchestration",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/containers.svg",
+    "description": "Amazon EKS is a managed Kubernetes service that makes it easy to run Kubernetes on AWS and on-premises. EKS is fully compatible with Kubernetes applications and tools, ensuring you can easily migrate any standard Kubernetes application to EKS without any code modification",
     "properties": {},
     "tags": []
   },
@@ -198,7 +198,7 @@
     "type": "Virtual Machines",
     "classification": "Compute Services",
     "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/compute_services.svg",
-    "description": "Amazon EC2 is a web service that provides secure, resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers. EC2's simple web service interface allows you to obtain and configure capacity with minimal friction. It provides you with complete control of your computing resources and lets you run on Amazon’s proven computing environment.",
+    "description": "Amazon EC2 is a web service that provides secure, resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers. EC2's simple web service interface allows you to obtain and configure capacity with minimal friction. It provides you with complete control of your computing resources and lets you run on Amazon\u2019s proven computing environment.",
     "properties": {},
     "tags": []
   },
@@ -207,7 +207,7 @@
     "type": "Virtual Machines",
     "classification": "Compute Services",
     "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/compute_services.svg",
-    "description": "EC2 Reserved Instances provide you with a significant discount (up to 75%) compared to On-Demand instance pricing. In addition, they give you the option to reserve instances for a one-year or three-year term. This makes them ideal for applications with steady-state or predictable usage, offering both cost savings and capacity reservation. They can be purchased in three payment options – All upfront, Partial upfront, or No upfront.",
+    "description": "EC2 Reserved Instances provide you with a significant discount (up to 75%) compared to On-Demand instance pricing. In addition, they give you the option to reserve instances for a one-year or three-year term. This makes them ideal for applications with steady-state or predictable usage, offering both cost savings and capacity reservation. They can be purchased in three payment options \u2013 All upfront, Partial upfront, or No upfront.",
     "properties": {},
     "tags": []
   },
@@ -226,51 +226,6 @@
     "classification": "Containers and Orchestration",
     "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/containers.svg",
     "description": "Amazon ECR is a fully managed Docker container registry that makes it easy for developers to store, manage, and deploy Docker container images. It is integrated with Amazon ECS, simplifying your development to production workflow.",
-    "properties": {},
-    "tags": []
-  },
-  "Amazon ECS": {
-    "name": "Amazon ECS",
-    "type": "Container Runtimes",
-    "classification": "Containers and Orchestration",
-    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/containers.svg",
-    "description": "Amazon ECS is a highly scalable, high-performance container orchestration service that supports Docker containers and allows you to easily run and scale containerized applications on AWS. ECS eliminates the need to install and operate your own container orchestration software, manage and scale a cluster of virtual machines, or schedule containers on those virtual machines.",
-    "properties": {},
-    "tags": []
-  },
-  "Amazon ECS": {
-    "name": "Amazon ECS",
-    "type": "Orchestration Engines",
-    "classification": "Containers and Orchestration",
-    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/containers.svg",
-    "description": "Amazon ECS is a highly scalable, high-performance container orchestration service that supports Docker containers and allows you to easily run and scale containerized applications on AWS. ECS eliminates the need to install and operate your own container orchestration software, manage and scale a cluster of virtual machines, or schedule containers on those virtual machines.",
-    "properties": {},
-    "tags": []
-  },
-  "Amazon EKS": {
-    "name": "Amazon EKS",
-    "type": "Container Runtimes",
-    "classification": "Containers and Orchestration",
-    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/containers.svg",
-    "description": "Amazon EKS is a managed Kubernetes service that makes it easy to run Kubernetes on AWS and on-premises. EKS is fully compatible with Kubernetes applications and tools, ensuring you can easily migrate any standard Kubernetes application to EKS without any code modification",
-    "properties": {},
-    "tags": []
-  },
-  "Amazon EKS": {
-    "name": "Amazon EKS",
-    "type": "Orchestration Engines",
-    "classification": "Containers and Orchestration",
-    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/containers.svg",
-    "description": "Amazon EKS is a managed Kubernetes service that makes it easy to run Kubernetes on AWS and on-premises. EKS is fully compatible with Kubernetes applications and tools, ensuring you can easily migrate any standard Kubernetes application to EKS without any code modification",
-    "properties": {},
-    "tags": []
-  },
-  "AWS App Mesh": {
-    "name": "AWS App Mesh",
-    "type": "Container Networking",
-    "classification": "Containers and Orchestration",
-    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/containers.svg",
-    "description": "AWS App Mesh is a service mesh that provides application-level networking for your microservices. It standardizes how your services communicate, giving you end-to-end visibility and ensuring high-availability for your applications.",
     "properties": {},
     "tags": []
   },
@@ -315,7 +270,7 @@
     "type": "In-Memory Database",
     "classification": "Database Services",
     "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/database_services.svg",
-    "description": "Amazon ElastiCache offers fully managed Redis and Memcached for the most demanding applications requiring sub-millisecond response times. It’s used for data caching to improve the performance of web applications by retrieving data from fast, managed, in-memory caches.",
+    "description": "Amazon ElastiCache offers fully managed Redis and Memcached for the most demanding applications requiring sub-millisecond response times. It\u2019s used for data caching to improve the performance of web applications by retrieving data from fast, managed, in-memory caches.",
     "properties": {},
     "tags": []
   },
@@ -324,7 +279,7 @@
     "type": "Ledger Database",
     "classification": "Database Services",
     "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/database_services.svg",
-    "description": "Amazon QLDB is a fully managed ledger database that provides a transparent, immutable, and cryptographically verifiable transaction log ‎owned by a central trusted authority.",
+    "description": "Amazon QLDB is a fully managed ledger database that provides a transparent, immutable, and cryptographically verifiable transaction log \u200eowned by a central trusted authority.",
     "properties": {},
     "tags": []
   },
@@ -355,21 +310,12 @@
     "properties": {},
     "tags": []
   },
-  "Amazon API Gateway": {
-    "name": "Amazon API Gateway",
-    "type": "API Management",
-    "classification": "Developer Tools",
-    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/developer_tools.svg",
-    "description": "Amazon API Gateway is a fully managed service that makes it easy for developers to create, publish, maintain, monitor, and secure APIs at any scale. It handles all the tasks involved in accepting and processing up to hundreds of thousands of concurrent API calls, including traffic management, authorization and access control, monitoring, and API version management.",
-    "properties": {},
-    "tags": []
-  },
   "AWS Cloud9": {
     "name": "AWS Cloud9",
     "type": "Integrated Development Environments",
     "classification": "Developer Tools",
     "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/developer_tools.svg",
-    "description": "AWS Cloud9 is a cloud-based integrated development environment (IDE) that lets you write, run, and debug your code with just a browser. It includes a code editor, debugger, and terminal. Cloud9 comes pre-packaged with essential tools for popular programming languages and the AWS Command Line Interface (CLI) pre-installed, so you don’t need to install files or configure your development machine to start new projects.",
+    "description": "AWS Cloud9 is a cloud-based integrated development environment (IDE) that lets you write, run, and debug your code with just a browser. It includes a code editor, debugger, and terminal. Cloud9 comes pre-packaged with essential tools for popular programming languages and the AWS Command Line Interface (CLI) pre-installed, so you don\u2019t need to install files or configure your development machine to start new projects.",
     "properties": {},
     "tags": []
   },
@@ -450,16 +396,7 @@
     "type": "IoT Security",
     "classification": "IoT",
     "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/iot.svg",
-    "description": "AWS IoT Device Defender is a fully managed service that helps you secure your fleet of IoT devices. It continuously audits your IoT configurations to ensure they aren’t deviating from security best practices and detects abnormal behavior to mitigate security risks.",
-    "properties": {},
-    "tags": []
-  },
-  "AWS IoT Greengrass": {
-    "name": "AWS IoT Greengrass",
-    "type": "Edge Computing",
-    "classification": "IoT",
-    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/iot.svg",
-    "description": "AWS IoT Greengrass seamlessly extends AWS to edge devices so they can act locally on the data they generate, while still using the cloud for management, analytics, and durable storage. It allows you to run AWS Lambda functions, Docker containers, or your own code on connected devices in a secure and scalable way.",
+    "description": "AWS IoT Device Defender is a fully managed service that helps you secure your fleet of IoT devices. It continuously audits your IoT configurations to ensure they aren\u2019t deviating from security best practices and detects abnormal behavior to mitigate security risks.",
     "properties": {},
     "tags": []
   },
@@ -609,10 +546,10 @@
   },
   "AWS Snow Family": {
     "name": "AWS Snow Family",
-    "type": "Transfer Appliances",
-    "classification": "Migration and Transfer Services",
-    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/migration.svg",
-    "description": "The AWS Snow Family helps customers transport large amounts of data into and out of the AWS cloud using physical storage devices. It's designed to be secure, rugged, and tamper-resistant and includes AWS Snowcone, Snowball, and Snowmobile, catering to different scales of data transfer needs.",
+    "type": "Edge Storage",
+    "classification": "Storage Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/storage_service.svg",
+    "description": "The AWS Snow Family helps you physically transport terabytes to exabytes of data into and out of AWS. This service is used for data migration, content distribution, and edge computing. It includes AWS Snowcone, Snowball, and Snowmobile, catering to different scales of data transfer needs.",
     "properties": {},
     "tags": []
   },
@@ -877,15 +814,6 @@
     "properties": {},
     "tags": []
   },
-  "AWS Snow Family": {
-    "name": "AWS Snow Family",
-    "type": "Edge Storage",
-    "classification": "Storage Services",
-    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/storage_service.svg",
-    "description": "The AWS Snow Family helps you physically transport terabytes to exabytes of data into and out of AWS. This service is used for data migration, content distribution, and edge computing. It includes AWS Snowcone, Snowball, and Snowmobile, catering to different scales of data transfer needs.",
-    "properties": {},
-    "tags": []
-  },
   "AWS Storage Gateway": {
     "name": "AWS Storage Gateway",
     "type": "Hybrid Storage",
@@ -1086,6 +1014,2175 @@
     "classification": "Storage Services",
     "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/storage_services_class.svg",
     "description": "AWS offers scalable storage solutions for data backup, archival, and recovery. This includes Amazon S3 for object storage, Amazon EBS for block storage, and Amazon Glacier for long-term archival storage.",
+    "properties": {},
+    "tags": []
+  },
+  "MuleSoft Anypoint Platform": {
+    "name": "MuleSoft Anypoint Platform",
+    "type": "Orchestration Engines",
+    "classification": "Containers and Orchestration",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/containers.svg",
+    "description": "An API-led integration platform that includes a visual orchestration engine for designing, building, and managing data and application integrations.",
+    "properties": {},
+    "tags": []
+  },
+  "IBM Integration Bus": {
+    "name": "IBM Integration Bus",
+    "type": "Enterprise Service Bus",
+    "classification": "Application Integration",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/application_integration.svg",
+    "description": "A powerful ESB solution that enables rapid integration of applications and data across multiple platforms, including on-premises and cloud environments.",
+    "properties": {},
+    "tags": []
+  },
+  "WSO2 Enterprise Integrator": {
+    "name": "WSO2 Enterprise Integrator",
+    "type": "Orchestration Engines",
+    "classification": "Containers and Orchestration",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/containers.svg",
+    "description": "An open-source integration platform that includes an orchestration engine for managing and orchestrating data and services across cloud and on-premises applications.",
+    "properties": {},
+    "tags": []
+  },
+  "Red Hat JBoss Fuse": {
+    "name": "Red Hat JBoss Fuse",
+    "type": "Enterprise Service Bus",
+    "classification": "Application Integration",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/application_integration.svg",
+    "description": "A lightweight, flexible, and modular ESB that helps businesses integrate applications and services across diverse environments.",
+    "properties": {},
+    "tags": []
+  },
+  "TIBCO BusinessWorks": {
+    "name": "TIBCO BusinessWorks",
+    "type": "Enterprise Service Bus",
+    "classification": "Application Integration",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/application_integration.svg",
+    "description": "An enterprise-grade ESB that enables businesses to integrate applications, data, and devices in a unified manner, with built-in support for popular protocols and messaging standards.",
+    "properties": {},
+    "tags": []
+  },
+  "Dell Boomi": {
+    "name": "Dell Boomi",
+    "type": "Orchestration Engines",
+    "classification": "Containers and Orchestration",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/containers.svg",
+    "description": "A low-code integration platform that includes a powerful orchestration engine for managing complex data flows and workflows across cloud and on-premises applications.",
+    "properties": {},
+    "tags": []
+  },
+  "Talend Data Fabric": {
+    "name": "Talend Data Fabric",
+    "type": "Orchestration Engines",
+    "classification": "Containers and Orchestration",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/containers.svg",
+    "description": "A unified data integration and management platform that includes a powerful orchestration engine for managing and monitoring data workflows and pipelines.",
+    "properties": {},
+    "tags": []
+  },
+  "Software AG webMethods": {
+    "name": "Software AG webMethods",
+    "type": "Enterprise Service Bus",
+    "classification": "Application Integration",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/application_integration.svg",
+    "description": "A comprehensive integration platform that combines ESB, API management, B2B integration, and IoT capabilities to support a wide range of integration scenarios.",
+    "properties": {},
+    "tags": []
+  },
+  "Tavant V'Enovia": {
+    "name": "Tavant V'Enovia",
+    "type": "Enterprise Service Bus",
+    "classification": "Application Integration",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/application_integration.svg",
+    "description": "A cloud-based ESB that enables businesses to connect applications, data sources, and devices in real-time, with support for popular protocols and message formats.",
+    "properties": {},
+    "tags": []
+  },
+  "Axway AMPLIFY": {
+    "name": "Axway AMPLIFY",
+    "type": "Enterprise Service Bus",
+    "classification": "Application Integration",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/application_integration.svg",
+    "description": "A hybrid integration platform that provides ESB capabilities, API management, EDI/B2B integration, and file transfer to support diverse integration patterns and use cases.",
+    "properties": {},
+    "tags": []
+  },
+  "Cloudify": {
+    "name": "Cloudify",
+    "type": "Workflow Orchestration",
+    "classification": "Application Integration",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/application_integration.svg",
+    "description": "Cloudify is an open source cloud orchestration platform designed to help users automate and manage workflows across multiple cloud environments. It offers features such as infrastructure as code, self-service portal, and application lifecycle management.",
+    "properties": {},
+    "tags": []
+  },
+  "ServiceNow": {
+    "name": "ServiceNow",
+    "type": "Workflow Orchestration",
+    "classification": "Application Integration",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/application_integration.svg",
+    "description": "ServiceNow is a cloud-based IT service management platform that also offers workflow orchestration capabilities. It allows users to automate processes, create workflows, and integrate with third-party tools for enhanced functionality.",
+    "properties": {},
+    "tags": []
+  },
+  "Datadog": {
+    "name": "Datadog",
+    "type": "Service Catalog",
+    "classification": "Management and Monitoring",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/monitoring.svg",
+    "description": "This monitoring and analytics platform offers full visibility into your AWS infrastructure, applications, and logs, allowing you to identify and resolve issues quickly.",
+    "properties": {},
+    "tags": []
+  },
+  "Morpheus": {
+    "name": "Morpheus",
+    "type": "Workflow Orchestration",
+    "classification": "Application Integration",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/application_integration.svg",
+    "description": "Morpheus is a multi-cloud management platform that includes workflow orchestration capabilities. It allows users to automate tasks, manage cloud resources, and streamline workflows across various cloud environments.",
+    "properties": {},
+    "tags": []
+  },
+  "StackStorm": {
+    "name": "StackStorm",
+    "type": "Workflow Orchestration",
+    "classification": "Application Integration",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/application_integration.svg",
+    "description": "StackStorm is an open source event-driven automation platform that offers workflow orchestration features. It allows users to create workflows, automate tasks, and integrate with various tools and services for enhanced automation.",
+    "properties": {},
+    "tags": []
+  },
+  "Apache Airflow": {
+    "name": "Apache Airflow",
+    "type": "Orchestration Engines",
+    "classification": "Containers and Orchestration",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/containers.svg",
+    "description": "A popular open-source orchestration engine for managing workflows and data pipelines. It allows users to define, schedule, and monitor complex workflows using Python scripts.",
+    "properties": {},
+    "tags": []
+  },
+  "BMC Control-M": {
+    "name": "BMC Control-M",
+    "type": "Workflow Orchestration",
+    "classification": "Application Integration",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/application_integration.svg",
+    "description": "BMC Control-M is a workload automation platform that includes workflow orchestration capabilities. It allows users to schedule, monitor, and manage workflows across on-premise, cloud, and hybrid environments.",
+    "properties": {},
+    "tags": []
+  },
+  "IBM App Connect": {
+    "name": "IBM App Connect",
+    "type": "Workflow Orchestration",
+    "classification": "Application Integration",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/application_integration.svg",
+    "description": "IBM App Connect is a cloud-based integration platform that also offers workflow orchestration features. It allows users to build and automate workflows, as well as integrate with various applications and services.",
+    "properties": {},
+    "tags": []
+  },
+  "Red Hat Ansible Automation Platform": {
+    "name": "Red Hat Ansible Automation Platform",
+    "type": "Workflow Orchestration",
+    "classification": "Application Integration",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/application_integration.svg",
+    "description": "Red Hat Ansible Automation Platform is an open source automation platform that also offers workflow orchestration capabilities. It allows users to create and manage complex workflows, as well as integrate with other tools and services.",
+    "properties": {},
+    "tags": []
+  },
+  "Micro Focus Operations Orchestration": {
+    "name": "Micro Focus Operations Orchestration",
+    "type": "Workflow Orchestration",
+    "classification": "Application Integration",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/application_integration.svg",
+    "description": "Micro Focus Operations Orchestration is an IT process automation platform that also offers workflow orchestration features. It allows users to design, automate, and monitor workflows across various IT operations.",
+    "properties": {},
+    "tags": []
+  },
+  "Talend Big Data Platform": {
+    "name": "Talend Big Data Platform",
+    "type": "Batch Processing",
+    "classification": "Compute Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/compute_services.svg",
+    "description": "A data integration and management platform that allows users to easily load, extract, and transform large volumes of data using a drag-and-drop interface.",
+    "properties": {},
+    "tags": []
+  },
+  "Informatica PowerCenter": {
+    "name": "Informatica PowerCenter",
+    "type": "Batch Processing",
+    "classification": "Compute Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/compute_services.svg",
+    "description": "A data integration tool that enables organizations to extract, transform, and load data from multiple sources and systems, enabling advanced analytics and business insights.",
+    "properties": {},
+    "tags": []
+  },
+  "Alteryx Designer": {
+    "name": "Alteryx Designer",
+    "type": "Batch Processing",
+    "classification": "Compute Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/compute_services.svg",
+    "description": "A data preparation and analytics platform that helps users blend, cleanse, and analyze data from various sources, making it easier to create and run batch processes for data-driven decision-making.",
+    "properties": {},
+    "tags": []
+  },
+  "Matillion ETL": {
+    "name": "Matillion ETL",
+    "type": "Batch Processing",
+    "classification": "Compute Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/compute_services.svg",
+    "description": "A cloud-native data integration and transformation tool that leverages Amazon Redshift to enable organizations to load and transform data from various sources into a data warehouse for advanced analytics.",
+    "properties": {},
+    "tags": []
+  },
+  "Attunity Replicate": {
+    "name": "Attunity Replicate",
+    "type": "Batch Processing",
+    "classification": "Compute Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/compute_services.svg",
+    "description": "A data replication and integration tool that automates the process of moving and syncing data between databases, data warehouses, and other cloud platforms, providing real-time data updates.",
+    "properties": {},
+    "tags": []
+  },
+  "Trifacta Wrangler Enterprise": {
+    "name": "Trifacta Wrangler Enterprise",
+    "type": "Batch Processing",
+    "classification": "Compute Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/compute_services.svg",
+    "description": "A data preparation and transformation tool that allows users to easily clean, structure, and enrich large datasets for use in analytics and machine learning applications.",
+    "properties": {},
+    "tags": []
+  },
+  "StreamSets Data Collector": {
+    "name": "StreamSets Data Collector",
+    "type": "Batch Processing",
+    "classification": "Compute Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/compute_services.svg",
+    "description": "A data ingestion and processing tool that enables organizations to efficiently collect, transform, and deliver data in real-time from various sources to data lakes and data warehouses.",
+    "properties": {},
+    "tags": []
+  },
+  "Syncsort DMX-h": {
+    "name": "Syncsort DMX-h",
+    "type": "Batch Processing",
+    "classification": "Compute Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/compute_services.svg",
+    "description": "A data integration and ETL tool that helps organizations extract, transform, and load data from multiple sources into data lakes and data warehouses for advanced analytics and reporting.",
+    "properties": {},
+    "tags": []
+  },
+  "SnapLogic Enterprise Integration Cloud": {
+    "name": "SnapLogic Enterprise Integration Cloud",
+    "type": "Batch Processing",
+    "classification": "Compute Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/compute_services.svg",
+    "description": "A data integration and API management platform that allows organizations to easily connect and integrate data from various sources, applications, and systems for real-time analytics and insights.",
+    "properties": {},
+    "tags": []
+  },
+  "HVR": {
+    "name": "HVR",
+    "type": "Batch Processing",
+    "classification": "Compute Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/compute_services.svg",
+    "description": "A real-time data integration and replication tool that enables organizations to continuously move and synchronize data between databases, data warehouses, and cloud platforms, enabling real-time analytics and decision-making.",
+    "properties": {},
+    "tags": []
+  },
+  "Kubernetes": {
+    "name": "Kubernetes",
+    "type": "Containers",
+    "classification": "Compute Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/compute_services.svg",
+    "description": "A popular open-source container orchestration platform that streamlines the deployment, scaling, and management of containerized applications.",
+    "properties": {},
+    "tags": []
+  },
+  "Docker Enterprise": {
+    "name": "Docker Enterprise",
+    "type": "Containers",
+    "classification": "Compute Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/compute_services.svg",
+    "description": "A container platform that allows developers to build, share, and run applications with ease, while providing IT teams with control and visibility over the entire container environment.",
+    "properties": {},
+    "tags": []
+  },
+  "Red Hat OpenShift": {
+    "name": "Red Hat OpenShift",
+    "type": "Containers",
+    "classification": "Compute Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/compute_services.svg",
+    "description": "A hybrid cloud platform that combines Kubernetes with enterprise-grade features for secure and scalable container orchestration.",
+    "properties": {},
+    "tags": []
+  },
+  "Rancher": {
+    "name": "Rancher",
+    "type": "Containers",
+    "classification": "Compute Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/compute_services.svg",
+    "description": "An open-source platform that helps manage and deploy containers in production, while providing features like centralized authentication and monitoring.",
+    "properties": {},
+    "tags": []
+  },
+  "HashiCorp Nomad": {
+    "name": "HashiCorp Nomad",
+    "type": "Containers",
+    "classification": "Compute Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/compute_services.svg",
+    "description": "A container orchestration platform that simplifies the deployment and management of containerized applications across multiple clusters and environments.",
+    "properties": {},
+    "tags": []
+  },
+  "Mesosphere DC/OS": {
+    "name": "Mesosphere DC/OS",
+    "type": "Containers",
+    "classification": "Compute Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/compute_services.svg",
+    "description": "A distributed operating system that enables enterprises to easily deploy and manage modern applications, including containers, on any infrastructure.",
+    "properties": {},
+    "tags": []
+  },
+  "VMware Tanzu": {
+    "name": "VMware Tanzu",
+    "type": "Containers",
+    "classification": "Compute Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/compute_services.svg",
+    "description": "A suite of products that helps organizations build, run, and manage modern applications with containers, Kubernetes, and cloud-native technologies.",
+    "properties": {},
+    "tags": []
+  },
+  "Sysdig": {
+    "name": "Sysdig",
+    "type": "Containers",
+    "classification": "Compute Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/compute_services.svg",
+    "description": "A container security platform that provides visibility and monitoring of containerized applications, as well as real-time threat detection and response.",
+    "properties": {},
+    "tags": []
+  },
+  "Twistlock": {
+    "name": "Twistlock",
+    "type": "Containers",
+    "classification": "Compute Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/compute_services.svg",
+    "description": "A container security platform that integrates with popular container technologies to provide vulnerability management, compliance, and runtime protection.",
+    "properties": {},
+    "tags": []
+  },
+  "Portworx": {
+    "name": "Portworx",
+    "type": "Containers",
+    "classification": "Compute Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/compute_services.svg",
+    "description": "A cloud-native storage platform that enables enterprises to run stateful applications in containers, with features like data protection, encryption, and multi-cloud support.",
+    "properties": {},
+    "tags": []
+  },
+  "Calico": {
+    "name": "Calico",
+    "type": "Container Networking",
+    "classification": "Containers and Orchestration",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/containers.svg",
+    "description": "Calico is an open-source networking and network security solution designed for containerized environments. It provides scalable and secure network connectivity between containers and virtual machines, and supports various deployment models such as Kubernetes, Mesos, and Docker.",
+    "properties": {},
+    "tags": []
+  },
+  "Weave Net": {
+    "name": "Weave Net",
+    "type": "Container Networking",
+    "classification": "Containers and Orchestration",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/containers.svg",
+    "description": "Weave Net is a container networking solution that enables communication between containers across multiple hosts. It is designed to be lightweight and easy to use, and supports features such as service discovery, load balancing, and network isolation.",
+    "properties": {},
+    "tags": []
+  },
+  "Flannel": {
+    "name": "Flannel",
+    "type": "Container Networking",
+    "classification": "Containers and Orchestration",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/containers.svg",
+    "description": "Flannel is an open-source networking solution that provides a simple and reliable way to connect containers across multiple hosts. It uses a virtual network overlay to create a flat network space for containers to communicate, and can be integrated with popular container orchestration tools like Kubernetes and Mesos.",
+    "properties": {},
+    "tags": []
+  },
+  "Cilium": {
+    "name": "Cilium",
+    "type": "Container Networking",
+    "classification": "Containers and Orchestration",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/containers.svg",
+    "description": "Cilium is a container networking and security solution that leverages Linux kernel features to provide fast and secure communication between containers. It uses eBPF (extended Berkeley Packet Filter) technology to enforce network policies and provide deep visibility into network traffic.",
+    "properties": {},
+    "tags": []
+  },
+  "Contiv": {
+    "name": "Contiv",
+    "type": "Container Networking",
+    "classification": "Containers and Orchestration",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/containers.svg",
+    "description": "Contiv is an open-source container networking solution that provides multi-tenant networking capabilities for Docker, Kubernetes, and Mesos environments. It enables users to define network policies and manage network resources in a centralized manner, making it ideal for large-scale container deployments.",
+    "properties": {},
+    "tags": []
+  },
+  "Nuage Networks VSP": {
+    "name": "Nuage Networks VSP",
+    "type": "Container Networking",
+    "classification": "Containers and Orchestration",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/containers.svg",
+    "description": "Nuage Networks VSP is a software-defined networking solution designed specifically for containerized environments. It provides advanced network automation and virtualization capabilities, and is fully integrated with popular container orchestration tools.",
+    "properties": {},
+    "tags": []
+  },
+  "Aviatrix": {
+    "name": "Aviatrix",
+    "type": "Container Networking",
+    "classification": "Containers and Orchestration",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/containers.svg",
+    "description": "Aviatrix is a cloud networking solution that enables secure and reliable connectivity between containers and other cloud resources. It supports various cloud platforms, including AWS, Azure, and GCP, and provides features such as multi-cloud networking, traffic encryption, and load balancing.",
+    "properties": {},
+    "tags": []
+  },
+  "Project Calico for VMware NSX": {
+    "name": "Project Calico for VMware NSX",
+    "type": "Container Networking",
+    "classification": "Containers and Orchestration",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/containers.svg",
+    "description": "Project Calico for VMware NSX is a solution that combines the networking capabilities of Calico with the security and micro-segmentation capabilities of VMware NSX. It allows users to easily deploy and manage secure container networks within VMware environments.",
+    "properties": {},
+    "tags": []
+  },
+  "F5 BIG-IP Virtual Edition": {
+    "name": "F5 BIG-IP Virtual Edition",
+    "type": "Container Networking",
+    "classification": "Containers and Orchestration",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/containers.svg",
+    "description": "F5 BIG-IP Virtual Edition is a software-based application delivery controller that provides advanced networking and security features for container environments. It supports features such as load balancing, traffic management, and application security, and can be integrated with popular container orchestration tools.",
+    "properties": {},
+    "tags": []
+  },
+  "Docker Hub": {
+    "name": "Docker Hub",
+    "type": "Container Registries",
+    "classification": "Containers and Orchestration",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/containers.svg",
+    "description": "a cloud-based registry service for storing and sharing Docker container images, with features like automated builds and image versioning.",
+    "properties": {},
+    "tags": []
+  },
+  "Quay": {
+    "name": "Quay",
+    "type": "Container Registries",
+    "classification": "Containers and Orchestration",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/containers.svg",
+    "description": "a container registry that supports multiple formats (Docker, AppC, and OCI) and provides features like image scanning and vulnerability detection.",
+    "properties": {},
+    "tags": []
+  },
+  "JFrog Container Registry": {
+    "name": "JFrog Container Registry",
+    "type": "Container Registries",
+    "classification": "Containers and Orchestration",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/containers.svg",
+    "description": "a secure, highly available registry for storing and managing Docker images, with features like access control, replication, and clustering.",
+    "properties": {},
+    "tags": []
+  },
+  "Artifactory": {
+    "name": "Artifactory",
+    "type": "Container Registries",
+    "classification": "Containers and Orchestration",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/containers.svg",
+    "description": "a universal artifact repository and container registry that supports Docker images, as well as other package formats like Maven, npm, and NuGet.",
+    "properties": {},
+    "tags": []
+  },
+  "GitLab Container Registry": {
+    "name": "GitLab Container Registry",
+    "type": "Container Registries",
+    "classification": "Containers and Orchestration",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/containers.svg",
+    "description": "a registry for storing and managing Docker images, integrated with GitLab's continuous integration and deployment tools.",
+    "properties": {},
+    "tags": []
+  },
+  "Harbor": {
+    "name": "Harbor",
+    "type": "Container Registries",
+    "classification": "Containers and Orchestration",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/containers.svg",
+    "description": "an open source container registry for managing Docker images, with features like access control, vulnerability scanning, and replication.",
+    "properties": {},
+    "tags": []
+  },
+  "Red Hat Quay": {
+    "name": "Red Hat Quay",
+    "type": "Container Registries",
+    "classification": "Containers and Orchestration",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/containers.svg",
+    "description": "a private container registry for managing and distributing Docker images, with features like security scanning, automated builds, and image promotion.",
+    "properties": {},
+    "tags": []
+  },
+  "Azure Container Registry": {
+    "name": "Azure Container Registry",
+    "type": "Container Registries",
+    "classification": "Containers and Orchestration",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/containers.svg",
+    "description": "a cloud-based registry service for storing and deploying Docker images in Microsoft Azure, with features like geo-replication and access control.",
+    "properties": {},
+    "tags": []
+  },
+  "Google Container Registry": {
+    "name": "Google Container Registry",
+    "type": "Container Registries",
+    "classification": "Containers and Orchestration",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/containers.svg",
+    "description": "a private container registry for storing and managing Docker images in Google Cloud Platform, with features like access control and vulnerability scanning.",
+    "properties": {},
+    "tags": []
+  },
+  "IBM Cloud Container Registry": {
+    "name": "IBM Cloud Container Registry",
+    "type": "Container Registries",
+    "classification": "Containers and Orchestration",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/containers.svg",
+    "description": "a registry service for storing and managing Docker images in IBM Cloud, with features like image scanning, access control, and automated builds.",
+    "properties": {},
+    "tags": []
+  },
+  "Microsoft Azure Data Factory": {
+    "name": "Microsoft Azure Data Factory",
+    "type": "Orchestration Engines",
+    "classification": "Containers and Orchestration",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/containers.svg",
+    "description": "A fully managed data integration service that allows users to build, schedule, and orchestrate data pipelines across cloud and on-premises data sources.",
+    "properties": {},
+    "tags": []
+  },
+  "IBM Cloud Pak for Integration": {
+    "name": "IBM Cloud Pak for Integration",
+    "type": "Orchestration Engines",
+    "classification": "Containers and Orchestration",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/containers.svg",
+    "description": "An enterprise-grade orchestration engine that enables users to connect and manage applications, data, and APIs across hybrid and multi-cloud environments.",
+    "properties": {},
+    "tags": []
+  },
+  "Informatica Intelligent Cloud Services": {
+    "name": "Informatica Intelligent Cloud Services",
+    "type": "Orchestration Engines",
+    "classification": "Containers and Orchestration",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/containers.svg",
+    "description": "A cloud-native data integration platform that includes a comprehensive orchestration engine for automating data movement, transformation, and governance processes.",
+    "properties": {},
+    "tags": []
+  },
+  "TIBCO Cloud Integration": {
+    "name": "TIBCO Cloud Integration",
+    "type": "Orchestration Engines",
+    "classification": "Containers and Orchestration",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/containers.svg",
+    "description": "A cloud-based integration platform that includes an orchestration engine for connecting and automating data and processes across on-premises and cloud applications.",
+    "properties": {},
+    "tags": []
+  },
+  "Red Hat Integration": {
+    "name": "Red Hat Integration",
+    "type": "Orchestration Engines",
+    "classification": "Containers and Orchestration",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/containers.svg",
+    "description": "An enterprise integration platform that includes a powerful orchestration engine for connecting and managing data and processes across hybrid and multi-cloud environments.",
+    "properties": {},
+    "tags": []
+  },
+  "InfluxDB": {
+    "name": "InfluxDB",
+    "type": "Time-Series Database",
+    "classification": "Database Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/database_services.svg",
+    "description": "A high-performance, open-source time-series database that is optimized for handling large amounts of time-stamped data. It is designed to be scalable, fault-tolerant, and easy to use.",
+    "properties": {},
+    "tags": []
+  },
+  "TimescaleDB": {
+    "name": "TimescaleDB",
+    "type": "Time-Series Database",
+    "classification": "Database Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/database_services.svg",
+    "description": "An open-source relational database that is designed to handle time-series data at scale. It leverages PostgreSQL's capabilities and adds time-series specific features such as automatic data partitioning and compression.",
+    "properties": {},
+    "tags": []
+  },
+  "Prometheus": {
+    "name": "Prometheus",
+    "type": "Time-Series Database",
+    "classification": "Database Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/database_services.svg",
+    "description": "A popular open-source monitoring and alerting tool that also includes a time-series database for storing and querying metrics data. It is designed for monitoring highly dynamic and distributed systems.",
+    "properties": {},
+    "tags": []
+  },
+  "Graphite": {
+    "name": "Graphite",
+    "type": "Time-Series Database",
+    "classification": "Database Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/database_services.svg",
+    "description": "A widely-used open-source time-series database that specializes in storing and graphing metrics data. It is designed for high performance and can be easily integrated with various monitoring tools.",
+    "properties": {},
+    "tags": []
+  },
+  "CrateDB": {
+    "name": "CrateDB",
+    "type": "Time-Series Database",
+    "classification": "Database Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/database_services.svg",
+    "description": "A distributed SQL database that is designed to handle large volumes of time-series data in real-time. It is optimized for IoT and industrial use cases and can be deployed on-premises or in the cloud.",
+    "properties": {},
+    "tags": []
+  },
+  "Druid": {
+    "name": "Druid",
+    "type": "Time-Series Database",
+    "classification": "Database Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/database_services.svg",
+    "description": "An open-source distributed database that is optimized for handling real-time analytics on large volumes of time-series data. It is designed for high performance and low-latency queries.",
+    "properties": {},
+    "tags": []
+  },
+  "MongoDB Atlas": {
+    "name": "MongoDB Atlas",
+    "type": "Time-Series Database",
+    "classification": "Database Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/database_services.svg",
+    "description": "A fully managed cloud database service that includes a time-series data type and specialized functions for storing and querying time-series data. It is highly scalable and available on AWS and other cloud platforms.",
+    "properties": {},
+    "tags": []
+  },
+  "KairosDB": {
+    "name": "KairosDB",
+    "type": "Time-Series Database",
+    "classification": "Database Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/database_services.svg",
+    "description": "An open-source distributed database that is designed to store and query large volumes of time-series data in a scalable and efficient manner. It is highly customizable and can be integrated with various data sources.",
+    "properties": {},
+    "tags": []
+  },
+  "CrateDB Cloud": {
+    "name": "CrateDB Cloud",
+    "type": "Time-Series Database",
+    "classification": "Database Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/database_services.svg",
+    "description": "A fully managed cloud database service that is built on top of CrateDB and is optimized for handling time-series data. It includes features such as automatic scaling and data replication for high availability.",
+    "properties": {},
+    "tags": []
+  },
+  "TempoDB": {
+    "name": "TempoDB",
+    "type": "Time-Series Database",
+    "classification": "Database Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/database_services.svg",
+    "description": "A cloud-hosted time-series database that is designed for storing and analyzing large volumes of time-stamped data. It includes features such as automatic data partitioning and retention policies for efficient data management.",
+    "properties": {},
+    "tags": []
+  },
+  "Dynatrace": {
+    "name": "Dynatrace",
+    "type": "Service Catalog",
+    "classification": "Management and Monitoring",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/monitoring.svg",
+    "description": "This AI-powered monitoring platform provides real-time visibility into the health and performance of your AWS infrastructure, applications, and services.",
+    "properties": {},
+    "tags": []
+  },
+  "New Relic": {
+    "name": "New Relic",
+    "type": "Application Performance Monitoring",
+    "classification": "Developer Tools",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/developer_tools.svg",
+    "description": "New Relic is a cloud-based application performance monitoring platform that offers real-time performance monitoring, error tracking, and root cause analysis for your applications. It provides deep visibility into your application's performance, user experience, and infrastructure performance.",
+    "properties": {},
+    "tags": []
+  },
+  "AppDynamics": {
+    "name": "AppDynamics",
+    "type": "Infrastructure Monitoring",
+    "classification": "Management and Monitoring",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/monitoring.svg",
+    "description": "AppDynamics is an application performance monitoring tool that offers real-time visibility into the performance of your AWS resources. It provides detailed metrics and analytics for EC2 instances, databases, and other AWS services to help you troubleshoot and optimize your applications.",
+    "properties": {},
+    "tags": []
+  },
+  "PagerDuty": {
+    "name": "PagerDuty",
+    "type": "Application Performance Monitoring",
+    "classification": "Developer Tools",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/developer_tools.svg",
+    "description": "PagerDuty is an incident management platform that integrates with your AWS environment to provide real-time alerts and notifications for any issues that may arise in your applications. It offers customizable workflows and automated escalations to help you respond and resolve incidents quickly.",
+    "properties": {},
+    "tags": []
+  },
+  "SolarWinds Server & Application Monitor": {
+    "name": "SolarWinds Server & Application Monitor",
+    "type": "Infrastructure Monitoring",
+    "classification": "Management and Monitoring",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/monitoring.svg",
+    "description": "SolarWinds Server & Application Monitor is a comprehensive monitoring tool that offers visibility into the performance of your entire IT infrastructure, including AWS resources. It provides real-time monitoring, alerting, and reporting for EC2 instances, databases, and other AWS services.",
+    "properties": {},
+    "tags": []
+  },
+  "Stackify Retrace": {
+    "name": "Stackify Retrace",
+    "type": "Application Performance Monitoring",
+    "classification": "Developer Tools",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/developer_tools.svg",
+    "description": "Stackify Retrace is an APM solution that provides end-to-end application monitoring for your AWS environment. It offers code-level insights, error tracking, and real-time performance metrics to help you optimize your applications for peak performance.",
+    "properties": {},
+    "tags": []
+  },
+  "LogicMonitor": {
+    "name": "LogicMonitor",
+    "type": "Infrastructure Monitoring",
+    "classification": "Management and Monitoring",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/monitoring.svg",
+    "description": "LogicMonitor is a cloud-based infrastructure monitoring platform that offers visibility into the health and performance of your AWS resources. It provides real-time monitoring, alerting, and reporting for EC2 instances, databases, and other AWS services to help you maintain optimal performance.",
+    "properties": {},
+    "tags": []
+  },
+  "Instana": {
+    "name": "Instana",
+    "type": "Application Performance Monitoring",
+    "classification": "Developer Tools",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/developer_tools.svg",
+    "description": "Instana is an AI-powered APM solution that automatically discovers and monitors all aspects of your application stack, including containers, microservices, and serverless functions. It offers real-time performance metrics and automated root cause analysis to help you troub",
+    "properties": {},
+    "tags": []
+  },
+  "Jenkins": {
+    "name": "Jenkins",
+    "type": "Build and Deployment Tools",
+    "classification": "Developer Tools",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/developer_tools.svg",
+    "description": "Jenkins is an open-source automation server that allows developers to continuously build, test, and deploy their software. It supports integration with various tools and technologies, making it a popular choice for DevOps teams.",
+    "properties": {},
+    "tags": []
+  },
+  "CircleCI": {
+    "name": "CircleCI",
+    "type": "Build and Deployment Tools",
+    "classification": "Developer Tools",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/developer_tools.svg",
+    "description": "CircleCI is a cloud-based continuous integration and delivery platform that enables teams to automate their build, test, and deployment processes. It integrates with popular version control systems and cloud platforms, making it easy to set up and use.",
+    "properties": {},
+    "tags": []
+  },
+  "Travis CI": {
+    "name": "Travis CI",
+    "type": "Build and Deployment Tools",
+    "classification": "Developer Tools",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/developer_tools.svg",
+    "description": "Travis CI is a hosted continuous integration service that supports a variety of programming languages and integrates with popular version control systems. It offers a simple and intuitive interface for configuring and running automated tests and deployments.",
+    "properties": {},
+    "tags": []
+  },
+  "TeamCity": {
+    "name": "TeamCity",
+    "type": "Build and Deployment Tools",
+    "classification": "Developer Tools",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/developer_tools.svg",
+    "description": "TeamCity is a powerful continuous integration and deployment server from JetBrains. It allows teams to automate their build, test, and deployment processes for a wide range of languages and platforms, including .NET, Java, and mobile applications.",
+    "properties": {},
+    "tags": []
+  },
+  "Bamboo": {
+    "name": "Bamboo",
+    "type": "Build and Deployment Tools",
+    "classification": "Developer Tools",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/developer_tools.svg",
+    "description": "Bamboo is a continuous integration and deployment tool from Atlassian. It offers features such as automated build and test, deployment pipelines, and integration with popular tools like JIRA and Bitbucket.",
+    "properties": {},
+    "tags": []
+  },
+  "Octopus Deploy": {
+    "name": "Octopus Deploy",
+    "type": "Configuration Management",
+    "classification": "Management and Monitoring",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/monitoring.svg",
+    "description": "a configuration management tool that automates the deployment and management of .NET applications, databases and services to any environment.",
+    "properties": {},
+    "tags": []
+  },
+  "CodeDeploy": {
+    "name": "CodeDeploy",
+    "type": "Build and Deployment Tools",
+    "classification": "Developer Tools",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/developer_tools.svg",
+    "description": "CodeDeploy is a deployment automation service from AWS that enables developers to deploy code to EC2 instances, on-premises servers, and Lambda functions. It integrates with various AWS services and supports common deployment patterns.",
+    "properties": {},
+    "tags": []
+  },
+  "DeployBot": {
+    "name": "DeployBot",
+    "type": "Build and Deployment Tools",
+    "classification": "Developer Tools",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/developer_tools.svg",
+    "description": "DeployBot is a deployment tool that automates the process of deploying code to different environments. It integrates with popular version control systems and hosting providers, making it easy to set up and use.",
+    "properties": {},
+    "tags": []
+  },
+  "Shippable": {
+    "name": "Shippable",
+    "type": "Build and Deployment Tools",
+    "classification": "Developer Tools",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/developer_tools.svg",
+    "description": "Shippable is a continuous integration and delivery platform that supports a variety of programming languages and integrates with popular tools like GitHub and Docker. It offers a simple and intuitive interface for automating build, test, and deployment processes.",
+    "properties": {},
+    "tags": []
+  },
+  "GitLab CI/CD": {
+    "name": "GitLab CI/CD",
+    "type": "Build and Deployment Tools",
+    "classification": "Developer Tools",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/developer_tools.svg",
+    "description": "GitLab CI/CD is a continuous integration and delivery tool from GitLab that allows teams to automate their software development processes. It offers features such as automated testing, deployment pipelines, and integration with popular tools like Docker and Kubernetes.",
+    "properties": {},
+    "tags": []
+  },
+  "Terraform by HashiCorp": {
+    "name": "Terraform by HashiCorp",
+    "type": "Infrastructure as Code",
+    "classification": "Developer Tools",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/developer_tools.svg",
+    "description": "A popular open-source tool for building and managing infrastructure across multiple providers, including AWS, using declarative code.",
+    "properties": {},
+    "tags": []
+  },
+  "CloudFormation by Puppet": {
+    "name": "CloudFormation by Puppet",
+    "type": "Infrastructure as Code",
+    "classification": "Developer Tools",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/developer_tools.svg",
+    "description": "A powerful Infrastructure as Code tool that allows users to define and manage AWS resources using Puppet's configuration language.",
+    "properties": {},
+    "tags": []
+  },
+  "Ansible by Red Hat": {
+    "name": "Ansible by Red Hat",
+    "type": "Infrastructure as Code",
+    "classification": "Developer Tools",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/developer_tools.svg",
+    "description": "A simple and powerful automation tool that can be used for infrastructure provisioning, configuration management, and application deployment on AWS.",
+    "properties": {},
+    "tags": []
+  },
+  "Chef Automate by Chef": {
+    "name": "Chef Automate by Chef",
+    "type": "Infrastructure as Code",
+    "classification": "Developer Tools",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/developer_tools.svg",
+    "description": "A comprehensive DevOps platform that includes infrastructure automation, compliance and security, and continuous delivery for AWS environments.",
+    "properties": {},
+    "tags": []
+  },
+  "SaltStack Enterprise by SaltStack": {
+    "name": "SaltStack Enterprise by SaltStack",
+    "type": "Infrastructure as Code",
+    "classification": "Developer Tools",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/developer_tools.svg",
+    "description": "A scalable and secure Infrastructure as Code platform that enables users to manage and automate their AWS infrastructure using SaltStack's configuration management and orchestration capabilities.",
+    "properties": {},
+    "tags": []
+  },
+  "Pulumi by Pulumi": {
+    "name": "Pulumi by Pulumi",
+    "type": "Infrastructure as Code",
+    "classification": "Developer Tools",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/developer_tools.svg",
+    "description": "A modern Infrastructure as Code platform that allows users to write, deploy, and manage code for AWS infrastructure using popular programming languages like JavaScript, Python, and Go.",
+    "properties": {},
+    "tags": []
+  },
+  "CloudBolt by CloudBolt Software": {
+    "name": "CloudBolt by CloudBolt Software",
+    "type": "Infrastructure as Code",
+    "classification": "Developer Tools",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/developer_tools.svg",
+    "description": "A hybrid cloud management platform that helps organizations deploy and manage applications and infrastructure across AWS and other cloud providers.",
+    "properties": {},
+    "tags": []
+  },
+  "Octopus Deploy by Octopus Deploy": {
+    "name": "Octopus Deploy by Octopus Deploy",
+    "type": "Infrastructure as Code",
+    "classification": "Developer Tools",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/developer_tools.svg",
+    "description": "A deployment automation tool that supports AWS and other cloud providers, allowing teams to easily deploy and manage applications across different environments.",
+    "properties": {},
+    "tags": []
+  },
+  "SaltStack Cloud by SaltStack": {
+    "name": "SaltStack Cloud by SaltStack",
+    "type": "Infrastructure as Code",
+    "classification": "Developer Tools",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/developer_tools.svg",
+    "description": "A cloud orchestration and automation tool that enables users to manage and scale AWS infrastructure using SaltStack's powerful configuration management and event-driven automation capabilities.",
+    "properties": {},
+    "tags": []
+  },
+  "RightScale by Flexera": {
+    "name": "RightScale by Flexera",
+    "type": "Infrastructure as Code",
+    "classification": "Developer Tools",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/developer_tools.svg",
+    "description": "A cloud management platform that helps organizations optimize their AWS infrastructure by providing visibility, automation, and governance for their cloud resources.",
+    "properties": {},
+    "tags": []
+  },
+  "Visual Studio Code": {
+    "name": "Visual Studio Code",
+    "type": "Integrated Development Environments",
+    "classification": "Developer Tools",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/developer_tools.svg",
+    "description": "A highly customizable code editor with built-in debugging and Git integration, available on Windows, macOS, and Linux.",
+    "properties": {},
+    "tags": []
+  },
+  "IntelliJ IDEA": {
+    "name": "IntelliJ IDEA",
+    "type": "Integrated Development Environments",
+    "classification": "Developer Tools",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/developer_tools.svg",
+    "description": "A popular Java IDE with intelligent coding assistance and advanced debugging tools.",
+    "properties": {},
+    "tags": []
+  },
+  "Eclipse": {
+    "name": "Eclipse",
+    "type": "Integrated Development Environments",
+    "classification": "Developer Tools",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/developer_tools.svg",
+    "description": "A Java-based IDE that supports multiple languages and platforms, with a large ecosystem of plugins and extensions.",
+    "properties": {},
+    "tags": []
+  },
+  "NetBeans": {
+    "name": "NetBeans",
+    "type": "Integrated Development Environments",
+    "classification": "Developer Tools",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/developer_tools.svg",
+    "description": "A free and open source IDE for Java, JavaScript, HTML5, PHP, and C/C++, with features such as code completion, refactoring, and debugging.",
+    "properties": {},
+    "tags": []
+  },
+  "PyCharm": {
+    "name": "PyCharm",
+    "type": "Integrated Development Environments",
+    "classification": "Developer Tools",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/developer_tools.svg",
+    "description": "An IDE specifically designed for Python development, with support for web development frameworks like Django and Flask.",
+    "properties": {},
+    "tags": []
+  },
+  "Sublime Text": {
+    "name": "Sublime Text",
+    "type": "Integrated Development Environments",
+    "classification": "Developer Tools",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/developer_tools.svg",
+    "description": "A lightweight and fast code editor with powerful features like multiple cursors and split editing, available on Windows, macOS, and Linux.",
+    "properties": {},
+    "tags": []
+  },
+  "Atom": {
+    "name": "Atom",
+    "type": "Integrated Development Environments",
+    "classification": "Developer Tools",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/developer_tools.svg",
+    "description": "A hackable text editor built by GitHub, with a modern and intuitive interface and a large community of extensions.",
+    "properties": {},
+    "tags": []
+  },
+  "Code::Blocks": {
+    "name": "Code::Blocks",
+    "type": "Integrated Development Environments",
+    "classification": "Developer Tools",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/developer_tools.svg",
+    "description": "A cross-platform IDE for C, C++, and Fortran development, with features like code completion and project templates.",
+    "properties": {},
+    "tags": []
+  },
+  "BlueJ": {
+    "name": "BlueJ",
+    "type": "Integrated Development Environments",
+    "classification": "Developer Tools",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/developer_tools.svg",
+    "description": "An educational IDE for Java development, with visual tools to help beginner programmers learn object-oriented programming.",
+    "properties": {},
+    "tags": []
+  },
+  "Komodo IDE": {
+    "name": "Komodo IDE",
+    "type": "Integrated Development Environments",
+    "classification": "Developer Tools",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/developer_tools.svg",
+    "description": "A full-featured IDE for web and mobile development, with support for multiple languages and frameworks.",
+    "properties": {},
+    "tags": []
+  },
+  "Microsoft Azure IoT Hub": {
+    "name": "Microsoft Azure IoT Hub",
+    "type": "IoT Device Management",
+    "classification": "IoT",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/iot.svg",
+    "description": "This cloud-based service enables secure and reliable communication between IoT devices and applications. It also offers features such as device-to-cloud and cloud-to-device messaging, device management, and bi-directional communication.",
+    "properties": {},
+    "tags": []
+  },
+  "IBM Watson IoT Platform": {
+    "name": "IBM Watson IoT Platform",
+    "type": "IoT Device Management",
+    "classification": "IoT",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/iot.svg",
+    "description": "This platform provides tools for connecting, managing, and analyzing data from IoT devices. It includes features such as device management, real-time data analysis, and cognitive capabilities for predictive maintenance.",
+    "properties": {},
+    "tags": []
+  },
+  "Cisco IoT Control Center": {
+    "name": "Cisco IoT Control Center",
+    "type": "IoT Device Management",
+    "classification": "IoT",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/iot.svg",
+    "description": "This solution offers a secure and scalable way to manage and monitor IoT devices. It includes features such as device provisioning, configuration, and diagnostics, as well as real-time data analytics and security monitoring.",
+    "properties": {},
+    "tags": []
+  },
+  "Siemens MindSphere": {
+    "name": "Siemens MindSphere",
+    "type": "IoT Device Management",
+    "classification": "IoT",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/iot.svg",
+    "description": "This cloud-based platform provides tools for collecting, analyzing, and visualizing data from connected devices. It also offers features such as device management, predictive maintenance, and remote monitoring and control.",
+    "properties": {},
+    "tags": []
+  },
+  "Bosch IoT Suite": {
+    "name": "Bosch IoT Suite",
+    "type": "IoT Device Management",
+    "classification": "IoT",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/iot.svg",
+    "description": "This comprehensive platform offers services for managing, analyzing, and connecting IoT devices. It includes features such as device management, data analytics, and integration with other business systems.",
+    "properties": {},
+    "tags": []
+  },
+  "Arm Pelion": {
+    "name": "Arm Pelion",
+    "type": "IoT Device Management",
+    "classification": "IoT",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/iot.svg",
+    "description": "This platform provides a secure and scalable way to connect and manage IoT devices. It includes features such as device provisioning, remote monitoring and control, and data analytics.",
+    "properties": {},
+    "tags": []
+  },
+  "Telit IoT Platform": {
+    "name": "Telit IoT Platform",
+    "type": "IoT Device Management",
+    "classification": "IoT",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/iot.svg",
+    "description": "This cloud-based platform offers services for managing and monitoring IoT devices. It includes features such as device management, data analytics, and integration with third-party applications.",
+    "properties": {},
+    "tags": []
+  },
+  "Ayla Networks IoT Platform": {
+    "name": "Ayla Networks IoT Platform",
+    "type": "IoT Device Management",
+    "classification": "IoT",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/iot.svg",
+    "description": "This platform offers a flexible and scalable way to connect and manage IoT devices. It includes features such as device management, data analytics, and integration with enterprise systems.",
+    "properties": {},
+    "tags": []
+  },
+  "ThingWorx IoT Platform": {
+    "name": "ThingWorx IoT Platform",
+    "type": "IoT Device Management",
+    "classification": "IoT",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/iot.svg",
+    "description": "This platform provides tools for building and managing IoT applications. It includes features such as device management, real-time data analytics, and integration with other business systems.",
+    "properties": {},
+    "tags": []
+  },
+  "Cumulocity IoT Platform": {
+    "name": "Cumulocity IoT Platform",
+    "type": "IoT Device Management",
+    "classification": "IoT",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/iot.svg",
+    "description": "This cloud-based platform offers services for connecting, managing, and analyzing data from IoT devices. It includes features such as device management, real-time data analytics, and integration with enterprise systems.",
+    "properties": {},
+    "tags": []
+  },
+  "Labelbox": {
+    "name": "Labelbox",
+    "type": "Data Labeling",
+    "classification": "Machine Learning and AI Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/ai_services.svg",
+    "description": "A data labeling platform that combines human and machine intelligence to create high quality training data for AI models.",
+    "properties": {},
+    "tags": []
+  },
+  "Dataloop": {
+    "name": "Dataloop",
+    "type": "Data Labeling",
+    "classification": "Machine Learning and AI Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/ai_services.svg",
+    "description": "An end-to-end data labeling platform for computer vision and natural language processing tasks, with features such as automated annotation and quality control.",
+    "properties": {},
+    "tags": []
+  },
+  "SuperAnnotate": {
+    "name": "SuperAnnotate",
+    "type": "Data Labeling",
+    "classification": "Machine Learning and AI Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/ai_services.svg",
+    "description": "A collaborative data annotation platform that supports image, video, and text data for AI training.",
+    "properties": {},
+    "tags": []
+  },
+  "Label Studio": {
+    "name": "Label Studio",
+    "type": "Data Labeling",
+    "classification": "Machine Learning and AI Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/ai_services.svg",
+    "description": "A data labeling tool that uses active learning and human-in-the-loop methods to improve annotation accuracy and speed.",
+    "properties": {},
+    "tags": []
+  },
+  "CloudFactory": {
+    "name": "CloudFactory",
+    "type": "Data Labeling",
+    "classification": "Machine Learning and AI Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/ai_services.svg",
+    "description": "A managed workforce platform for data labeling, with a global team of skilled workers and tools for quality control and data management.",
+    "properties": {},
+    "tags": []
+  },
+  "Playment": {
+    "name": "Playment",
+    "type": "Data Labeling",
+    "classification": "Machine Learning and AI Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/ai_services.svg",
+    "description": "A data labeling platform that uses a combination of human and machine learning to provide high-quality training data for computer vision and natural language processing models.",
+    "properties": {},
+    "tags": []
+  },
+  "Hive": {
+    "name": "Hive",
+    "type": "Data Labeling",
+    "classification": "Machine Learning and AI Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/ai_services.svg",
+    "description": "A data annotation and labeling tool that uses AI and machine learning to automate and accelerate the labeling process, while also providing tools for quality control and collaboration.",
+    "properties": {},
+    "tags": []
+  },
+  "Scale AI": {
+    "name": "Scale AI",
+    "type": "Data Labeling",
+    "classification": "Machine Learning and AI Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/ai_services.svg",
+    "description": "A data labeling and annotation service that combines human and machine intelligence to provide high-quality training data for computer vision and natural language processing tasks.",
+    "properties": {},
+    "tags": []
+  },
+  "Appen": {
+    "name": "Appen",
+    "type": "Data Labeling",
+    "classification": "Machine Learning and AI Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/ai_services.svg",
+    "description": "A global leader in data annotation and labeling services, with a large crowd of skilled workers and tools for quality control and project management.",
+    "properties": {},
+    "tags": []
+  },
+  "CloudFactory AI Data Solutions": {
+    "name": "CloudFactory AI Data Solutions",
+    "type": "Data Labeling",
+    "classification": "Machine Learning and AI Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/ai_services.svg",
+    "description": "A comprehensive data labeling and annotation platform that offers a variety of services such as data collection, labeling, transcription, and moderation.",
+    "properties": {},
+    "tags": []
+  },
+  "Deep Reinforcement Learning in Finance": {
+    "name": "Deep Reinforcement Learning in Finance",
+    "type": "Reinforcement Learning",
+    "classification": "Machine Learning and AI Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/ai_services.svg",
+    "description": "This product utilizes deep reinforcement learning algorithms to provide financial institutions with predictive analytics and decision-making tools. It can be used for portfolio optimization, risk management, and trading strategies.",
+    "properties": {},
+    "tags": []
+  },
+  "Gym for OpenAI": {
+    "name": "Gym for OpenAI",
+    "type": "Reinforcement Learning",
+    "classification": "Machine Learning and AI Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/ai_services.svg",
+    "description": "This product offers a simulation environment for reinforcement learning agents, allowing users to train and test their algorithms in a variety of scenarios. It is built on top of the popular OpenAI Gym platform.",
+    "properties": {},
+    "tags": []
+  },
+  "Reinforcement Learning for Autonomous Driving": {
+    "name": "Reinforcement Learning for Autonomous Driving",
+    "type": "Reinforcement Learning",
+    "classification": "Machine Learning and AI Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/ai_services.svg",
+    "description": "This product provides a comprehensive suite of tools and algorithms for training autonomous driving systems using reinforcement learning. It includes simulation environments, pre-trained models, and data analysis tools.",
+    "properties": {},
+    "tags": []
+  },
+  "Robotics Simulation and Reinforcement Learning": {
+    "name": "Robotics Simulation and Reinforcement Learning",
+    "type": "Reinforcement Learning",
+    "classification": "Machine Learning and AI Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/ai_services.svg",
+    "description": "This product offers a simulation platform for training and testing reinforcement learning algorithms for robotics applications. It includes a library of pre-defined robot models and environments, as well as tools for data analysis and visualization.",
+    "properties": {},
+    "tags": []
+  },
+  "Chatbot Development with Reinforcement Learning": {
+    "name": "Chatbot Development with Reinforcement Learning",
+    "type": "Reinforcement Learning",
+    "classification": "Machine Learning and AI Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/ai_services.svg",
+    "description": "This product allows users to build chatbots using reinforcement learning techniques. It includes pre-trained models for common use cases, as well as a development platform for custom chatbot development.",
+    "properties": {},
+    "tags": []
+  },
+  "Reinforcement Learning for Supply Chain Optimization": {
+    "name": "Reinforcement Learning for Supply Chain Optimization",
+    "type": "Reinforcement Learning",
+    "classification": "Machine Learning and AI Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/ai_services.svg",
+    "description": "This product offers a suite of tools and algorithms for optimizing supply chain operations using reinforcement learning. It can be used for inventory management, demand forecasting, and route optimization.",
+    "properties": {},
+    "tags": []
+  },
+  "Reinforcement Learning for Game AI": {
+    "name": "Reinforcement Learning for Game AI",
+    "type": "Reinforcement Learning",
+    "classification": "Machine Learning and AI Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/ai_services.svg",
+    "description": "This product provides a platform for game developers to implement reinforcement learning algorithms for game AI. It includes tools for game simulation, data collection, and model training.",
+    "properties": {},
+    "tags": []
+  },
+  "Robotic Process Automation with Reinforcement Learning": {
+    "name": "Robotic Process Automation with Reinforcement Learning",
+    "type": "Reinforcement Learning",
+    "classification": "Machine Learning and AI Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/ai_services.svg",
+    "description": "This product allows users to automate business processes using reinforcement learning algorithms. It includes pre-trained models for common tasks, as well as a development platform for custom automation workflows.",
+    "properties": {},
+    "tags": []
+  },
+  "Industrial Control Systems with Reinforcement Learning": {
+    "name": "Industrial Control Systems with Reinforcement Learning",
+    "type": "Reinforcement Learning",
+    "classification": "Machine Learning and AI Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/ai_services.svg",
+    "description": "This product offers a suite of tools and algorithms for optimizing industrial control systems using reinforcement learning. It can be used for process control, predictive maintenance, and anomaly detection.",
+    "properties": {},
+    "tags": []
+  },
+  "Reinforcement Learning for Energy Management": {
+    "name": "Reinforcement Learning for Energy Management",
+    "type": "Reinforcement Learning",
+    "classification": "Machine Learning and AI Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/ai_services.svg",
+    "description": "This product provides a platform for optimizing energy consumption using reinforcement learning algorithms. It can be used for building energy management, smart grid optimization, and demand response.",
+    "properties": {},
+    "tags": []
+  },
+  "Chef Automate": {
+    "name": "Chef Automate",
+    "type": "Configuration Management",
+    "classification": "Management and Monitoring",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/monitoring.svg",
+    "description": "a configuration management tool that automates the deployment and management of infrastructure and applications in the cloud and on-premises.",
+    "properties": {},
+    "tags": []
+  },
+  "Puppet Enterprise": {
+    "name": "Puppet Enterprise",
+    "type": "Configuration Management",
+    "classification": "Management and Monitoring",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/monitoring.svg",
+    "description": "a configuration management tool that enables organizations to automate the provisioning, configuration and management of their infrastructure and applications.",
+    "properties": {},
+    "tags": []
+  },
+  "Ansible Automation Platform": {
+    "name": "Ansible Automation Platform",
+    "type": "Configuration Management",
+    "classification": "Management and Monitoring",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/monitoring.svg",
+    "description": "a configuration management tool that automates the deployment and management of IT infrastructure and applications, with a focus on simplicity and ease of use.",
+    "properties": {},
+    "tags": []
+  },
+  "SaltStack Enterprise": {
+    "name": "SaltStack Enterprise",
+    "type": "Configuration Management",
+    "classification": "Management and Monitoring",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/monitoring.svg",
+    "description": "a configuration management tool that automates the deployment, configuration and management of infrastructure and applications at scale.",
+    "properties": {},
+    "tags": []
+  },
+  "Terraform Enterprise": {
+    "name": "Terraform Enterprise",
+    "type": "Configuration Management",
+    "classification": "Management and Monitoring",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/monitoring.svg",
+    "description": "a configuration management tool that enables organizations to define and provision infrastructure and applications using Infrastructure as Code (IaC) principles.",
+    "properties": {},
+    "tags": []
+  },
+  "CFEngine": {
+    "name": "CFEngine",
+    "type": "Configuration Management",
+    "classification": "Management and Monitoring",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/monitoring.svg",
+    "description": "a configuration management tool that automates the provisioning, configuration and management of large-scale IT infrastructures, with a focus on security and compliance.",
+    "properties": {},
+    "tags": []
+  },
+  "Microsoft System Center Configuration Manager": {
+    "name": "Microsoft System Center Configuration Manager",
+    "type": "Configuration Management",
+    "classification": "Management and Monitoring",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/monitoring.svg",
+    "description": "a configuration management tool that enables organizations to manage and deploy applications, updates, and settings across a variety of devices and operating systems.",
+    "properties": {},
+    "tags": []
+  },
+  "BMC BladeLogic Server Automation": {
+    "name": "BMC BladeLogic Server Automation",
+    "type": "Configuration Management",
+    "classification": "Management and Monitoring",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/monitoring.svg",
+    "description": "a configuration management tool that automates the management of servers, databases, and middleware in both physical and virtual environments.",
+    "properties": {},
+    "tags": []
+  },
+  "IBM UrbanCode Deploy": {
+    "name": "IBM UrbanCode Deploy",
+    "type": "Configuration Management",
+    "classification": "Management and Monitoring",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/monitoring.svg",
+    "description": "a configuration management tool that automates the deployment and management of applications, databases, and infrastructure across hybrid environments.",
+    "properties": {},
+    "tags": []
+  },
+  "New Relic Infrastructure": {
+    "name": "New Relic Infrastructure",
+    "type": "Infrastructure Monitoring",
+    "classification": "Management and Monitoring",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/monitoring.svg",
+    "description": "New Relic Infrastructure is a monitoring tool that provides visibility into the health and performance of your infrastructure, including AWS resources. It offers real-time monitoring, alerting, and troubleshooting for EC2 instances, databases, and other AWS services.",
+    "properties": {},
+    "tags": []
+  },
+  "Splunk Enterprise": {
+    "name": "Splunk Enterprise",
+    "type": "Service Catalog",
+    "classification": "Management and Monitoring",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/monitoring.svg",
+    "description": "With this product, you can gain insights and analyze machine data from your AWS environments, helping you to troubleshoot issues and optimize performance.",
+    "properties": {},
+    "tags": []
+  },
+  "ManageEngine Applications Manager": {
+    "name": "ManageEngine Applications Manager",
+    "type": "Infrastructure Monitoring",
+    "classification": "Management and Monitoring",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/monitoring.svg",
+    "description": "ManageEngine Applications Manager is an all-in-one monitoring tool that offers real-time monitoring, troubleshooting, and alerting for your AWS resources. It provides detailed performance metrics for EC2 instances, databases, and other AWS services to help you optimize your applications.",
+    "properties": {},
+    "tags": []
+  },
+  "Site24x7": {
+    "name": "Site24x7",
+    "type": "Infrastructure Monitoring",
+    "classification": "Management and Monitoring",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/monitoring.svg",
+    "description": "Site24x7 is a cloud-based monitoring solution that offers visibility into the performance of your entire IT infrastructure, including AWS resources. It provides real-time monitoring, alerting, and reporting for EC2 instances",
+    "properties": {},
+    "tags": []
+  },
+  "McAfee Cloud Workload Security": {
+    "name": "McAfee Cloud Workload Security",
+    "type": "Service Catalog",
+    "classification": "Management and Monitoring",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/monitoring.svg",
+    "description": "This product offers comprehensive security for Amazon EC2 instances, protecting against advanced threats and vulnerabilities.",
+    "properties": {},
+    "tags": []
+  },
+  "Trend Micro Deep Security": {
+    "name": "Trend Micro Deep Security",
+    "type": "Service Catalog",
+    "classification": "Management and Monitoring",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/monitoring.svg",
+    "description": "This product offers advanced security capabilities for AWS workloads, including intrusion detection and prevention, anti-malware, and web application protection.",
+    "properties": {},
+    "tags": []
+  },
+  "CloudCheckr": {
+    "name": "CloudCheckr",
+    "type": "Service Catalog",
+    "classification": "Management and Monitoring",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/monitoring.svg",
+    "description": "This cost optimization and governance tool helps you to manage your AWS resources and ensure compliance with best practices, leading to cost savings and improved security.",
+    "properties": {},
+    "tags": []
+  },
+  "CloudEndure Disaster Recovery": {
+    "name": "CloudEndure Disaster Recovery",
+    "type": "Service Catalog",
+    "classification": "Management and Monitoring",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/monitoring.svg",
+    "description": "This product provides automated disaster recovery for your AWS workloads, ensuring minimal downtime and data loss in the event of a disaster.",
+    "properties": {},
+    "tags": []
+  },
+  "CloudHealth": {
+    "name": "CloudHealth",
+    "type": "Service Catalog",
+    "classification": "Management and Monitoring",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/monitoring.svg",
+    "description": "This cloud management platform offers cost optimization, governance, and security features for your AWS environment, helping you to optimize your cloud spend and improve security posture.",
+    "properties": {},
+    "tags": []
+  },
+  "Commvault": {
+    "name": "Commvault",
+    "type": "Service Catalog",
+    "classification": "Management and Monitoring",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/monitoring.svg",
+    "description": "This data management platform offers backup, recovery, and archiving solutions for your AWS workloads, ensuring data protection and availability in the cloud.",
+    "properties": {},
+    "tags": []
+  },
+  "Akamai Content Delivery Network": {
+    "name": "Akamai Content Delivery Network",
+    "type": "Content Delivery Network",
+    "classification": "Networking Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/networking_services.svg",
+    "description": "Akamai is a leading content delivery network provider, offering fast and reliable delivery of content, web applications, and APIs. Their CDN is designed to optimize performance, scalability, and security for websites and applications.",
+    "properties": {},
+    "tags": []
+  },
+  "CloudFlare Content Delivery Network": {
+    "name": "CloudFlare Content Delivery Network",
+    "type": "Content Delivery Network",
+    "classification": "Networking Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/networking_services.svg",
+    "description": "CloudFlare is a popular CDN that helps websites and applications load faster by caching content and distributing it across a global network of servers. It also offers security features such as DDoS protection and web application firewall.",
+    "properties": {},
+    "tags": []
+  },
+  "Fastly Content Delivery Network": {
+    "name": "Fastly Content Delivery Network",
+    "type": "Content Delivery Network",
+    "classification": "Networking Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/networking_services.svg",
+    "description": "Fastly is a CDN that specializes in high-performance content delivery, with a focus on video and streaming content. They offer real-time analytics and advanced caching options to help improve website and application performance.",
+    "properties": {},
+    "tags": []
+  },
+  "Limelight Content Delivery Network": {
+    "name": "Limelight Content Delivery Network",
+    "type": "Content Delivery Network",
+    "classification": "Networking Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/networking_services.svg",
+    "description": "Limelight is a global CDN provider that offers a suite of services for content delivery, video delivery, and website acceleration. Their network includes over 80 points of presence (PoPs) around the world for reliable and fast content delivery.",
+    "properties": {},
+    "tags": []
+  },
+  "Verizon Media EdgeCast Content Delivery Network": {
+    "name": "Verizon Media EdgeCast Content Delivery Network",
+    "type": "Content Delivery Network",
+    "classification": "Networking Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/networking_services.svg",
+    "description": "Verizon Media EdgeCast is a CDN that offers high-performance content delivery, video streaming, and website acceleration. It also offers advanced features such as real-time analytics, SSL support, and DDoS protection.",
+    "properties": {},
+    "tags": []
+  },
+  "StackPath Content Delivery Network": {
+    "name": "StackPath Content Delivery Network",
+    "type": "Content Delivery Network",
+    "classification": "Networking Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/networking_services.svg",
+    "description": "StackPath is a CDN that offers fast and secure content delivery for websites and applications, with a focus on performance and scalability. It also includes advanced features such as real-time analytics, web application firewall, and bot management.",
+    "properties": {},
+    "tags": []
+  },
+  "CDNetworks Content Delivery Network": {
+    "name": "CDNetworks Content Delivery Network",
+    "type": "Content Delivery Network",
+    "classification": "Networking Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/networking_services.svg",
+    "description": "CDNetworks is a global CDN provider that offers fast and reliable content delivery, with a focus on improving website and application performance in Asia and other regions. It also offers advanced security features such as DDoS protection and web application firewall.",
+    "properties": {},
+    "tags": []
+  },
+  "Instart Content Delivery Network": {
+    "name": "Instart Content Delivery Network",
+    "type": "Content Delivery Network",
+    "classification": "Networking Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/networking_services.svg",
+    "description": "Instart is a CDN that uses machine learning and AI to optimize content delivery and improve website and application performance. It also offers advanced security features such as bot protection and real-time threat intelligence.",
+    "properties": {},
+    "tags": []
+  },
+  "CacheFly Content Delivery Network": {
+    "name": "CacheFly Content Delivery Network",
+    "type": "Content Delivery Network",
+    "classification": "Networking Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/networking_services.svg",
+    "description": "CacheFly is a CDN that focuses on high-performance content delivery for large files, such as software downloads and media files. It offers real-time analytics and advanced caching options to improve website and application performance.",
+    "properties": {},
+    "tags": []
+  },
+  "G-Core Labs Content Delivery Network": {
+    "name": "G-Core Labs Content Delivery Network",
+    "type": "Content Delivery Network",
+    "classification": "Networking Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/networking_services.svg",
+    "description": "G-Core Labs is a global CDN provider that offers fast and reliable content delivery, with a focus on improving performance for websites and applications in emerging markets. It",
+    "properties": {},
+    "tags": []
+  },
+  "SolarWinds Network Performance Monitor": {
+    "name": "SolarWinds Network Performance Monitor",
+    "type": "Network Monitoring and Analytics",
+    "classification": "Networking Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/networking_services.svg",
+    "description": "A comprehensive network monitoring tool that provides real-time visibility and analytics for network performance and health.",
+    "properties": {},
+    "tags": []
+  },
+  "ManageEngine OpManager": {
+    "name": "ManageEngine OpManager",
+    "type": "Network Monitoring and Analytics",
+    "classification": "Networking Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/networking_services.svg",
+    "description": "A unified network performance monitoring and management solution that offers advanced analytics and reporting capabilities.",
+    "properties": {},
+    "tags": []
+  },
+  "PRTG Network Monitor": {
+    "name": "PRTG Network Monitor",
+    "type": "Network Monitoring and Analytics",
+    "classification": "Networking Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/networking_services.svg",
+    "description": "A powerful network monitoring tool that offers real-time performance monitoring, alerts, and reporting for networks of any size.",
+    "properties": {},
+    "tags": []
+  },
+  "Cisco DNA Center": {
+    "name": "Cisco DNA Center",
+    "type": "Network Monitoring and Analytics",
+    "classification": "Networking Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/networking_services.svg",
+    "description": "A central management platform for Cisco networks that provides network visibility, analytics, and automation capabilities.",
+    "properties": {},
+    "tags": []
+  },
+  "Riverbed SteelCentral NetProfiler": {
+    "name": "Riverbed SteelCentral NetProfiler",
+    "type": "Network Monitoring and Analytics",
+    "classification": "Networking Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/networking_services.svg",
+    "description": "A network performance monitoring solution that offers end-to-end visibility and analytics for multi-vendor networks.",
+    "properties": {},
+    "tags": []
+  },
+  "AppNeta": {
+    "name": "AppNeta",
+    "type": "Network Monitoring and Analytics",
+    "classification": "Networking Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/networking_services.svg",
+    "description": "A network monitoring and performance testing solution that provides real-time visibility and analytics for business-critical applications.",
+    "properties": {},
+    "tags": []
+  },
+  "ExtraHop": {
+    "name": "ExtraHop",
+    "type": "Network Monitoring and Analytics",
+    "classification": "Networking Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/networking_services.svg",
+    "description": "A network analytics platform that uses machine learning to provide real-time visibility and insights into network behavior and performance.",
+    "properties": {},
+    "tags": []
+  },
+  "Riverbed SteelCentral AppResponse": {
+    "name": "Riverbed SteelCentral AppResponse",
+    "type": "Network Monitoring and Analytics",
+    "classification": "Networking Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/networking_services.svg",
+    "description": "A network and application performance monitoring tool that offers deep packet inspection and analytics for troubleshooting and optimization.",
+    "properties": {},
+    "tags": []
+  },
+  "OpenVPN Access Server": {
+    "name": "OpenVPN Access Server",
+    "type": "Virtual Private Cloud",
+    "classification": "Networking Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/networking_services.svg",
+    "description": "A secure and scalable virtual private network solution that allows businesses to securely access their AWS resources from any location.",
+    "properties": {},
+    "tags": []
+  },
+  "Fortinet FortiGate NGFW": {
+    "name": "Fortinet FortiGate NGFW",
+    "type": "Virtual Private Cloud",
+    "classification": "Networking Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/networking_services.svg",
+    "description": "A next-generation firewall that provides advanced threat protection and secure connectivity for virtual private clouds.",
+    "properties": {},
+    "tags": []
+  },
+  "Barracuda CloudGen Firewall": {
+    "name": "Barracuda CloudGen Firewall",
+    "type": "Virtual Private Cloud",
+    "classification": "Networking Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/networking_services.svg",
+    "description": "A cloud-based firewall that offers advanced security features such as intrusion prevention, web filtering, and network segmentation for virtual private clouds.",
+    "properties": {},
+    "tags": []
+  },
+  "Palo Alto Networks VM-Series": {
+    "name": "Palo Alto Networks VM-Series",
+    "type": "Virtual Private Cloud",
+    "classification": "Networking Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/networking_services.svg",
+    "description": "A virtualized next-generation firewall that allows organizations to secure their virtual private cloud environments with advanced threat prevention capabilities.",
+    "properties": {},
+    "tags": []
+  },
+  "Citrix NetScaler VPX": {
+    "name": "Citrix NetScaler VPX",
+    "type": "Virtual Private Cloud",
+    "classification": "Networking Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/networking_services.svg",
+    "description": "A virtual application delivery controller that provides load balancing, traffic management, and secure remote access for applications running in virtual private clouds.",
+    "properties": {},
+    "tags": []
+  },
+  "Sophos XG Firewall": {
+    "name": "Sophos XG Firewall",
+    "type": "Virtual Private Cloud",
+    "classification": "Networking Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/networking_services.svg",
+    "description": "An all-in-one next-generation firewall that offers advanced security features, such as intrusion prevention, web filtering, and VPN connectivity, for virtual private clouds.",
+    "properties": {},
+    "tags": []
+  },
+  "Check Point CloudGuard": {
+    "name": "Check Point CloudGuard",
+    "type": "Virtual Private Cloud",
+    "classification": "Networking Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/networking_services.svg",
+    "description": "A cloud-native security solution that provides threat prevention, network security, and visibility for virtual private clouds.",
+    "properties": {},
+    "tags": []
+  },
+  "McAfee Virtual Network Security Platform": {
+    "name": "McAfee Virtual Network Security Platform",
+    "type": "Virtual Private Cloud",
+    "classification": "Networking Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/networking_services.svg",
+    "description": "A virtualized network security solution that offers advanced threat protection, intrusion prevention, and application control for virtual private clouds.",
+    "properties": {},
+    "tags": []
+  },
+  "Okta Identity Cloud": {
+    "name": "Okta Identity Cloud",
+    "type": "Authorization Services",
+    "classification": "Security and Identity Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/security_services.svg",
+    "description": "This is a cloud-based identity and access management solution that provides secure single sign-on, multi-factor authentication, and user lifecycle management for applications and devices.",
+    "properties": {},
+    "tags": []
+  },
+  "Duo Security": {
+    "name": "Duo Security",
+    "type": "Authorization Services",
+    "classification": "Security and Identity Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/security_services.svg",
+    "description": "Duo Security is a multi-factor authentication solution that helps organizations protect against data breaches and account takeover by verifying the identity of users and devices before granting access to applications or data.",
+    "properties": {},
+    "tags": []
+  },
+  "Ping Identity": {
+    "name": "Ping Identity",
+    "type": "Authorization Services",
+    "classification": "Security and Identity Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/security_services.svg",
+    "description": "Ping Identity is an identity and access management platform that enables organizations to securely manage and authenticate user access across multiple applications and endpoints.",
+    "properties": {},
+    "tags": []
+  },
+  "Auth0": {
+    "name": "Auth0",
+    "type": "Authorization Services",
+    "classification": "Security and Identity Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/security_services.svg",
+    "description": "Auth0 is a modern identity platform that provides authentication and authorization as a service, allowing developers to easily add user management and security features to their applications.",
+    "properties": {},
+    "tags": []
+  },
+  "OneLogin": {
+    "name": "OneLogin",
+    "type": "Authorization Services",
+    "classification": "Security and Identity Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/security_services.svg",
+    "description": "OneLogin is a cloud-based identity and access management solution that provides single sign-on, multi-factor authentication, and user provisioning for cloud applications, on-premises applications, and SaaS applications.",
+    "properties": {},
+    "tags": []
+  },
+  "Centrify Identity Platform": {
+    "name": "Centrify Identity Platform",
+    "type": "Authorization Services",
+    "classification": "Security and Identity Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/security_services.svg",
+    "description": "Centrify Identity Platform is a comprehensive identity and access management solution that provides single sign-on, multi-factor authentication, and privileged access management for cloud, mobile, and on-premises applications.",
+    "properties": {},
+    "tags": []
+  },
+  "ForgeRock Identity Platform": {
+    "name": "ForgeRock Identity Platform",
+    "type": "Authorization Services",
+    "classification": "Security and Identity Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/security_services.svg",
+    "description": "ForgeRock Identity Platform is an open-source identity and access management solution that provides a unified identity and access management platform for web, mobile, and IoT applications.",
+    "properties": {},
+    "tags": []
+  },
+  "CyberArk Privileged Access Security": {
+    "name": "CyberArk Privileged Access Security",
+    "type": "Authorization Services",
+    "classification": "Security and Identity Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/security_services.svg",
+    "description": "CyberArk Privileged Access Security is a solution for managing and securing privileged access to critical systems and data. It provides centralized control and monitoring of privileged access, reducing the risk of insider threats and external attacks.",
+    "properties": {},
+    "tags": []
+  },
+  "BeyondTrust Privilege Management for Windows": {
+    "name": "BeyondTrust Privilege Management for Windows",
+    "type": "Authorization Services",
+    "classification": "Security and Identity Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/security_services.svg",
+    "description": "BeyondTrust Privilege Management for Windows is a solution for managing and securing privileged access to Windows endpoints. It provides granular control over user privileges, reducing the risk of privilege abuse and malware attacks.",
+    "properties": {},
+    "tags": []
+  },
+  "SecureAuth Identity Platform": {
+    "name": "SecureAuth Identity Platform",
+    "type": "Authorization Services",
+    "classification": "Security and Identity Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/security_services.svg",
+    "description": "SecureAuth Identity Platform is an adaptive authentication and single sign-on solution that uses risk-based authentication to provide secure access to applications, devices, and networks. It supports multi-factor authentication, single sign-on, and user self-service.",
+    "properties": {},
+    "tags": []
+  },
+  "Thales Data Protection on Demand": {
+    "name": "Thales Data Protection on Demand",
+    "type": "Encryption Services",
+    "classification": "Security and Identity Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/security_services.svg",
+    "description": "This service offers a suite of encryption and key management solutions that can be easily deployed on AWS, providing organizations with secure data storage and transfer capabilities.",
+    "properties": {},
+    "tags": []
+  },
+  "Fortanix Self-Defending Key Management Service": {
+    "name": "Fortanix Self-Defending Key Management Service",
+    "type": "Encryption Services",
+    "classification": "Security and Identity Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/security_services.svg",
+    "description": "This product offers a cloud-native key management platform that enables organizations to securely store, manage, and use encryption keys on AWS.",
+    "properties": {},
+    "tags": []
+  },
+  "Vormetric Transparent Encryption": {
+    "name": "Vormetric Transparent Encryption",
+    "type": "Encryption Services",
+    "classification": "Security and Identity Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/security_services.svg",
+    "description": "This service provides data encryption and access controls for sensitive data stored on AWS, helping organizations meet compliance requirements and protect against data breaches.",
+    "properties": {},
+    "tags": []
+  },
+  "Gemalto SafeNet ProtectV": {
+    "name": "Gemalto SafeNet ProtectV",
+    "type": "Encryption Services",
+    "classification": "Security and Identity Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/security_services.svg",
+    "description": "This product allows organizations to encrypt virtual machines and storage volumes on AWS, ensuring data confidentiality and integrity in the cloud.",
+    "properties": {},
+    "tags": []
+  },
+  "CipherCloud Cloud Encryption Gateway": {
+    "name": "CipherCloud Cloud Encryption Gateway",
+    "type": "Encryption Services",
+    "classification": "Security and Identity Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/security_services.svg",
+    "description": "This service offers strong encryption and tokenization for data stored in AWS, ensuring data privacy and compliance with industry and regulatory standards.",
+    "properties": {},
+    "tags": []
+  },
+  "CloudHSM": {
+    "name": "CloudHSM",
+    "type": "Encryption Services",
+    "classification": "Security and Identity Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/security_services.svg",
+    "description": "This service provides dedicated hardware security modules (HSM) for key management and encryption on AWS, allowing organizations to maintain control over their encryption keys and meet compliance requirements.",
+    "properties": {},
+    "tags": []
+  },
+  "Thycotic Secret Server": {
+    "name": "Thycotic Secret Server",
+    "type": "Encryption Services",
+    "classification": "Security and Identity Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/security_services.svg",
+    "description": "This product offers a secure and centralized platform for managing privileged access and credentials on AWS, with encryption capabilities to ensure protection against cyber threats.",
+    "properties": {},
+    "tags": []
+  },
+  "Check Point CloudGuard IaaS": {
+    "name": "Check Point CloudGuard IaaS",
+    "type": "Encryption Services",
+    "classification": "Security and Identity Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/security_services.svg",
+    "description": "This service provides advanced threat prevention and encryption for workloads on AWS, helping organizations secure their cloud environments and comply with industry regulations.",
+    "properties": {},
+    "tags": []
+  },
+  "Fortinet FortiGate Next-Generation Firewall": {
+    "name": "Fortinet FortiGate Next-Generation Firewall",
+    "type": "Firewall",
+    "classification": "Security and Identity Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/security_services.svg",
+    "description": "A high-performance firewall that offers integrated threat management and advanced security features for AWS deployments.",
+    "properties": {},
+    "tags": []
+  },
+  "Palo Alto Networks VM-Series Next-Generation Firewall": {
+    "name": "Palo Alto Networks VM-Series Next-Generation Firewall",
+    "type": "Firewall",
+    "classification": "Security and Identity Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/security_services.svg",
+    "description": "A virtualized firewall that provides advanced security features for protecting applications and data in the cloud.",
+    "properties": {},
+    "tags": []
+  },
+  "Check Point CloudGuard Network Security": {
+    "name": "Check Point CloudGuard Network Security",
+    "type": "Firewall",
+    "classification": "Security and Identity Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/security_services.svg",
+    "description": "A cloud-native firewall that integrates with AWS services to provide advanced threat prevention and network security.",
+    "properties": {},
+    "tags": []
+  },
+  "Cisco ASAv Virtual Firewall": {
+    "name": "Cisco ASAv Virtual Firewall",
+    "type": "Firewall",
+    "classification": "Security and Identity Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/security_services.svg",
+    "description": "A virtualized firewall that offers advanced security features and can be easily integrated with existing Cisco security solutions.",
+    "properties": {},
+    "tags": []
+  },
+  "SonicWall NSv Virtual Firewall": {
+    "name": "SonicWall NSv Virtual Firewall",
+    "type": "Firewall",
+    "classification": "Security and Identity Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/security_services.svg",
+    "description": "A virtualized firewall that offers advanced security features such as intrusion prevention, application control, and content filtering.",
+    "properties": {},
+    "tags": []
+  },
+  "McAfee Network Security Platform": {
+    "name": "McAfee Network Security Platform",
+    "type": "Firewall",
+    "classification": "Security and Identity Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/security_services.svg",
+    "description": "A network intrusion prevention system that provides real-time threat detection and prevention for AWS environments.",
+    "properties": {},
+    "tags": []
+  },
+  "Juniper Networks vSRX Virtual Firewall": {
+    "name": "Juniper Networks vSRX Virtual Firewall",
+    "type": "Firewall",
+    "classification": "Security and Identity Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/security_services.svg",
+    "description": "A virtualized firewall that offers advanced security features and integrates with other Juniper security solutions.",
+    "properties": {},
+    "tags": []
+  },
+  "IBM Cloud Block Storage": {
+    "name": "IBM Cloud Block Storage",
+    "type": "Block Storage",
+    "classification": "Storage Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/storage_service.svg",
+    "description": "This product offers persistent storage for IBM Cloud virtual servers, with options for high-performance SSD or cost-effective HDD storage.",
+    "properties": {},
+    "tags": []
+  },
+  "NetApp Cloud Volumes ONTAP": {
+    "name": "NetApp Cloud Volumes ONTAP",
+    "type": "Block Storage",
+    "classification": "Storage Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/storage_service.svg",
+    "description": "A cloud-based enterprise storage solution that provides advanced data management capabilities such as data deduplication, compression, and encryption.",
+    "properties": {},
+    "tags": []
+  },
+  "Dell EMC PowerMax": {
+    "name": "Dell EMC PowerMax",
+    "type": "Block Storage",
+    "classification": "Storage Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/storage_service.svg",
+    "description": "A high-performance block storage solution designed for demanding workloads, with features such as automated tiering, data reduction, and data protection.",
+    "properties": {},
+    "tags": []
+  },
+  "Pure Storage FlashArray": {
+    "name": "Pure Storage FlashArray",
+    "type": "Block Storage",
+    "classification": "Storage Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/storage_service.svg",
+    "description": "A flash-based block storage solution designed for high-performance applications, featuring data reduction, data protection, and cloud integration capabilities.",
+    "properties": {},
+    "tags": []
+  },
+  "Hitachi Vantara VSP": {
+    "name": "Hitachi Vantara VSP",
+    "type": "Block Storage",
+    "classification": "Storage Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/storage_service.svg",
+    "description": "A block storage solution that offers high performance, scalability, and advanced data management capabilities such as thin provisioning and data deduplication.",
+    "properties": {},
+    "tags": []
+  },
+  "Red Hat Ceph Storage": {
+    "name": "Red Hat Ceph Storage",
+    "type": "Block Storage",
+    "classification": "Storage Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/storage_service.svg",
+    "description": "A distributed block storage system that is highly scalable and fault-tolerant, making it suitable for large-scale data storage and analytics workloads.",
+    "properties": {},
+    "tags": []
+  },
+  "Huawei OceanStor": {
+    "name": "Huawei OceanStor",
+    "type": "Block Storage",
+    "classification": "Storage Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/storage_service.svg",
+    "description": "A high-performance block storage solution with advanced features such as data compression, deduplication, and data tiering for optimized storage efficiency.",
+    "properties": {},
+    "tags": []
+  },
+  "Oracle Block Volumes": {
+    "name": "Oracle Block Volumes",
+    "type": "Block Storage",
+    "classification": "Storage Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/storage_service.svg",
+    "description": "A scalable and high-performance block storage solution for Oracle Cloud Infrastructure, featuring data encryption, replication, and automated backups.",
+    "properties": {},
+    "tags": []
+  },
+  "Cloudian HyperStore": {
+    "name": "Cloudian HyperStore",
+    "type": "Block Storage",
+    "classification": "Storage Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/storage_service.svg",
+    "description": "A software-defined object storage solution that can be deployed on-premises or in the cloud, with features such as data encryption, data versioning, and multi-tenancy.",
+    "properties": {},
+    "tags": []
+  },
+  "Kaminario K2": {
+    "name": "Kaminario K2",
+    "type": "Block Storage",
+    "classification": "Storage Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/storage_service.svg",
+    "description": "A block storage solution designed for high-performance enterprise workloads, with features such as data deduplication, thin provisioning, and advanced data protection capabilities.",
+    "properties": {},
+    "tags": []
+  },
+  "SwiftStack": {
+    "name": "SwiftStack",
+    "type": "Cold/Archive Storage",
+    "classification": "Storage Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/storage_service.svg",
+    "description": "Object storage solution for cold data archiving, with support for multiple tiers of storage and advanced data management features.",
+    "properties": {},
+    "tags": []
+  },
+  "Veritas NetBackup": {
+    "name": "Veritas NetBackup",
+    "type": "Cold/Archive Storage",
+    "classification": "Storage Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/storage_service.svg",
+    "description": "Enterprise-grade backup and recovery solution for cold data, with support for multiple storage environments and data deduplication.",
+    "properties": {},
+    "tags": []
+  },
+  "Hitachi Content Platform": {
+    "name": "Hitachi Content Platform",
+    "type": "Cold/Archive Storage",
+    "classification": "Storage Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/storage_service.svg",
+    "description": "Object storage platform for cold data archiving, with advanced data governance and compliance features.",
+    "properties": {},
+    "tags": []
+  },
+  "Cohesity DataPlatform": {
+    "name": "Cohesity DataPlatform",
+    "type": "Cold/Archive Storage",
+    "classification": "Storage Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/storage_service.svg",
+    "description": "Unified data management platform for cold data, with support for multiple storage environments and global deduplication.",
+    "properties": {},
+    "tags": []
+  },
+  "Pure Storage FlashBlade": {
+    "name": "Pure Storage FlashBlade",
+    "type": "Cold/Archive Storage",
+    "classification": "Storage Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/storage_service.svg",
+    "description": "High-performance data storage solution for cold data, with support for high-speed data access and scalable capacity.",
+    "properties": {},
+    "tags": []
+  },
+  "IBM Spectrum Discover": {
+    "name": "IBM Spectrum Discover",
+    "type": "Cold/Archive Storage",
+    "classification": "Storage Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/storage_service.svg",
+    "description": "AI-powered data management platform for cold data, with advanced data classification and policy-based archiving.",
+    "properties": {},
+    "tags": []
+  },
+  "Rubrik Cloud Data Management": {
+    "name": "Rubrik Cloud Data Management",
+    "type": "Cold/Archive Storage",
+    "classification": "Storage Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/storage_service.svg",
+    "description": "Cloud-based data management platform for cold data, with support for hybrid cloud environments and automated data lifecycle management.",
+    "properties": {},
+    "tags": []
+  },
+  "Spectra Logic BlackPearl": {
+    "name": "Spectra Logic BlackPearl",
+    "type": "Cold/Archive Storage",
+    "classification": "Storage Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/storage_service.svg",
+    "description": "Tape-based data archiving solution for cold data, with support for scalable storage and automated data retention policies.",
+    "properties": {},
+    "tags": []
+  },
+  "Veeam Backup & Replication": {
+    "name": "Veeam Backup & Replication",
+    "type": "Cold/Archive Storage",
+    "classification": "Storage Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/storage_service.svg",
+    "description": "Comprehensive data protection and management platform for cold data, with support for multiple storage environments and disaster recovery capabilities.",
+    "properties": {},
+    "tags": []
+  },
+  "JetStream Edge": {
+    "name": "JetStream Edge",
+    "type": "Edge Storage",
+    "classification": "Storage Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/storage_service.svg",
+    "description": "A high-performance edge storage solution that enables real-time data processing and analytics at the edge. It supports a variety of data sources and offers advanced data management capabilities.",
+    "properties": {},
+    "tags": []
+  },
+  "ClearBlade Edge Data Platform": {
+    "name": "ClearBlade Edge Data Platform",
+    "type": "Edge Storage",
+    "classification": "Storage Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/storage_service.svg",
+    "description": "An edge-native data storage and management platform that supports distributed data processing and analytics at the edge. It offers advanced security and data encryption features.",
+    "properties": {},
+    "tags": []
+  },
+  "MemSQL Edge": {
+    "name": "MemSQL Edge",
+    "type": "Edge Storage",
+    "classification": "Storage Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/storage_service.svg",
+    "description": "A distributed edge database that enables real-time analytics and decision-making at the edge. It integrates with existing data sources and supports advanced data processing and machine learning capabilities.",
+    "properties": {},
+    "tags": []
+  },
+  "Cloudian HyperStore Edge": {
+    "name": "Cloudian HyperStore Edge",
+    "type": "Edge Storage",
+    "classification": "Storage Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/storage_service.svg",
+    "description": "A software-defined storage platform that enables edge data storage and management. It supports data deduplication and compression, ensuring efficient use of storage resources.",
+    "properties": {},
+    "tags": []
+  },
+  "ScaleOut GeoServer": {
+    "name": "ScaleOut GeoServer",
+    "type": "Edge Storage",
+    "classification": "Storage Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/storage_service.svg",
+    "description": "A distributed data storage solution that enables real-time data processing and analytics at the edge. It supports advanced data replication and disaster recovery capabilities.",
+    "properties": {},
+    "tags": []
+  },
+  "Redis Edge": {
+    "name": "Redis Edge",
+    "type": "Edge Storage",
+    "classification": "Storage Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/storage_service.svg",
+    "description": "A high-performance, in-memory data storage and processing platform that enables real-time data analytics and decision-making at the edge. It supports advanced data structures and caching capabilities.",
+    "properties": {},
+    "tags": []
+  },
+  "Kinetica Edge": {
+    "name": "Kinetica Edge",
+    "type": "Edge Storage",
+    "classification": "Storage Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/storage_service.svg",
+    "description": "An edge-native database that supports real-time data processing and analytics at the edge. It offers advanced data visualization and machine learning capabilities.",
+    "properties": {},
+    "tags": []
+  },
+  "Qumulo Edge": {
+    "name": "Qumulo Edge",
+    "type": "Edge Storage",
+    "classification": "Storage Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/storage_service.svg",
+    "description": "A scalable, distributed file storage solution that enables edge data storage and management. It supports advanced data protection and access control features.",
+    "properties": {},
+    "tags": []
+  },
+  "Dremio Edge": {
+    "name": "Dremio Edge",
+    "type": "Edge Storage",
+    "classification": "Storage Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/storage_service.svg",
+    "description": "A data lake engine that enables real-time data processing and analytics at the edge. It supports a variety of data sources and offers advanced data integration capabilities.",
+    "properties": {},
+    "tags": []
+  },
+  "Hazelcast Jet": {
+    "name": "Hazelcast Jet",
+    "type": "Edge Storage",
+    "classification": "Storage Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/storage_service.svg",
+    "description": "A distributed, in-memory data processing platform that enables real-time analytics and decision-making at the edge. It supports advanced data streaming and event processing capabilities.",
     "properties": {},
     "tags": []
   }
