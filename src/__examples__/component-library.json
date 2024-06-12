@@ -823,6 +823,24 @@
     "properties": {},
     "tags": []
   },
+  "Amazon Region": {
+    "name": "Amazon Region",
+    "type": "Region",
+    "classification": "Region",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/region.svg",
+    "description": "An AWS Region is a physical location in the world where AWS has multiple data centers. Each Region consists of multiple Availability Zones, which are isolated locations within the Region. AWS Regions are designed to provide low-latency, high-availability, and fault-tolerant infrastructure for your applications.",
+    "properties": {},
+    "tags": []
+  },
+  "AWS Account": {
+    "name": "AWS Account",
+    "type": "Account",
+    "classification": "Account",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/account.svg",
+    "description": "An AWS account is a container for your AWS resources. It includes the information you use to access AWS, the resources you create, and the billing information for those resources. You can have multiple AWS accounts, each with its own resources and settings.",
+    "properties": {},
+    "tags": []
+  },
   "Node": {
     "name": "Node",
     "type": "Unknown",
