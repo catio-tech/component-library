@@ -26,3 +26,29 @@ const generateTypesForSchema = async () => {
 };
 
 generateTypesForSchema().catch(console.error);
+
+const generateRelationshipTypesForSchema = async () => {
+  try {
+    const typeDef = await compileFromFile(
+      path.join(__dirname, '..', 'src', 'relationship-library.schema.json'),
+      {
+        enableConstEnums: true,
+      }
+    );
+
+    await writeFile(
+      path.join(__dirname, '..', 'src', 'relationship-types.ts'),
+      typeDef
+    );
+
+    console.log(`✅ Generated types from relationship library JSON schema.`);
+  } catch (e) {
+    console.error(
+      `❌ Failed to generate types types from relationship library JSON schema.`
+    );
+
+    throw e;
+  }
+};
+
+generateRelationshipTypesForSchema().catch(console.error);
