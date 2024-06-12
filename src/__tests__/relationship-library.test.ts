@@ -1,6 +1,6 @@
 import Ajv from 'ajv';
-import schema from '../component-library.schema.json';
-import { componentLibrary } from '../__examples__';
+import schema from '../relationship-library.schema.json';
+import { relationshipLibrary } from '../__examples__';
 
 const ajv = new Ajv();
 
@@ -12,12 +12,12 @@ it('should be a valid JSON Schema', () => {
 // Create validation function
 const validate = ajv.compile(schema);
 
-it(`should validate object "componentLibrary"`, () => {
-  const result = validate(componentLibrary);
+it(`should validate object "relationshipLibrary"`, () => {
+  const result = validate(relationshipLibrary);
 
   if (validate.errors) {
     throw new Error(
-      `Validation error in componentLibrary:\n\n${JSON.stringify(validate.errors, null, 2)}`
+      `Validation error in relationshipLibrary:\n\n${JSON.stringify(validate.errors, null, 2)}`
     );
   }
 

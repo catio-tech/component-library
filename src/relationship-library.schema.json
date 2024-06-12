@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Relationship Library",
+  "type": "object",
+  "additionalProperties": {
+    "$ref": "#/definitions/relationship"
+  },
+  "definitions": {
+    "relationship": {
+      "type": "object",
+      "properties": {
+        "relationshipType": {
+          "type": "string",
+          "description": "The type of relationship between components."
+        },
+        "relationshipCategory": {
+          "type": "string",
+          "description": "The category of the relationship.",
+          "enum": ["group", "connection"]
+        },
+        "description": {
+          "type": "string",
+          "description": "A description of the relationship."
+        }
+      },
+      "required": ["relationshipType", "description", "relationshipCategory"]
+    }
+  }
+}
