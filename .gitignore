@@ -22,3 +22,6 @@ dist/*
 # misc
 .DS_Store
 *.pem
+
+# idea dir
+.idea

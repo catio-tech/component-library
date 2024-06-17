@@ -1,0 +1,82 @@
+{
+  "Parent-Child": {
+    "relationshipType": "Parent-Child",
+    "relationshipCategory": "group",
+    "description": "Hierarchical association where one service acts as the container or host for another, such as an EC2 instance (parent) running an application (child)."
+  },
+  "Peer-to-Peer": {
+    "relationshipType": "Peer-to-Peer",
+    "relationshipCategory": "connection",
+    "description": "Components that operate at the same hierarchical level and may communicate or synchronize with each other, like EC2 instances within a cluster."
+  },
+  "Dependency": {
+    "relationshipType": "Dependency",
+    "relationshipCategory": "connection",
+    "description": "When one component relies on the functionality or data of another, such as a web application (dependent) that requires a database service to operate."
+  },
+  "Associative": {
+    "relationshipType": "Associative",
+    "relationshipCategory": "connection",
+    "description": "A connection where components are related through a shared context or function but do not directly depend on each other, such as S3 buckets associated with the same AWS account."
+  },
+  "Shared Resource": {
+    "relationshipType": "Shared Resource",
+    "relationshipCategory": "connection",
+    "description": "Multiple components that utilize a common resource, like different Lambda functions invoking the same DynamoDB table."
+  },
+  "Networking": {
+    "relationshipType": "Networking",
+    "relationshipCategory": "group",
+    "description": "Defined by network rules and policies, such as security groups, VPC peering, or subnet associations that dictate how components can communicate."
+  },
+  "Replication": {
+    "relationshipType": "Replication",
+    "relationshipCategory": "connection",
+    "description": "Components designed for redundancy, where one is a replica of another, such as read replicas in an RDS database setup."
+  },
+  "Failover": {
+    "relationshipType": "Failover",
+    "relationshipCategory": "connection",
+    "description": "A high-availability setup where one component takes over if another fails, such as Route 53 health checks that reroute traffic if an endpoint fails."
+  },
+  "Load Balancing": {
+    "relationshipType": "Load Balancing",
+    "relationshipCategory": "connection",
+    "description": "Distributing traffic or load across multiple components, like an Elastic Load Balancer managing requests to EC2 instances."
+  },
+  "Aggregation": {
+    "relationshipType": "Aggregation",
+    "relationshipCategory": "group",
+    "description": "When multiple components are logically grouped together to form a larger service or application, such as microservices that comprise a backend system."
+  },
+  "Orchestration": {
+    "relationshipType": "Orchestration",
+    "relationshipCategory": "connection",
+    "description": "Managed by orchestration services like AWS Elastic Container Service (ECS) or Kubernetes on AWS (EKS), where the orchestrator manages the lifecycle of containers."
+  },
+  "Provisioning": {
+    "relationshipType": "Provisioning",
+    "relationshipCategory": "connection",
+    "description": "When components are responsible for creating or managing other resources, such as AWS CloudFormation or Terraform scripts that define infrastructure as code."
+  },
+  "Subscription": {
+    "relationshipType": "Subscription",
+    "relationshipCategory": "connection",
+    "description": "Components that are publishers or subscribers in a pub/sub model, such as SNS topics and SQS queues."
+  },
+  "Security": {
+    "relationshipType": "Security",
+    "relationshipCategory": "connection",
+    "description": "Components that are part of the security infrastructure, like IAM roles assigned to EC2 instances or Lambda functions."
+  },
+  "Backup and Restore": {
+    "relationshipType": "Backup and Restore",
+    "relationshipCategory": "connection",
+    "description": "Components involved in the backup process and those that can be restored from those backups, such as EBS volumes and their snapshots."
+  },
+  "Monitoring and Logging": {
+    "relationshipType": "Monitoring and Logging",
+    "relationshipCategory": "connection",
+    "description": "Relationships defined by monitoring and logging services like CloudWatch, where metrics or logs from one component are collected and analyzed."
+  }
+}
