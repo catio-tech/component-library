@@ -11,3 +11,4 @@ export {
   relationshipLibrary,
 };
 export * from './types.js';
+export * from './relationship-types.js';

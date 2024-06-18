@@ -1,6 +1,6 @@
 {
   "watch": ["src"],
-  "ignore": ["src/types.ts"],
+  "ignore": ["src/types.ts", "src/relationship-types.ts"],
   "ext": "ts,js,mjs,cjs,json",
   "exec": "yarn build && yarn format-fix --log-level warn"
 }
