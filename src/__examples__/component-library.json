@@ -968,7 +968,7 @@
     "type": "Containers and Orchestration",
     "classification": "Containers and Orchestration",
     "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/containers_class.svg",
-    "description": "These services help manage and deploy containers at scale, including Amazon ECS for container management, Amazon EKS for  orchestration, and AWS Fargate for serverless container execution.",
+    "description": "These services help manage and deploy containers at scale, including Amazon ECS for container management, Amazon EKS for Kubernetes orchestration, and AWS Fargate for serverless container execution.",
     "properties": {},
     "tags": []
   },
