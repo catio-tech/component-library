@@ -607,6 +607,24 @@
     "properties": {},
     "tags": []
   },
+  "AWS Subnet": {
+    "name": "AWS Subnet",
+    "type": "Network",
+    "classification": "Network Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/network_services.svg",
+    "description": "AWS Subnets are segments of a VPC’s IP address range where you can place groups of isolated resources. They allow you to partition your network inside a VPC to manage and secure resources effectively.",
+    "properties": {},
+    "tags": []
+  },
+  "AWS Security Group": {
+    "name": "AWS Security Group",
+    "type": "Network Security",
+    "classification": "Security Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/security_services.svg",
+    "description": "AWS Security Groups act as virtual firewalls that control inbound and outbound traffic for AWS resources. They provide a way to set rules that filter traffic based on IP address, protocol, and port.",
+    "properties": {},
+    "tags": []
+  },
   "AWS Direct Connect": {
     "name": "AWS Direct Connect",
     "type": "Direct Connect",
@@ -950,7 +968,7 @@
     "type": "Containers and Orchestration",
     "classification": "Containers and Orchestration",
     "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/containers_class.svg",
-    "description": "These services help manage and deploy containers at scale, including Amazon ECS for container management, Amazon EKS for Kubernetes orchestration, and AWS Fargate for serverless container execution.",
+    "description": "These services help manage and deploy containers at scale, including Amazon ECS for container management, Amazon EKS for  orchestration, and AWS Fargate for serverless container execution.",
     "properties": {},
     "tags": []
   },
@@ -1311,6 +1329,42 @@
     "classification": "Compute Services",
     "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/compute_services.svg",
     "description": "A popular open-source container orchestration platform that streamlines the deployment, scaling, and management of containerized applications.",
+    "properties": {},
+    "tags": []
+  },
+  "Kubernetes Deployment": {
+    "name": "Kubernetes Deployment",
+    "type": "Container Orchestration",
+    "classification": "Application Management",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/container_orchestration.svg",
+    "description": "Kubernetes Deployments provide declarative updates for Pods and ReplicaSets. They help automate the deployment, scaling, and management of containerized applications, ensuring they are running smoothly and efficiently.",
+    "properties": {},
+    "tags": []
+  },
+  "Kubernetes StatefulSet": {
+    "name": "Kubernetes StatefulSet",
+    "type": "Container Orchestration",
+    "classification": "Application Management",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/container_orchestration.svg",
+    "description": "Kubernetes StatefulSets manage the deployment and scaling of a set of Pods, and provide guarantees about the ordering and uniqueness of these Pods. They are specifically designed for stateful applications requiring persistent storage and consistent network identities.",
+    "properties": {},
+    "tags": []
+  },
+  "Kubernetes Service": {
+    "name": "Kubernetes Service",
+    "type": "Container Orchestration",
+    "classification": "Networking",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/container_orchestration.svg",
+    "description": "Kubernetes Services provide a stable endpoint for accessing a set of Pods. They define how to access the Pods via a network, enabling load balancing and service discovery.",
+    "properties": {},
+    "tags": []
+  },
+  "Kubernetes Pod": {
+    "name": "Kubernetes Pod",
+    "type": "Container Orchestration",
+    "classification": "Workloads",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/container_orchestration.svg",
+    "description": "Kubernetes Pods are the smallest deployable units in Kubernetes that can be created, scheduled, and managed. A Pod represents a single instance of a running process in your cluster and can contain one or more containers.",
     "properties": {},
     "tags": []
   },
