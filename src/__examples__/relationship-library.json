@@ -6,7 +6,7 @@
     "targetComponentName": "child",
     "description": "A Parent-Child relationship signifies a hierarchical link where one component (the parent) serves as the container, host, manager, or aggregator for another component (the child). The parent component is the source, while the child component is the target. This relationship should not be mistaken for a dependency.",
     "keyCharacteristics": "Parent Component: Serves as the container, host, manager, or aggregator.\nChild Component: Is contained, hosted, managed, or aggregated by the parent.",
-    "identificationCriteria": "Containment or Hosting: Identify if one component contains, hosts, manages, or aggregates another component.\nHierarchical Structure: Confirm the hierarchical nature of the relationship.\nNon-Dependency: Ensure this relationship is not based on the functional or data reliance typically seen in dependencies."
+    "identificationCriteria": "Containment or Hosting: Identify if one component contains, hosts, manages, or aggregates another component.\nHierarchical Structure: Confirm the hierarchical nature of the relationship.\nSource and Target Verification: Ensure that the parent component is always the source and the child component is always the target.\nSourceId and TargetId: The 'sourceId' must be the id of the parent component and the 'targetId' must be the id of the child component.\nNon-Dependency: Ensure this relationship is not based on the functional or data reliance typically seen in dependencies."
   },
   "Dependency": {
     "relationshipType": "Dependency",
