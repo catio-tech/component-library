@@ -4,17 +4,17 @@
     "relationshipCategory": "group",
     "sourceComponentName": "parent",
     "targetComponentName": "child",
-    "description": "A parent-child relationship represents a hierarchical association where one component (the parent) acts as the container, host, manager, or aggregator for another component (the child). The source component is always the parent, and the target component is always the child.",
-    "keyCharacteristics": "Parent Component: Acts as the container, host, manager, or aggregator.\nChild Component: Is contained, hosted, managed, or aggregated by the parent.",
-    "identificationCriteria": "Containment or Hosting: Look for evidence that one component contains, hosts, manages, or aggregates another component.\nHierarchical Structure: Verify the hierarchical nature of the relationship."
+    "description": "A Parent-Child relationship signifies a hierarchical link where one component (the parent) serves as the container, host, manager, or aggregator for another component (the child). The parent component is the source, while the child component is the target. This relationship should not be mistaken for a dependency.",
+    "keyCharacteristics": "Parent Component: Serves as the container, host, manager, or aggregator.\nChild Component: Is contained, hosted, managed, or aggregated by the parent.",
+    "identificationCriteria": "Containment or Hosting: Identify if one component contains, hosts, manages, or aggregates another component.\nHierarchical Structure: Confirm the hierarchical nature of the relationship.\nNon-Dependency: Ensure this relationship is not based on the functional or data reliance typically seen in dependencies."
   },
   "Dependency": {
     "relationshipType": "Dependency",
     "relationshipCategory": "connection",
     "sourceComponentName": "dependent",
     "targetComponentName": "provider",
-    "description": "A dependency relationship exists when one component (the dependent) relies on the functionality or data of another component (the provider). The source component is always the dependent, and the target component is always the provider.",
-    "keyCharacteristics": "Dependent Component: Relies on the functionality or data of another component.\nProvider Component: Provides the functionality or data required by the dependent.",
-    "identificationCriteria": "Functionality or Data Dependency: Look for evidence that one component relies on the functionality or data of another component.\nOperational Dependency: Verify that the dependent component requires the provider component to function properly."
+    "description": "A Dependency relationship exists when one component (the dependent) relies on the functionality or data provided by another component (the provider). The dependent component is the source, while the provider component is the target. This relationship should not overlap with hierarchical Parent-Child relationships.",
+    "keyCharacteristics": "Dependent Component: Relies on the functionality or data of another component.\nProvider Component: Supplies the functionality or data needed by the dependent.",
+    "identificationCriteria": "Functionality or Data Dependency: Determine if one component relies on the functionality or data of another component.\nOperational Dependency: Verify that the dependent component requires the provider component to function correctly.\nNon-Hierarchical: Ensure this relationship is not based on the hierarchical containment typical of Parent-Child relationships."
   }
 }
