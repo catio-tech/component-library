@@ -175,6 +175,15 @@
     "properties": {},
     "tags": []
   },
+  "Amazon Auto Scaling": {
+    "name": "Amazon Auto Scaling",
+    "type": "Auto Scaling Group",
+    "classification": "Compute Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/compute_services.svg",
+    "description": "Amazon Auto Scaling helps you maintain application availability and allows you to automatically add or remove EC2 instances according to conditions you define. You can use Auto Scaling to help ensure that you are running your desired number of instances.",
+    "properties": {},
+    "tags": []
+  },
   "AWS Batch": {
     "name": "AWS Batch",
     "type": "Batch Processing",
