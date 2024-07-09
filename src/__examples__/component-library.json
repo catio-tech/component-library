@@ -1412,6 +1412,21 @@
     "properties": {},
     "tags": []
   },
+  "Kubernetes Job": {
+    "name": "Kubernetes Job",
+    "type": "Job",
+    "classification": "Workload",
+    "iconUrl": "https://example.com/path-to-job-icon.svg",
+    "description": "A Kubernetes Job creates one or more pods and ensures that a specified number of them successfully terminate. It is used to run batch processing or single-run tasks in a Kubernetes cluster.",
+    "properties": {
+      "jobName": "string",
+      "completions": "integer",
+      "parallelism": "integer",
+      "activeDeadlineSeconds": "integer",
+      "backoffLimit": "integer"
+    },
+    "tags": ["Kubernetes", "Job", "Workload", "Batch Processing"]
+  },
   "Docker Enterprise": {
     "name": "Docker Enterprise",
     "type": "Containers",
