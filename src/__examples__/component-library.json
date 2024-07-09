@@ -1338,12 +1338,7 @@
     "classification": "Containers and Orchestration",
     "iconUrl": "https://example.com/path-to-namespace-icon.svg",
     "description": "A Kubernetes Namespace provides a mechanism for isolating groups of resources within a single cluster.",
-    "properties": {
-      "namespaceName": "string",
-      "resourceQuota": "object",
-      "labels": "object",
-      "annotations": "object"
-    },
+    "properties": {},
     "tags": ["Kubernetes", "Namespace", "Isolation"]
   },
   "Kubernetes Volume": {
@@ -1352,13 +1347,7 @@
     "classification": "Storage",
     "iconUrl": "https://example.com/path-to-volume-icon.svg",
     "description": "A Kubernetes Volume is a directory accessible to containers in a pod, used to store data.",
-    "properties": {
-      "volumeName": "string",
-      "storageClass": "string",
-      "capacity": "string",
-      "accessModes": "array",
-      "mountPath": "string"
-    },
+    "properties": {},
     "tags": ["Kubernetes", "Volume", "Storage"]
   },
   "Kubernetes Service Account": {
@@ -1367,13 +1356,7 @@
     "classification": "Security and Identity",
     "iconUrl": "https://example.com/path-to-service-account-icon.svg",
     "description": "A Kubernetes Service Account provides an identity for processes running in a Pod to access the Kubernetes API.",
-    "properties": {
-      "serviceAccountName": "string",
-      "namespace": "string",
-      "secrets": "array",
-      "imagePullSecrets": "array",
-      "automountServiceAccountToken": "boolean"
-    },
+    "properties": {},
     "tags": ["Kubernetes", "Service Account", "Identity"]
   },
   "Kubernetes Deployment": {
@@ -1418,13 +1401,7 @@
     "classification": "Workload",
     "iconUrl": "https://example.com/path-to-job-icon.svg",
     "description": "A Kubernetes Job creates one or more pods and ensures that a specified number of them successfully terminate. It is used to run batch processing or single-run tasks in a Kubernetes cluster.",
-    "properties": {
-      "jobName": "string",
-      "completions": "integer",
-      "parallelism": "integer",
-      "activeDeadlineSeconds": "integer",
-      "backoffLimit": "integer"
-    },
+    "properties": {},
     "tags": ["Kubernetes", "Job", "Workload", "Batch Processing"]
   },
   "Docker Enterprise": {
