@@ -166,12 +166,12 @@
     "properties": {},
     "tags": []
   },
-  "Amazon EKS": {
-    "name": "Amazon EKS",
+  "Amazon EKS - Elastic Kubernetes Service": {
+    "name": "Amazon EKS - Elastic Kubernetes Service",
     "type": "Orchestration Engines",
     "classification": "Containers and Orchestration",
     "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/containers.svg",
-    "description": "Amazon EKS is a managed Kubernetes service that makes it easy to run Kubernetes on AWS and on-premises. EKS is fully compatible with Kubernetes applications and tools, ensuring you can easily migrate any standard Kubernetes application to EKS without any code modification",
+    "description": "Amazon Elastic Kubernetes Service (EKS) is a managed Kubernetes service that simplifies running Kubernetes on AWS. It allows you to deploy, manage, and scale containerized applications using Kubernetes. Amazon EKS provides a highly available and secure Kubernetes control plane and handles the cluster operations, including patching, node provisioning, and scaling.",
     "properties": {},
     "tags": []
   },
@@ -1329,15 +1329,6 @@
     "classification": "Compute Services",
     "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/compute_services.svg",
     "description": "A real-time data integration and replication tool that enables organizations to continuously move and synchronize data between databases, data warehouses, and cloud platforms, enabling real-time analytics and decision-making.",
-    "properties": {},
-    "tags": []
-  },
-  "Kubernetes": {
-    "name": "Kubernetes",
-    "type": "Containers",
-    "classification": "Compute Services",
-    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/compute_services.svg",
-    "description": "A popular open-source container orchestration platform that streamlines the deployment, scaling, and management of containerized applications.",
     "properties": {},
     "tags": []
   },
