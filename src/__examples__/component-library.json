@@ -619,8 +619,8 @@
   "AWS Subnet": {
     "name": "AWS Subnet",
     "type": "Network",
-    "classification": "Network Services",
-    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/network_services.svg",
+    "classification": "Networking Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/networking_services.svg",
     "description": "AWS Subnets are segments of a VPC’s IP address range where you can place groups of isolated resources. They allow you to partition your network inside a VPC to manage and secure resources effectively.",
     "properties": {},
     "tags": []
@@ -854,7 +854,7 @@
     "name": "Amazon Region",
     "type": "Region",
     "classification": "Region",
-    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/region.svg",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/node.svg",
     "description": "An AWS Region is a physical location in the world where AWS has multiple data centers. Each Region consists of multiple Availability Zones, which are isolated locations within the Region. AWS Regions are designed to provide low-latency, high-availability, and fault-tolerant infrastructure for your applications.",
     "properties": {},
     "tags": []
@@ -863,7 +863,7 @@
     "name": "AWS Account",
     "type": "Account",
     "classification": "Account",
-    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/account.svg",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/node.svg",
     "description": "An AWS account is a container for your AWS resources. It includes the information you use to access AWS, the resources you create, and the billing information for those resources. You can have multiple AWS accounts, each with its own resources and settings.",
     "properties": {},
     "tags": []
@@ -1336,7 +1336,7 @@
     "name": "Kubernetes Namespace",
     "type": "Namespace",
     "classification": "Containers and Orchestration",
-    "iconUrl": "https://example.com/path-to-namespace-icon.svg",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/containers_class.svg",
     "description": "A Kubernetes Namespace provides a mechanism for isolating groups of resources within a single cluster.",
     "properties": {},
     "tags": ["Kubernetes", "Namespace", "Isolation"]
@@ -1345,7 +1345,7 @@
     "name": "Kubernetes Volume",
     "type": "Volume",
     "classification": "Storage",
-    "iconUrl": "https://example.com/path-to-volume-icon.svg",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/containers_class.svg",
     "description": "A Kubernetes Volume is a directory accessible to containers in a pod, used to store data.",
     "properties": {},
     "tags": ["Kubernetes", "Volume", "Storage"]
@@ -1354,7 +1354,7 @@
     "name": "Kubernetes Service Account",
     "type": "ServiceAccount",
     "classification": "Security and Identity",
-    "iconUrl": "https://example.com/path-to-service-account-icon.svg",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/containers_class.svg",
     "description": "A Kubernetes Service Account provides an identity for processes running in a Pod to access the Kubernetes API.",
     "properties": {},
     "tags": ["Kubernetes", "Service Account", "Identity"]
@@ -1363,7 +1363,7 @@
     "name": "Kubernetes Deployment",
     "type": "Container Orchestration",
     "classification": "Application Management",
-    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/container_orchestration.svg",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/containers_class.svg",
     "description": "Kubernetes Deployments provide declarative updates for Pods and ReplicaSets. They help automate the deployment, scaling, and management of containerized applications, ensuring they are running smoothly and efficiently.",
     "properties": {},
     "tags": []
@@ -1372,7 +1372,7 @@
     "name": "Kubernetes StatefulSet",
     "type": "Container Orchestration",
     "classification": "Application Management",
-    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/container_orchestration.svg",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/containers_class.svg",
     "description": "Kubernetes StatefulSets manage the deployment and scaling of a set of Pods, and provide guarantees about the ordering and uniqueness of these Pods. They are specifically designed for stateful applications requiring persistent storage and consistent network identities.",
     "properties": {},
     "tags": []
@@ -1381,7 +1381,7 @@
     "name": "Kubernetes Service",
     "type": "Container Orchestration",
     "classification": "Networking",
-    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/container_orchestration.svg",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/containers_class.svg",
     "description": "Kubernetes Services provide a stable endpoint for accessing a set of Pods. They define how to access the Pods via a network, enabling load balancing and service discovery.",
     "properties": {},
     "tags": []
@@ -1390,7 +1390,7 @@
     "name": "Kubernetes Pod",
     "type": "Container Orchestration",
     "classification": "Workloads",
-    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/container_orchestration.svg",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/containers_class.svg",
     "description": "Kubernetes Pods are the smallest deployable units in Kubernetes that can be created, scheduled, and managed. A Pod represents a single instance of a running process in your cluster and can contain one or more containers.",
     "properties": {},
     "tags": []
@@ -1399,10 +1399,19 @@
     "name": "Kubernetes Job",
     "type": "Job",
     "classification": "Workload",
-    "iconUrl": "https://example.com/path-to-job-icon.svg",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/containers_class.svg",
     "description": "A Kubernetes Job creates one or more pods and ensures that a specified number of them successfully terminate. It is used to run batch processing or single-run tasks in a Kubernetes cluster.",
     "properties": {},
     "tags": ["Kubernetes", "Job", "Workload", "Batch Processing"]
+  },
+  "Kubernetes Secret": {
+    "name": "Kubernetes Secret",
+    "type": "Secret",
+    "classification": "Kubernetes Secret",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/security_services.svg",
+    "description": "Kubernetes Secrets are objects used to store sensitive information, such as passwords, OAuth tokens, and SSH keys, in a Kubernetes cluster. They provide a way to secure and manage sensitive data.",
+    "properties": {},
+    "tags": ["Kubernetes", "Secret"]
   },
   "Docker Enterprise": {
     "name": "Docker Enterprise",
