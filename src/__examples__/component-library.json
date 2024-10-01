@@ -1421,7 +1421,7 @@
     "description": "A Kubernetes ConfigMap is an object that stores key-value pairs of configuration data that can be used by your applications. It allows you to decouple configuration settings from container images, making it easier to manage environment-specific configurations without modifying your app's code. ConfigMaps can be consumed as environment variables, command-line arguments, or mounted as configuration files inside containers.",
     "properties": {},
     "tags": ["Kubernetes", "Configuration"]
-  }
+  },
   "Kubernetes Secret": {
     "name": "Kubernetes Secret",
     "type": "Secret",
