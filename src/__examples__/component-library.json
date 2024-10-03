@@ -53,12 +53,30 @@
     "properties": {},
     "tags": []
   },
-  "Amazon API Gateway": {
-    "name": "Amazon API Gateway",
+  "Amazon API": {
+    "name": "Amazon API",
     "type": "API Management",
-    "classification": "Developer Tools",
+    "classification": "Networking Services",
     "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/developer_tools.svg",
     "description": "Amazon API Gateway is a fully managed service that makes it easy for developers to create, publish, maintain, monitor, and secure APIs at any scale. It handles all the tasks involved in accepting and processing up to hundreds of thousands of concurrent API calls, including traffic management, authorization and access control, monitoring, and API version management.",
+    "properties": {},
+    "tags": []
+  },
+  "Amazon API Resource": {
+    "name": "Amazon API Resource",
+    "type": "API Management",
+    "classification": "Networking Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/developer_tools.svg",
+    "description": "The Amazon API Gateway Resource represents an individual API endpoint within a RESTful API. It acts as a container for the methods (such as GET, POST, etc.) that define how API requests are processed and routed to backend services. Each resource can be mapped to a specific URL path and can be used to model different entities or actions within an API. Resources can also have child resources to create hierarchical API structures.",
+    "properties": {},
+    "tags": []
+  },
+  "Amazon API Resource Method": {
+    "name": "Amazon API Resource Method",
+    "type": "API Management",
+    "classification": "Networking Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/developer_tools.svg",
+    "description": "The Amazon API Gateway Resource Method defines the specific HTTP request type (e.g., GET, POST, PUT) that a resource supports. It specifies how API Gateway should process the request, including integration with backend services (e.g., Lambda, HTTP, or other AWS services), request/response mapping, authentication, and authorization settings. Each method can have different configurations for request validation, caching, and throttling.",
     "properties": {},
     "tags": []
   },
