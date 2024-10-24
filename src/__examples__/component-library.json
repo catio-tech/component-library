@@ -1,12 +1,588 @@
 {
-  "Amazon Elasticsearch Service": {
-    "name": "Amazon Elasticsearch Service",
+  "AWS OpenSearch": {
+    "name": "AWS OpenSearch",
     "type": "Log Analysis",
     "classification": "Analytics Services",
     "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/analytics_services.svg",
-    "description": "Amazon Elasticsearch Service is a fully managed service that makes it easy to deploy, manage, and scale Elasticsearch clusters in the AWS Cloud. It provides the flexibility to securely search, analyze, and visualize data in real-time.",
+    "description": "AWS OpenSearch (formerly Amazon Elasticsearch Service is a fully managed service that makes it easy to deploy, manage, and scale Elasticsearch clusters in the AWS Cloud. It provides the flexibility to securely search, analyze, and visualize data in real-time.",
     "properties": {},
     "tags": []
+  },
+  "Amazon DocumentDB": {
+    "name": "Amazon DocumentDB",
+    "type": "NoSQL Database",
+    "classification": "Database Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/database_services.svg",
+    "description": "Amazon DocumentDB is a fully managed NoSQL document database service that makes it easy to store, query, and manage data at scale.  It offers high availability, durability, and built-in security features. Additionally, Amazon DocumentDB provides compatibility with MongoDB, allowing developers to migrate existing applications or leverage familiar tools and APIs.",
+    "properties": {},
+    "tags": []
+  },
+  "AWS Availability Zones": {
+    "name": "AWS Availability Zones",
+    "type": "Infrastructure Component",
+    "classification": "Networking Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/networking_services.svg",
+    "description": "AWS Availability Zones are distinct geographic locations within an AWS Region that are designed to be independent failures. Each Availability Zone has multiple data centers, and each data center has redundant power, networking, and cooling. This helps to ensure high availability and resilience for your applications.",
+    "properties": {},
+    "tags": []
+  },
+  "AWS Organizations": {
+    "name": "AWS Organizations",
+    "type": "Management Service",
+    "classification": "Account Management",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/account_management.svg",
+    "description": "AWS Organizations is a service that enables you to centrally manage and govern multiple AWS accounts within your organization. It allows you to:\n\n* **Consolidate Billing:** Simplify your billing process by paying for all your accounts under a single bill.\n* **Centralized Policy Management:** Create and enforce policies across your organization or specific organizational units (OUs) to ensure consistent configuration and security.\n* **Hierarchical Account Structure:** Organize your accounts in a hierarchical structure with a root at the top and OUs for further grouping.\n* **Account Management:** Create, invite, and manage member accounts within your organization.",
+    "properties": {},
+    "tags": ["account management", "governance", "compliance"]
+  },
+  "Amazon SNS": {
+    "name": "Amazon SNS",
+    "type": "Notification Service",
+    "classification": "Application Integration",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/application_integration.svg",
+    "description": "Amazon SNS is a fully managed pub/sub messaging service for sending notifications to various destinations. It allows you to decouple applications and services by enabling them to communicate asynchronously. SNS supports a wide range of notification delivery options, including SMS, email, mobile push notifications, SQS queues, and Lambda functions.",
+    "properties": {},
+    "tags": ["messaging", "notifications", "decoupling", "pub/sub"]
+  },
+  "AWS Access Analyzer": {
+    "name": "AWS Access Analyzer",
+    "type": "Security Service",
+    "classification": "Security and Identity Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/security_identity_compliance.svg",
+    "description": "AWS Access Analyzer is a security service that helps you identify and analyze access to your AWS resources. It automatically discovers and analyzes resources that are shared with external accounts, identifies unexpected access patterns, and provides recommendations to improve your security posture.",
+    "properties": {},
+    "tags": ["security", "access control", "compliance"]
+  },
+  "AWS Certificate Manager": {
+    "name": "AWS Certificate Manager",
+    "type": "Security Service",
+    "classification": "Security and Identity Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/security_identity_compliance.svg",
+    "description": "AWS Certificate Manager (ACM) is a fully managed service that makes it easy to request, manage, and deploy SSL/TLS certificates for your websites and applications. It integrates with other AWS services like Elastic Load Balancing and CloudFront, providing a seamless experience for securing your web infrastructure.",
+    "properties": {},
+    "tags": ["SSL/TLS", "certificates", "security", "web applications"]
+  },
+  "AWS Amplify": {
+    "name": "AWS Amplify",
+    "type": "Development Platform",
+    "classification": "Developer Tools",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/developer_tools.svg",
+    "description": "AWS Amplify is a serverless platform that makes it easier to build, deploy, and host full-stack web and mobile applications. It provides a set of pre-built components and features, such as authentication, data storage, hosting, and analytics, to simplify the development process.",
+    "properties": {},
+    "tags": [
+      "development",
+      "serverless",
+      "web applications",
+      "mobile applications"
+    ]
+  },
+  "AWS AppAutoScaling": {
+    "name": "AWS AppAutoScaling",
+    "type": "Management Service",
+    "classification": "Application Integration",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/application_integration.svg",
+    "description": "AWS AppAutoScaling is a fully managed service that automatically scales your application resources based on demand. It integrates with other AWS services like EC2, ECS, and Lambda to ensure optimal performance and cost efficiency.",
+    "properties": {},
+    "tags": ["scaling", "automation", "application management"]
+  },
+  "AWS AppConfig": {
+    "name": "AWS AppConfig",
+    "type": "Management Service",
+    "classification": "Application Integration",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/application_integration.svg",
+    "description": "AWS AppConfig is a fully managed service that helps you manage feature flags and configuration settings for your applications. It allows you to easily deploy and control application configurations, enabling you to experiment with new features, roll out changes gradually, and manage feature flags.",
+    "properties": {},
+    "tags": [
+      "configuration management",
+      "feature flags",
+      "application management"
+    ]
+  },
+  "AWS AppStream": {
+    "name": "AWS AppStream",
+    "type": "Application Delivery Service",
+    "classification": "Application Integration",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/application_integration.svg",
+    "description": "AWS AppStream is a fully managed application streaming service that allows you to deliver Windows applications to users on any device. It provides a secure and scalable way to access applications from the cloud, without requiring users to install software on their devices.",
+    "properties": {},
+    "tags": [
+      "application delivery",
+      "streaming",
+      "windows applications",
+      "security"
+    ]
+  },
+  "AWS AppSync": {
+    "name": "AWS AppSync",
+    "type": "API Development Platform",
+    "classification": "Developer Tools",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/developer_tools.svg",
+    "description": "AWS AppSync is a fully managed GraphQL API service that makes it easy to build and scale real-time applications. It provides a unified API for accessing multiple data sources, including GraphQL APIs, HTTP APIs, and WebSocket APIs.",
+    "properties": {},
+    "tags": ["API development", "GraphQL", "real-time data", "data integration"]
+  },
+  "AWS Backup": {
+    "name": "AWS Backup",
+    "type": "Management Service",
+    "classification": "Backup and Recovery",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/backup_and_recovery.svg",
+    "description": "AWS Backup is a fully managed backup service that makes it easy to centralize and automate backups across your AWS resources. It provides a simple interface for creating, managing, and restoring backups, and integrates with a wide range of AWS services.",
+    "properties": {},
+    "tags": ["backup", "recovery", "automation", "management"]
+  },
+  "AWS CloudControl": {
+    "name": "AWS CloudControl",
+    "type": "Management Service",
+    "classification": "Application Integration",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/application_integration.svg",
+    "description": "AWS CloudControl is a fully managed service that allows you to manage your AWS resources using a simple API. It provides a unified interface for interacting with multiple AWS services, simplifying the process of automating and managing your infrastructure.",
+    "properties": {},
+    "tags": ["automation", "infrastructure management", "API"]
+  },
+  "AWS Athena": {
+    "name": "AWS Athena",
+    "type": "Analytics Service",
+    "classification": "Analytics Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/analytics_services.svg",
+    "description": "AWS Athena is a serverless query engine that makes it easy to analyze data stored in Amazon S3 using standard SQL. It provides a cost-effective and scalable way to query data without having to manage any infrastructure.",
+    "properties": {},
+    "tags": ["analytics", "data analysis", "SQL", "serverless"]
+  },
+  "AWS CloudSearch": {
+    "name": "AWS CloudSearch",
+    "type": "Search Service",
+    "classification": "Analytics Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/analytics_services.svg",
+    "description": "AWS CloudSearch is a fully managed search service that makes it easy to add search capabilities to your web applications. It provides a scalable and reliable way to index, search, and explore data in real-time.",
+    "properties": {},
+    "tags": ["search", "indexing", "scalability", "web applications"]
+  },
+  "AWS Billing": {
+    "name": "AWS Billing",
+    "type": "Billing Service",
+    "classification": "Billing & Cost Management",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/billing_and_cost_management.svg",
+    "description": "AWS Cost and Usage Reports provide detailed information about your AWS usage and costs. You can use these reports to analyze your spending, identify cost-saving opportunities, and optimize your AWS resources.",
+    "properties": {},
+    "tags": ["billing", "cost management", "analysis", "optimization"]
+  },
+  "AWS DAX": {
+    "name": "AWS DAX",
+    "type": "Database Service",
+    "classification": "Database Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/database_services.svg",
+    "description": "AWS DAX is a fully managed, in-memory caching layer for Amazon DynamoDB that dramatically improves performance for read-heavy workloads. It provides low-latency, high-throughput access to your DynamoDB data, making it ideal for applications that require fast and consistent response times.",
+    "properties": {},
+    "tags": ["caching", "database", "performance", "DynamoDB"]
+  },
+  "AWS DLM": {
+    "name": "AWS DLM",
+    "type": "Management Service",
+    "classification": "Storage Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/storage_services.svg",
+    "description": "AWS DLM is a fully managed service that automates data lifecycle management for your Amazon S3 buckets. It allows you to create policies that define how your data is stored, archived, and deleted over time, ensuring that you meet compliance requirements and optimize your storage costs.",
+    "properties": {},
+    "tags": ["data management", "lifecycle management", "automation", "S3"]
+  },
+  "AWS Elastic Disaster Recovery": {
+    "name": "AWS Elastic Disaster Recovery",
+    "type": "Backup and Recovery Service",
+    "classification": "Backup and Recovery",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/backup_and_recovery.svg",
+    "description": "AWS Elastic Disaster Recovery is a fully managed service that provides a simple and cost-effective way to replicate and recover your on-premises applications to AWS in case of a disaster. It automates the process of replicating your applications and data to AWS, ensuring that you can quickly recover and continue operations in the event of a disruption.",
+    "properties": {},
+    "tags": ["disaster recovery", "replication", "migration", "on-premises"]
+  },
+  "Amazon EventBridge": {
+    "name": "Amazon EventBridge",
+    "type": "Messaging Service",
+    "classification": "Application Integration",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/application_integration.svg",
+    "description": "Amazon EventBridge is a serverless event bus service that makes it easy to connect applications, SaaS services, and custom integrations. It allows you to create event-driven architectures and decouple components of your applications, making them more scalable and resilient.",
+    "properties": {},
+    "tags": [
+      "event-driven architecture",
+      "messaging",
+      "integration",
+      "serverless"
+    ]
+  },
+  "AWS Firewall Manager": {
+    "name": "AWS Firewall Manager",
+    "type": "Security Service",
+    "classification": "Security and Identity Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/security_identity_compliance.svg",
+    "description": "AWS Firewall Manager is a managed service that helps you centrally manage firewalls across multiple AWS accounts and regions. It allows you to create and enforce consistent security policies for your network, ensuring that your resources are protected from unauthorized access.",
+    "properties": {},
+    "tags": ["security", "firewall", "policy management", "multi-account"]
+  },
+  "AWS Global Accelerator": {
+    "name": "AWS Global Accelerator",
+    "type": "Networking Service",
+    "classification": "Networking Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/networking_services.svg",
+    "description": "AWS Global Accelerator is a managed service that improves the performance of your global applications by providing low-latency, high-throughput routing from the edge of the AWS network to your applications. It uses a global network of edge locations to route traffic to the nearest and most available instance of your application, reducing latency and improving user experience.",
+    "properties": {},
+    "tags": ["networking", "performance", "global applications", "routing"]
+  },
+  "AWS Health": {
+    "name": "AWS Health",
+    "type": "Observability Service",
+    "classification": "Monitoring & Observability",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/monitoring_and_observability.svg",
+    "description": "AWS Health is a service that provides you with information about the health of AWS services and your applications. It helps you proactively monitor your resources, identify potential issues, and take action to prevent disruptions.",
+    "properties": {},
+    "tags": ["monitoring", "health", "observability", "troubleshooting"]
+  },
+  "AWS Identity Store": {
+    "name": "AWS Identity Store",
+    "type": "Identity and Access Management Service",
+    "classification": "Security and Identity Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/security_identity_compliance.svg",
+    "description": "AWS Identity Store is a fully managed identity service that makes it easy to manage user identities and permissions for your applications. It provides a central repository for user information, authentication, and authorization, allowing you to focus on building your applications rather than managing identity infrastructure.",
+    "properties": {},
+    "tags": [
+      "identity management",
+      "authentication",
+      "authorization",
+      "applications"
+    ]
+  },
+  "AWS Inspector": {
+    "name": "AWS Inspector",
+    "type": "Security Service",
+    "classification": "Security and Identity Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/security_identity_compliance.svg",
+    "description": "AWS Inspector is a vulnerability scanning service that helps you identify and assess security vulnerabilities in your EC2 instances. It automatically scans your instances for common vulnerabilities and provides detailed reports to help you remediate any issues.",
+    "properties": {},
+    "tags": ["security", "vulnerability scanning", "assessment", "EC2"]
+  },
+  "AWS Kinesis Analytics": {
+    "name": "AWS Kinesis Analytics",
+    "type": "Analytics Service",
+    "classification": "Analytics Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/analytics_services.svg",
+    "description": "AWS Kinesis Analytics is a serverless service that makes it easy to process and analyze streaming data in real time. It provides a SQL-based language for querying and analyzing data from Kinesis Data Streams, allowing you to gain insights into your real-time applications.",
+    "properties": {},
+    "tags": ["analytics", "real-time data", "SQL", "Kinesis Data Streams"]
+  },
+  "Amazon Lightsail": {
+    "name": "Amazon Lightsail",
+    "type": "Managed Platform Service",
+    "classification": "Developer Tools",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/developer_tools.svg",
+    "description": "AWS Lightsail is a simple way to get started on AWS by providing a pre-configured virtual private server (VPS) with everything you need to launch a website, application, or database. It offers a simplified experience with pre-installed software and managed services, making it ideal for developers and small businesses.",
+    "properties": {},
+    "tags": ["VPS", "managed services", "simplified experience", "developers"]
+  },
+  "Amazon Macie": {
+    "name": "Amazon Macie",
+    "type": "Security Service",
+    "classification": "Security and Identity Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/security_identity_compliance.svg",
+    "description": "Amazon Macie is a machine learning-based security service that helps you identify and analyze sensitive data in your S3 buckets. It automatically discovers and classifies sensitive data, providing you with insights into potential risks and compliance violations.",
+    "properties": {},
+    "tags": [
+      "security",
+      "data discovery",
+      "classification",
+      "machine learning",
+      "S3"
+    ]
+  },
+  "AWS Elemental MediaStore": {
+    "name": "AWS Elemental MediaStore",
+    "type": "Storage Service",
+    "classification": "Storage Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/storage_services.svg",
+    "description": "AWS Elemental MediaStore is a fully managed, high-performance storage service designed for media content. It offers low-latency, high-throughput access to your media files, making it ideal for streaming applications and content delivery.",
+    "properties": {},
+    "tags": ["storage", "media content", "performance", "streaming"]
+  },
+  "AWS Application Migration Service": {
+    "name": "AWS Application Migration Service",
+    "type": "Migration Service",
+    "classification": "Migration Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/migration_services.svg",
+    "description": "AWS Application Migration Service (AWS DMS) is a fully managed service that makes it easy to migrate databases to AWS. It supports a wide range of database engines and provides a simple interface for migrating your data, ensuring minimal downtime and disruption.",
+    "properties": {},
+    "tags": ["migration", "database", "automation", "AWS"]
+  },
+  "Amazon Managed Streaming for Apache Kafka (MSK)": {
+    "name": "Amazon Managed Streaming for Apache Kafka (MSK)",
+    "type": "Messaging Service",
+    "classification": "Application Integration",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/application_integration.svg",
+    "description": "Amazon Managed Streaming for Apache Kafka (MSK) is a fully managed service that makes it easy to run Apache Kafka clusters on AWS. It provides a scalable and reliable way to process and analyze streaming data in real time, using the same Kafka APIs and tools you're familiar with.",
+    "properties": {},
+    "tags": ["messaging", "kafka", "streaming data", "managed service"]
+  },
+  "AWS Neptune": {
+    "name": "AWS Neptune",
+    "type": "Graph Database",
+    "classification": "Database Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/database_services.svg",
+    "description": "AWS Neptune is a fully managed graph database service that makes it easy to build and run applications that require fast and reliable graph traversal and analysis. It is optimized for storing and querying highly connected data sets, such as social networks, recommendation engines, and knowledge graphs.",
+    "properties": {},
+    "tags": ["database", "graph", "performance", "connected data"]
+  },
+  "AWS Observability Access Manager (OAM)": {
+    "name": "AWS Observability Access Manager (OAM)",
+    "type": "Management Service",
+    "classification": "Monitoring & Observability",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/monitoring_and_observability.svg",
+    "description": "AWS Observability Access Manager (OAM) provides centralized access control and governance for observability data across your AWS environment. It allows you to create and enforce policies to control access to specific data types, resources, and timeframes, ensuring that only authorized users can access sensitive information.",
+    "properties": {},
+    "tags": ["observability", "access control", "governance", "security"]
+  },
+  "Amazon Pinpoint": {
+    "name": "Amazon Pinpoint",
+    "type": "Messaging Service",
+    "classification": "Application Integration",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/application_integration.svg",
+    "description": "Amazon Pinpoint is a fully managed email and SMS marketing service that helps you engage with your customers. It provides a comprehensive set of tools for creating, sending, and analyzing marketing campaigns, including email templates, SMS messages, and targeted segmentation.",
+    "properties": {},
+    "tags": ["marketing", "messaging", "campaigns", "analytics"]
+  },
+  "AWS EventBridge Pipes": {
+    "name": "AWS EventBridge Pipes",
+    "type": "Integration Service",
+    "classification": "Application Integration",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/application_integration.svg",
+    "description": "AWS EventBridge Pipes is a fully managed service that makes it easy to integrate applications and services by connecting them to event sources and targets. It provides a simple and scalable way to create and manage event-driven workflows, without requiring complex infrastructure or coding.",
+    "properties": {},
+    "tags": [
+      "integration",
+      "event-driven",
+      "workflows",
+      "serverless",
+      "scalability"
+    ]
+  },
+  "AWS Resource Access Manager": {
+    "name": "AWS Resource Access Manager",
+    "type": "Management Service",
+    "classification": "Security and Identity Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/security_identity_compliance.svg",
+    "description": "AWS Resource Access Manager (RAM) is a managed service that allows you to share resources across multiple AWS accounts. It provides a simple and secure way to grant and revoke access to resources like VPCs, S3 buckets, and IAM roles, without having to manage individual permissions.",
+    "properties": {},
+    "tags": ["resource sharing", "access control", "security", "management"]
+  },
+  "AWS Resource Explorer": {
+    "name": "AWS Resource Explorer",
+    "type": "Management Service",
+    "classification": "Management Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/management_services.svg",
+    "description": "AWS Resource Explorer is a managed service that provides a centralized view of your AWS resources across multiple accounts and regions. It allows you to search, filter, and visualize your resources, making it easier to understand your AWS environment and identify potential issues.",
+    "properties": {},
+    "tags": ["resource management", "visualization", "search", "management"]
+  },
+  "Amazon SageMaker": {
+    "name": "Amazon SageMaker",
+    "type": "Machine Learning Platform",
+    "classification": "Developer Tools",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/developer_tools.svg",
+    "description": "Amazon SageMaker is a fully managed platform for machine learning that makes it easy to build, train, deploy, and scale machine learning models. It provides a suite of tools and features, including notebooks, algorithms, and infrastructure, to simplify the machine learning process.",
+    "properties": {},
+    "tags": [
+      "machine learning",
+      "platform",
+      "model building",
+      "training",
+      "deployment"
+    ]
+  },
+  "AWS Secrets Manager": {
+    "name": "AWS Secrets Manager",
+    "type": "Security Service",
+    "classification": "Security and Identity Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/security_identity_compliance.svg",
+    "description": "AWS Secrets Manager is a managed service that helps you securely store and retrieve secrets, such as API keys, database credentials, and passwords. It provides a centralized repository for your secrets and integrates with other AWS services to simplify access and management.",
+    "properties": {},
+    "tags": ["security", "secrets management", "passwords", "integration"]
+  },
+  "Amazon Security Lake": {
+    "name": "Amazon Security Lake",
+    "type": "Security Service",
+    "classification": "Security and Identity Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/security_identity_compliance.svg",
+    "description": "Amazon Security Lake is a centralized data lake for security data that allows you to collect, analyze, and respond to security threats across your AWS environment. It provides a unified view of your security data, making it easier to identify and investigate security incidents.",
+    "properties": {},
+    "tags": [
+      "security",
+      "data lake",
+      "analysis",
+      "threat detection",
+      "incident response"
+    ]
+  },
+  "AWS Serverless Application Repository": {
+    "name": "AWS Serverless Application Repository",
+    "type": "Marketplace Service",
+    "classification": "Developer Tools",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/developer_tools.svg",
+    "description": "AWS Serverless Application Repository is a marketplace for serverless applications and templates. It allows you to discover, deploy, and manage serverless applications built by AWS and the community, making it easier to build and deploy serverless applications on AWS.",
+    "properties": {},
+    "tags": ["serverless", "applications", "marketplace", "deployment"]
+  },
+  "AWS Cloud Map": {
+    "name": "AWS Cloud Map",
+    "type": "Networking Service",
+    "classification": "Networking Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/networking_services.svg",
+    "description": "AWS Cloud Map is a fully managed DNS service that makes it easy to discover and connect to microservices and other applications running on AWS. It provides a simple way to register and discover services, making it easier to build and manage distributed applications.",
+    "properties": {},
+    "tags": ["networking", "DNS", "service discovery", "microservices"]
+  },
+  "AWS Service Quotas": {
+    "name": "AWS Service Quotas",
+    "type": "Management Service",
+    "classification": "Management Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/management_services.svg",
+    "description": "AWS Service Quotas is a managed service that allows you to manage and request increases to your AWS service limits. It provides a centralized dashboard for viewing your current limits, requesting increases, and tracking the status of your requests.",
+    "properties": {},
+    "tags": ["management", "limits", "quotas", "requests"]
+  },
+  "Amazon SES": {
+    "name": "Amazon SES",
+    "type": "Messaging Service",
+    "classification": "Application Integration",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/application_integration.svg",
+    "description": "Amazon Simple Email Service (SES) is a cost-effective, reliable, and scalable email sending service. It allows you to send transactional emails and marketing emails with high delivery rates and robust anti-spam features.",
+    "properties": {},
+    "tags": ["email", "messaging", "marketing", "delivery"]
+  },
+  "AWS SimSpace Weaver": {
+    "name": "AWS SimSpace Weaver",
+    "type": "Simulation Platform",
+    "classification": "Developer Tools",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/developer_tools.svg",
+    "description": "AWS SimSpace Weaver is a managed service that allows you to build and run large-scale, real-time simulations in the cloud. It provides a scalable and flexible platform for creating virtual worlds, games, and training simulations.",
+    "properties": {},
+    "tags": [
+      "simulation",
+      "virtual worlds",
+      "games",
+      "training",
+      "scalability",
+      "real-time",
+      "integration",
+      "customization",
+      "managed"
+    ]
+  },
+  "AWS Systems Manager": {
+    "name": "AWS Systems Manager",
+    "type": "Management Service",
+    "classification": "Management Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/management_services.svg",
+    "description": "AWS Systems Manager is a managed service that helps you automate and manage your AWS infrastructure. It provides a centralized console for managing patches, configurations, state management, and automation. Systems Manager also integrates with other AWS services to provide a comprehensive management solution.",
+    "properties": {},
+    "tags": ["management", "automation", "configuration", "patches", "state"]
+  },
+  "AWS Systems Manager Incident Manager": {
+    "name": "AWS Systems Manager Incident Manager",
+    "type": "Management Service",
+    "classification": "Management Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/management_services.svg",
+    "description": "AWS Systems Manager Incident Manager is a managed service that helps you manage and respond to incidents in your AWS environment. It provides a centralized console for tracking incidents, coordinating response efforts, and automating routine tasks.",
+    "properties": {},
+    "tags": ["incident management", "automation", "collaboration", "management"]
+  },
+  "AWS IAM Identity Center": {
+    "name": "AWS IAM Identity Center",
+    "type": "Identity and Access Management Service",
+    "classification": "Security and Identity Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/security_identity_compliance.svg",
+    "description": "AWS IAM Identity Center is a managed service that provides centralized identity management for your AWS applications and third-party SaaS applications. It allows you to use a single sign-on (SSO) experience for all your applications, making it easier for users to access and manage their accounts.",
+    "properties": {},
+    "tags": [
+      "identity management",
+      "SSO",
+      "security",
+      "applications",
+      "user management"
+    ]
+  },
+  "AWS Security Token Service": {
+    "name": "AWS Security Token Service",
+    "type": "Security Service",
+    "classification": "Security and Identity Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/security_identity_compliance.svg",
+    "description": "AWS STS is a managed service that provides temporary security credentials for users and applications. These credentials can be used to access AWS resources without exposing your long-term credentials.",
+    "properties": {},
+    "tags": ["security", "credentials", "access control", "federation", "roles"]
+  },
+  "AWS Resource Tagging API": {
+    "name": "AWS Resource Tagging API",
+    "type": "Management Service",
+    "classification": "Management Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/management_services.svg",
+    "description": "AWS Resource Tagging API is a managed service that allows you to manage tags for your AWS resources. Tags are key-value pairs that you can attach to your resources to categorize, organize, and search for them.",
+    "properties": {},
+    "tags": ["tagging", "management", "organization", "search", "integration"]
+  },
+  "AWS Trusted Advisor": {
+    "name": "AWS Trusted Advisor",
+    "type": "Management Service",
+    "classification": "Management Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/management_services.svg",
+    "description": "AWS Trusted Advisor is a managed service that provides personalized recommendations to help you optimize your AWS resources and improve your security, performance, and cost efficiency.",
+    "properties": {},
+    "tags": [
+      "management",
+      "optimization",
+      "recommendations",
+      "security",
+      "compliance"
+    ]
+  },
+  "AWS WAF Regional": {
+    "name": "AWS WAF Regional",
+    "type": "Security Service",
+    "classification": "Security and Identity Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/security_identity_compliance.svg",
+    "description": "AWS WAF Regional is a web application firewall (WAF) service that helps protect your web applications from common web exploits, such as SQL injection and cross-site scripting (XSS). It provides a managed service for creating and managing web ACLs (Web Application Firewalls) that can be applied to protect your web applications.",
+    "properties": {},
+    "tags": [
+      "security",
+      "web application firewall",
+      "WAF",
+      "protection",
+      "web applications"
+    ]
+  },
+  "AWS Well-Architected Tool": {
+    "name": "AWS Well-Architected Tool",
+    "type": "Management Service",
+    "classification": "Management Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/management_services.svg",
+    "description": "AWS Well-Architected Tool is a managed service that helps you assess the quality of your AWS workloads against the AWS Well-Architected Framework. It provides a set of automated checks and best practices to help you ensure that your workloads are secure, reliable, efficient, performant, and cost-effective.",
+    "properties": {},
+    "tags": [
+      "management",
+      "assessment",
+      "best practices",
+      "optimization",
+      "security",
+      "performance",
+      "cost"
+    ]
+  },
+  "AWS Workspaces": {
+    "name": "AWS Workspaces",
+    "type": "Desktop Service",
+    "classification": "Application Integration",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/application_integration.svg",
+    "description": "AWS Workspaces is a managed desktop service that provides virtual desktops to your users. It allows you to securely access applications and data from any device with an internet connection, giving your employees a consistent and productive work experience.",
+    "properties": {},
+    "tags": [
+      "desktop service",
+      "virtual desktops",
+      "management",
+      "security",
+      "integration"
+    ]
   },
   "Amazon EMR": {
     "name": "Amazon EMR",
@@ -53,8 +629,8 @@
     "properties": {},
     "tags": []
   },
-  "Amazon API": {
-    "name": "Amazon API",
+  "AWS API Gateway": {
+    "name": "AWS API Gateway",
     "type": "API Management",
     "classification": "Networking Services",
     "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/developer_tools.svg",
@@ -184,12 +760,12 @@
     "properties": {},
     "tags": []
   },
-  "Amazon EKS - Elastic Kubernetes Service": {
-    "name": "Amazon EKS - Elastic Kubernetes Service",
+  "Amazon EKS": {
+    "name": "Amazon EKS",
     "type": "Orchestration Engines",
     "classification": "Containers and Orchestration",
     "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/containers.svg",
-    "description": "Amazon Elastic Kubernetes Service (EKS) is a managed Kubernetes service that simplifies running Kubernetes on AWS. It allows you to deploy, manage, and scale containerized applications using Kubernetes. Amazon EKS provides a highly available and secure Kubernetes control plane and handles the cluster operations, including patching, node provisioning, and scaling.",
+    "description": "Amazon EKS is a managed Kubernetes service that simplifies running Kubernetes on AWS. It allows you to deploy, manage, and scale containerized applications using Kubernetes. Amazon EKS provides a highly available and secure Kubernetes control plane and handles the cluster operations, including patching, node provisioning, and scaling.",
     "properties": {},
     "tags": []
   },
@@ -220,8 +796,8 @@
     "properties": {},
     "tags": []
   },
-  "EC2": {
-    "name": "EC2",
+  "Amazon EC2": {
+    "name": "Amazon EC2",
     "type": "Virtual Machines",
     "classification": "Compute Services",
     "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/compute_services.svg",
@@ -229,8 +805,8 @@
     "properties": {},
     "tags": []
   },
-  "EC2 Reserved Instances": {
-    "name": "EC2 Reserved Instances",
+  "Amazon EC2 Reserved Instances": {
+    "name": "Amazon EC2 Reserved Instances",
     "type": "Virtual Machines",
     "classification": "Compute Services",
     "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/compute_services.svg",
@@ -238,8 +814,8 @@
     "properties": {},
     "tags": []
   },
-  "EC2 Spot Instances": {
-    "name": "EC2 Spot Instances",
+  "Amazon EC2 Spot Instances": {
+    "name": "Amazon EC2 Spot Instances",
     "type": "Virtual Machines",
     "classification": "Compute Services",
     "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/compute_services.svg",
@@ -688,8 +1264,8 @@
     "properties": {},
     "tags": []
   },
-  "Elastic Load Balancing (ELB)": {
-    "name": "Elastic Load Balancing (ELB)",
+  "AWS Load Balancing": {
+    "name": "AWS Load Balancing",
     "type": "Load Balancer",
     "classification": "Networking Services",
     "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/networking_services.svg",
