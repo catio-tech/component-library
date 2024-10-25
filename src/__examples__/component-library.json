@@ -335,7 +335,7 @@
     "properties": {},
     "tags": ["observability", "access control", "governance", "security"]
   },
-  "Amazon Pinpoint": {
+  "AWS Pinpoint": {
     "name": "AWS Pinpoint",
     "type": "Messaging Service",
     "classification": "Application Integration",
