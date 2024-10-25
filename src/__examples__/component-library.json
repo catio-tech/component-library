@@ -193,12 +193,12 @@
     "properties": {},
     "tags": ["disaster recovery", "replication", "migration", "on-premises"]
   },
-  "Amazon EventBridge": {
-    "name": "Amazon EventBridge",
+  "AWS EventBridge": {
+    "name": "AWS EventBridge",
     "type": "Messaging Service",
     "classification": "Application Integration",
     "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/application_integration.svg",
-    "description": "Amazon EventBridge is a serverless event bus service that makes it easy to connect applications, SaaS services, and custom integrations. It allows you to create event-driven architectures and decouple components of your applications, making them more scalable and resilient.",
+    "description": "AWS EventBridge is a serverless event bus service that makes it easy to connect applications, SaaS services, and custom integrations. It allows you to create event-driven architectures and decouple components of your applications, making them more scalable and resilient.",
     "properties": {},
     "tags": [
       "event-driven architecture",
@@ -336,11 +336,11 @@
     "tags": ["observability", "access control", "governance", "security"]
   },
   "Amazon Pinpoint": {
-    "name": "Amazon Pinpoint",
+    "name": "AWS Pinpoint",
     "type": "Messaging Service",
     "classification": "Application Integration",
     "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/application_integration.svg",
-    "description": "Amazon Pinpoint is a fully managed email and SMS marketing service that helps you engage with your customers. It provides a comprehensive set of tools for creating, sending, and analyzing marketing campaigns, including email templates, SMS messages, and targeted segmentation.",
+    "description": "AWS Pinpoint is a fully managed email and SMS marketing service that helps you engage with your customers. It provides a comprehensive set of tools for creating, sending, and analyzing marketing campaigns, including email templates, SMS messages, and targeted segmentation.",
     "properties": {},
     "tags": ["marketing", "messaging", "campaigns", "analytics"]
   },
@@ -868,12 +868,12 @@
     "properties": {},
     "tags": []
   },
-  "Amazon ElastiCache": {
-    "name": "Amazon ElastiCache",
+  "AWS ElastiCache": {
+    "name": "AWS ElastiCache",
     "type": "In-Memory Database",
     "classification": "Database Services",
     "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/database_services.svg",
-    "description": "Amazon ElastiCache offers fully managed Redis and Memcached for the most demanding applications requiring sub-millisecond response times. It\u2019s used for data caching to improve the performance of web applications by retrieving data from fast, managed, in-memory caches.",
+    "description": "AWS ElastiCache offers fully managed Redis and Memcached for the most demanding applications requiring sub-millisecond response times. It\u2019s used for data caching to improve the performance of web applications by retrieving data from fast, managed, in-memory caches.",
     "properties": {},
     "tags": []
   },
@@ -1174,12 +1174,12 @@
     "properties": {},
     "tags": []
   },
-  "Amazon CloudFront": {
-    "name": "Amazon CloudFront",
+  "AWS CloudFront": {
+    "name": "AWS CloudFront",
     "type": "Content Delivery Network",
     "classification": "Networking Services",
     "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/networking_services.svg",
-    "description": "Amazon CloudFront is a fast content delivery network (CDN) service that securely delivers data, videos, applications, and APIs to customers globally with low latency and high transfer speeds.",
+    "description": "AWS CloudFront is a fast content delivery network (CDN) service that securely delivers data, videos, applications, and APIs to customers globally with low latency and high transfer speeds.",
     "properties": {},
     "tags": []
   },
@@ -1444,8 +1444,8 @@
     "properties": {},
     "tags": []
   },
-  "Amazon Region": {
-    "name": "Amazon Region",
+  "AWS Region": {
+    "name": "AWS Region",
     "type": "Region",
     "classification": "Region",
     "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/node.svg",
