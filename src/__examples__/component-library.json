@@ -335,6 +335,24 @@
     "properties": {},
     "tags": ["observability", "access control", "governance", "security"]
   },
+  "AWS Fargate ": {
+    "name": "AWS Fargate ",
+    "type": "Serverless Compute",
+    "classification": "Compute Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/compute_services.svg",
+    "description": "AWS Fargate is a serverless compute engine specifically designed for running containers without needing to manage the underlying infrastructure. With Fargate, you define the CPU and memory requirements for each container, and Fargate takes care of the rest, including scaling resources to meet demand and balancing across instances. This makes it ideal for applications with variable workloads or those that require granular control of resource allocation per container",
+    "properties": {},
+    "tags": []
+  },
+  "AWS Transit Gateway": {
+    "name": "AWS Transit Gateway ",
+    "type": "Network",
+    "classification": "Networking Services",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/networking_services.svg",
+    "description": "AWS Transit Gateway is a highly scalable networking service that allows you to connect multiple Amazon Virtual Private Clouds (VPCs) and on-premises networks through a single gateway. Instead of creating numerous peering connections between VPCs or maintaining VPN connections individually, Transit Gateway acts as a central hub that simplifies connectivity management, enabling streamlined communication and routing policies across a large network of VPCs and on-premises locations. This centralized approach makes it easier to control traffic flows, enhance security, and manage network topology in complex, multi-account, or multi-region setups.",
+    "properties": {},
+    "tags": []
+  },
   "AWS Pinpoint": {
     "name": "AWS Pinpoint",
     "type": "Messaging Service",
