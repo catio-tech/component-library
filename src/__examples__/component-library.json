@@ -1302,8 +1302,8 @@
   },
   "AWS Key Management Service": {
     "name": "AWS Key Management Service",
-    "type": "Quantum Cryptography",
-    "classification": "Quantum Computing",
+    "type": "Encryption Service",
+    "classification": "Security and Identity Services",
     "iconUrl": null,
     "description": "AWS Key Management Service is a managed service that makes it easy for you to create and control the cryptographic keys used to secure your data. The service is integrated with other AWS services and external applications to help you protect the data you store in these services.",
     "properties": {},
