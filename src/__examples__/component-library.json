@@ -4031,5 +4031,14 @@
     "description": "A relational database management system developed by SAP that offers real-time data processing and analytics. It is designed for enterprise applications and offers high performance and scalability for handling large datasets.",
     "properties": {},
     "tags": []
+  },
+  "Kubernetes DaemonSet": {
+    "name": "Kubernetes DaemonSet",
+    "type": "Container Orchestration",
+    "classification": "Application Management",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/containers.svg",
+    "description": "A Kubernetes DaemonSet ensures that a specific pod runs on all or selected nodes in a cluster, typically for background or system-level services like monitoring agents and log collectors.",
+    "properties": {},
+    "tags": ["Kubernetes", "DaemonSet", "Orchestration"]
   }
 }
