@@ -48,7 +48,7 @@
     "name": "AWS Access Analyzer",
     "type": "Security Service",
     "classification": "Security and Identity Services",
-    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/security_identity_compliance.svg",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/security.svg",
     "description": "AWS Access Analyzer is a security service that helps you identify and analyze access to your AWS resources. It automatically discovers and analyzes resources that are shared with external accounts, identifies unexpected access patterns, and provides recommendations to improve your security posture.",
     "properties": {},
     "tags": ["security", "access control", "compliance"]
@@ -57,7 +57,7 @@
     "name": "AWS Certificate Manager",
     "type": "Security Service",
     "classification": "Security and Identity Services",
-    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/security_identity_compliance.svg",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/security.svg",
     "description": "AWS Certificate Manager (ACM) is a fully managed service that makes it easy to request, manage, and deploy SSL/TLS certificates for your websites and applications. It integrates with other AWS services like Elastic Load Balancing and CloudFront, providing a seamless experience for securing your web infrastructure.",
     "properties": {},
     "tags": ["SSL/TLS", "certificates", "security", "web applications"]
@@ -211,7 +211,7 @@
     "name": "AWS Firewall Manager",
     "type": "Security Service",
     "classification": "Security and Identity Services",
-    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/security_identity_compliance.svg",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/security.svg",
     "description": "AWS Firewall Manager is a managed service that helps you centrally manage firewalls across multiple AWS accounts and regions. It allows you to create and enforce consistent security policies for your network, ensuring that your resources are protected from unauthorized access.",
     "properties": {},
     "tags": ["security", "firewall", "policy management", "multi-account"]
@@ -238,7 +238,7 @@
     "name": "AWS Identity Store",
     "type": "Identity and Access Management Service",
     "classification": "Security and Identity Services",
-    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/security_identity_compliance.svg",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/security.svg",
     "description": "AWS Identity Store is a fully managed identity service that makes it easy to manage user identities and permissions for your applications. It provides a central repository for user information, authentication, and authorization, allowing you to focus on building your applications rather than managing identity infrastructure.",
     "properties": {},
     "tags": [
@@ -252,7 +252,7 @@
     "name": "AWS Inspector",
     "type": "Security Service",
     "classification": "Security and Identity Services",
-    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/security_identity_compliance.svg",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/security.svg",
     "description": "AWS Inspector is a vulnerability scanning service that helps you identify and assess security vulnerabilities in your EC2 instances. It automatically scans your instances for common vulnerabilities and provides detailed reports to help you remediate any issues.",
     "properties": {},
     "tags": ["security", "vulnerability scanning", "assessment", "EC2"]
@@ -279,7 +279,7 @@
     "name": "Amazon Macie",
     "type": "Security Service",
     "classification": "Security and Identity Services",
-    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/security_identity_compliance.svg",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/security.svg",
     "description": "Amazon Macie is a machine learning-based security service that helps you identify and analyze sensitive data in your S3 buckets. It automatically discovers and classifies sensitive data, providing you with insights into potential risks and compliance violations.",
     "properties": {},
     "tags": [
@@ -381,7 +381,7 @@
     "name": "AWS Resource Access Manager",
     "type": "Management Service",
     "classification": "Security and Identity Services",
-    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/security_identity_compliance.svg",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/security.svg",
     "description": "AWS Resource Access Manager (RAM) is a managed service that allows you to share resources across multiple AWS accounts. It provides a simple and secure way to grant and revoke access to resources like VPCs, S3 buckets, and IAM roles, without having to manage individual permissions.",
     "properties": {},
     "tags": ["resource sharing", "access control", "security", "management"]
@@ -414,7 +414,7 @@
     "name": "AWS Secrets Manager",
     "type": "Security Service",
     "classification": "Security and Identity Services",
-    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/security_identity_compliance.svg",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/security.svg",
     "description": "AWS Secrets Manager is a managed service that helps you securely store and retrieve secrets, such as API keys, database credentials, and passwords. It provides a centralized repository for your secrets and integrates with other AWS services to simplify access and management.",
     "properties": {},
     "tags": ["security", "secrets management", "passwords", "integration"]
@@ -423,7 +423,7 @@
     "name": "Amazon Security Lake",
     "type": "Security Service",
     "classification": "Security and Identity Services",
-    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/security_identity_compliance.svg",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/security.svg",
     "description": "Amazon Security Lake is a centralized data lake for security data that allows you to collect, analyze, and respond to security threats across your AWS environment. It provides a unified view of your security data, making it easier to identify and investigate security incidents.",
     "properties": {},
     "tags": [
@@ -511,7 +511,7 @@
     "name": "AWS IAM Identity Center",
     "type": "Identity and Access Management Service",
     "classification": "Security and Identity Services",
-    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/security_identity_compliance.svg",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/security.svg",
     "description": "AWS IAM Identity Center is a managed service that provides centralized identity management for your AWS applications and third-party SaaS applications. It allows you to use a single sign-on (SSO) experience for all your applications, making it easier for users to access and manage their accounts.",
     "properties": {},
     "tags": [
@@ -526,7 +526,7 @@
     "name": "AWS Security Token Service",
     "type": "Security Service",
     "classification": "Security and Identity Services",
-    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/security_identity_compliance.svg",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/security.svg",
     "description": "AWS STS is a managed service that provides temporary security credentials for users and applications. These credentials can be used to access AWS resources without exposing your long-term credentials.",
     "properties": {},
     "tags": ["security", "credentials", "access control", "federation", "roles"]
@@ -535,7 +535,7 @@
     "name": "AWS Resource Tagging API",
     "type": "Management Service",
     "classification": "Management Services",
-    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/management_services.svg",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/node.svg",
     "description": "AWS Resource Tagging API is a managed service that allows you to manage tags for your AWS resources. Tags are key-value pairs that you can attach to your resources to categorize, organize, and search for them.",
     "properties": {},
     "tags": ["tagging", "management", "organization", "search", "integration"]
@@ -559,7 +559,7 @@
     "name": "AWS WAF Regional",
     "type": "Security Service",
     "classification": "Security and Identity Services",
-    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/security_identity_compliance.svg",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/security.svg",
     "description": "AWS WAF Regional is a web application firewall (WAF) service that helps protect your web applications from common web exploits, such as SQL injection and cross-site scripting (XSS). It provides a managed service for creating and managing web ACLs (Web Application Firewalls) that can be applied to protect your web applications.",
     "properties": {},
     "tags": [
