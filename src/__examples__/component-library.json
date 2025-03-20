@@ -21,7 +21,7 @@
     "name": "AWS Availability Zones",
     "type": "Infrastructure Component",
     "classification": "Networking Services",
-    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/networking_services.svg",
+    "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/yellow_networking_services.svg",
     "description": "AWS Availability Zones are distinct geographic locations within an AWS Region that are designed to be independent failures. Each Availability Zone has multiple data centers, and each data center has redundant power, networking, and cooling. This helps to ensure high availability and resilience for your applications.",
     "properties": {},
     "tags": []
