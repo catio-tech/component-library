@@ -17,8 +17,8 @@
     "properties": {},
     "tags": []
   },
-  "AWS Availability Zones": {
-    "name": "AWS Availability Zones",
+  "AWS Availability Zone": {
+    "name": "AWS Availability Zone",
     "type": "Infrastructure Component",
     "classification": "Networking Services",
     "iconUrl": "https://catio-public.s3.us-west-2.amazonaws.com/static/component-library/images/yellow_networking_services.svg",
