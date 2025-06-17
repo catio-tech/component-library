@@ -1,7 +1,7 @@
-import componentLibraryJsonSchema from './component-library.schema.json' with { type: 'json' };
+import componentLibraryJsonSchema from './component-library.schema.json' assert { type: 'json' };
 import { componentLibrary as untypedComponentLibrary } from './__examples__/index.js';
 import { categoryLibrary } from './__examples__/index.js';
-import relationshipLibraryJsonSchema from './relationship-library.schema.json' with { type: 'json' };
+import relationshipLibraryJsonSchema from './relationship-library.schema.json' assert { type: 'json' };
 import { relationshipLibrary } from './__examples__/index.js';
 import { ComponentLibrary } from './types.js';
 
